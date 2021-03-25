@@ -1,7 +1,5 @@
 # Good Enough Practices in Scientific Computing
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
-
 This repository is for developing a 3 hour carpentries format lesson covering [Good Enough Practices in Scientific Computing (Wilson et al., 2017)](https://doi.org/10.1371/journal.pcbi.1005510): "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
 
 

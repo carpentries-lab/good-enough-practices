@@ -31,9 +31,9 @@ It will introduce the concepts of version control and could motivate Stuart to l
 
 ## Gertrude Group Leader
 
-Gertrude is a professor in Biophysics. She has learned Fortran as a PhD student and does a lot of scripting in BASH to run Frotran77 code she wrote 20 years ago. She has never been taught any formal programming and has not really followed any modern scientific computing or data management practices. She has been running a successful computational research group for the last 15 years, but is starting to realise her expertise are out-dated and managing large data and retaining computational knowledge in the group is difficult without better structures.
+Gertrude is a professor in Biophysics. She has learned Fortran as a PhD student and does a lot of scripting in BASH to run Fotran77 code she wrote 20 years ago. She has never been taught any formal programming and has not really followed any modern scientific computing or data management practices. She has been running a successful computational research group for the last 15 years, but is starting to realise her expertise are out-dated and managing large data and retaining computational knowledge in the group is difficult without better structures.
 
-Gertrude is taking the course, in order to have a better understanding of best practices to be used nowadays to make sure her research group implements these correctly. She hopes that in this way she can point her students in the right direction and equip them with modern data handling practices. Proper version control of any data and programs developed in the group will help make any code developments outlast a single PhD student and help retain knowledge within the group. 
+Gertrude is taking the course, in order to have a better understanding of current best practices to make sure her research group implements these correctly. She hopes that in this way she can point her students in the right direction and equip them with robust data handling practices. Proper version control of any data and programs developed in the group will help make any code developments outlast a single PhD student and help retain knowledge within the group and promote reproducibility and transparency.
 
 ## Linus the Lab Manager
 

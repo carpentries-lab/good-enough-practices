@@ -104,9 +104,9 @@ because that facilitated data entry or human inspection. Imagine one
 row per field site and then columns for measurements made at each of
 several time points. Be prepared to gather such columns into a
 variable of measurements, plus a new variable for time point.
-Figure [fig:tidy] presents an example of such a transformation.
+Figure 1 presents an example of such a transformation.
 
-[fig:tidy]
+[Figure 1. Tidy data](../fig/wilson-tidy-data.png)
 
 
 ### Record all the steps used to process data

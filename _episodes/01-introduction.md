@@ -18,6 +18,8 @@ How to not lose your stuff, and generally be more efficient.
   - thank current you (better).
 - Habits and practices that save you time in the future,
 and improve your work
+- Focused on motivation and awareness
+
 
 [Figure 1. ???](../fig/ew-intro.png)
 

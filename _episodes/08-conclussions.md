@@ -131,6 +131,13 @@ people who *haven't* already mastered the tools, and *don't* realize
 situation, advocating unit testing with coverage checking and continuous
 integration is more likely to overwhelm newcomers rather than aid them.
 
+> Heads up
+>
+> When you lose your data, or stare, disgusted, at a horrible file, think of today.
+>
+{: .callout}
+
+
 ## Conclusion
 
 We have outlined a series of practices for scientific computing based on

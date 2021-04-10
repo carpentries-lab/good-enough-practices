@@ -36,12 +36,40 @@ Florian Markowetz,G enome Biology https://doi.org/10.1186/s13059-015-0850-7
 - Interactive figures in f1000 articles: https://blog.f1000.com/2017/07/19/so-long-static-we-now-support-interactive-ploty-figures-in-our-articles/
 - Preprints: arxiv, biorxiv,...
 
+## Resources in Edinburgh
+
+- Research Data Service (plans, archiving, skills)
+- Digital Research Services (data management, electronic lab notebooks) http://www.digitalresearchservices.ed.ac.uk/
+- Data/Software Carpentry workshops on computing skills, https://edcarp.github.io/ - you can get involved and help!
+- Geoscience coding club, https://ourcodingclub.github.io/
+- Quantitative imaging network, http://imaginghub.bio.ed.ac.uk/vanilla/
+- Edinburgh genomics, https://genomics.ed.ac.uk/services/training
+- Clinical Research Facility, https://www.ed.ac.uk/clinical-research-facility/courses
+- Statistics Consulting Unit, https://www.maths.ed.ac.uk/school-of-mathematics/scu
+- Bioinformatics users group, http://nextgenbug.org/
+
+## Resources: External Training
+
+Many institutions and societies run training courses, for example:
+- EMBL, https://www.embl.de/training/events/index.php
+- Cold Spring Harbor, https://meetings.cshl.edu/courseshome.aspx
+- Woods Hole, https://www.mbl.edu/education/courses/
+
+Your PhD programme may have funding. Most of these courses have bursaries that you can apply for.
+
+For more courses:
+- look at the posters on the walls around your lab
+-ask for advice!
+- google “bioinformatics course”, etc.
+
+## Resources: External sites
+
+- The Carpentries worldwide, https://carpentries.org/
+- Stack Overflow, https://stackoverflow.com/
+- Your colleagues! (even on twitter, @ewjwallace)
+- What are your favourite resources?
 
 
-> ## Attribution
-> Content of this episode was adopted after Wilson et al.
-> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
-{: .callout}
 
 
 > ## I am a yellow info

@@ -28,6 +28,9 @@ Florian Markowetz,G enome Biology https://doi.org/10.1186/s13059-015-0850-7
 - UKRI (government science funding) open data policy: https://www.ukri.org/funding/information-for-award-holders/data-policy/
 - A view against open data and analysis, and a response: https://www.nejm.org/doi/full/10.1056/NEJMe1516564 http://octavia.zoology.washington.edu/publications/Bergstrom16.pdf
 - The research parasite awards: http://researchparasite.com/
+- Ten Simple rules https://collections.plos.org/ten-simple-rules
+Data, coding, careers, writing,...
+- Education section https://collections.plos.org/compbiol-education
 
 ## Research is changing
 

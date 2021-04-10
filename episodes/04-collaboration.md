@@ -115,6 +115,11 @@ khmer[^18] project.
     improving access to existing ecological data." PLOS ONE 8:e65848.
     http://doi.org/doi:10.1371/journal.pone.0065848
 
+> ## Attribution
+> Content of this episode was adopted after Wilson et al.
+> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
+{: .callout}
+
 
 
 ## I am a section
@@ -144,11 +149,6 @@ I am code
 > {: .solution}
 {: .challenge}
 
-
-> ## Attribution
-> Content of this episode was adopted after Wilson et al.
-> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
-{: .callout}
 
 
 {% include links.md %}

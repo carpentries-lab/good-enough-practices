@@ -27,6 +27,17 @@ they know *what* to contribute, and make the contribution process clear
 so that they know *how* to contribute. You also want to make it easy for
 people to give you credit for your work.
 
+> ## Collaboration problems
+>
+> Discussion – what goes wrong with collaboration?
+>
+>> ## Solution
+>>
+>> *   What are we trying to do?
+>> *   Whose job is it to do this thing?
+> {: .solution}
+{: .challenge}
+
 ### Create an overview of your project.
 
 Have a short file in the
@@ -69,6 +80,16 @@ meeting notes, as well as which of these channels will be public or
 private.
 
 ### Make the license explicit.
+
+
+> ## What is a licence?
+>
+> - Specifies allowable copying and reuse
+> - Without a licence, people cannot legally reuse your code or data
+> - Different options for different goals and funder requirements (Apache, MIT, CC, ...)
+> - For example, this lesson is reusable with attribution under a Creative Commons Attribution (CC BY) 4.0 licence.
+>
+{: .callout}
 
 Have a `LICENSE` file
 in the project's home directory that clearly states what license(s)

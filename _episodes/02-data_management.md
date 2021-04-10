@@ -16,6 +16,17 @@ keypoints:
 - ""
 ---
 
+[Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
+
+> ## Data management problems
+>
+> Discuss what goes wrong with data management
+> For example:
+> * I can’t remember what this file means
+> * I am disgusted to even look at this file
+>
+{: .challenge}
+
 Data within a project may need to exist in various forms, ranging from
 what first arrives to what is actually used for the primary analyses.
 Our recommendations have two main themes. One is to work towards
@@ -166,6 +177,14 @@ about the content within the dataset. If the audience is humans,
 write the metadata (the README file) for humans. If the audience
 includes automatic metadata harvesters, fill out the formal metadata
 and write a good README file for the humans [[wickes2015](#wickes2015)].
+
+> ## What is a DOI?
+>
+> - A digital object identifier is a persistent identifier or handle used to identify objects uniquely.
+> - Data with a persistent doi can be found even when your lab website dies
+> - doi-issuing repositories include: zenodo, figshare, dryad
+>
+{: .callout}
 
 ### Summary
 

@@ -21,6 +21,25 @@ directory structure will help you and others keep track of them. Our
 recommendations for doing this are drawn primarily from [[noble2009](#noble2009),
 [gentzkow2014](#gentzkow2014)]
 
+> ## Project organisation problems
+>
+> Discussion – what goes wrong with project organisation?
+> - Where is the code that made this figure?
+> - I am disgusted to even look at this directory
+> - ...
+>
+{: .challenge}
+
+> ## README files are magic
+>
+> You look at a directory (or project), you read it, and it tells you what you need to know
+>
+> ... as long as you update it.
+>
+{: .callout}
+
+
+
 ### Put each project in its own directory, which is named after the project.
 
 Like deciding
@@ -187,6 +206,18 @@ various ideas for the project and how these were implemented and the
 other containing a running draft of a manuscript describing the project
 findings.
 
+
+> ## Some helpful organisation tools
+>
+> - Integrated Development Environments (IDEs):
+>   - PyCharm, VSCode for python, etc.
+>   - RStudio for R, etc.
+> - Notebooks (jupyter, .Rmd)
+>   - Collect data, code, results, thinking
+> - Cookie Cutter project templates
+> [https://github.com/mkrapp/cookiecutter-reproducible-science](https://github.com/mkrapp/cookiecutter-reproducible-science)
+>
+{: .callout}
 
 > ## Attribution
 > Content of this episode was adopted after Wilson et al.

@@ -16,6 +16,21 @@ keypoints:
 - ""
 ---
 
+[Figure 1. Versioning Hell](../fig/ew-versions.png)
+*from: Wit and wisdom from Jorge Cham (http://phdcomics.com/
+)*
+
+> ## Problems with change
+>
+> Discussion – what goes wrong while keeping track of change?
+>
+>> ## Solution
+>>
+>> *   I have fifteen versions of this file and I don’t know which is which
+>> *   I can’t remake this figure from last year
+> {: .solution}
+{: .challenge}
+
 Keeping track of changes that you or your collaborators make to data and
 software is a critical part of research. Being able to reference or
 retrieve a specific version of the entire project aids in
@@ -231,7 +246,7 @@ such as Git LFS[^26] put textual notes under
 version control, while storing the large data itself in a remote server,
 but these are not yet mature enough for us to recommend.
 
-> **Inadvertent Sharing**
+> ## **Inadvertent Sharing**
 >
 > Researchers dealing with data subject to legal restrictions that
 > prohibit sharing (such as medical data) should be careful not to put
@@ -242,6 +257,17 @@ but these are not yet mature enough for us to recommend.
 > Additionally, be sure not to unintentionally place security
 > credentials, such as passwords and private keys, in a version control
 > system where it may be accessed by others.
+{: .callout}
+
+> ## Some git resources
+>
+> Software Carpentry git workshop https://swcarpentry.github.io/git-novice/
+> Edinburgh Carpentries runs courses: https://edcarp.github.io/
+>  https://ourcodingclub.github.io/tutorials/git/
+>  Crash course on youtube: https://youtu.be/SWYqp7iY_Tc
+>  Learn git branching: https://learngitbranching.js.org/
+>  Learn git-game: https://github.com/git-game/git-game
+>
 {: .callout}
 
 

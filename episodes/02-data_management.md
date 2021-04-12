@@ -16,7 +16,7 @@ keypoints:
 - ""
 ---
 
-[Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
+![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
 
 > ## Data management problems
 >
@@ -115,9 +115,9 @@ because that facilitated data entry or human inspection. Imagine one
 row per field site and then columns for measurements made at each of
 several time points. Be prepared to gather such columns into a
 variable of measurements, plus a new variable for time point.
-Figure 1 presents an example of such a transformation.
+Figure 2 presents an example of such a transformation.
 
-[Figure 1. Tidy data](../fig/wilson-tidy-data.png)
+![Figure 2. Tidy data](../fig/wilson-tidy-data.png)
 
 
 ### Record all the steps used to process data

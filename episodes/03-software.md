@@ -17,7 +17,7 @@ keypoints:
 ---
 
 ### What your future self may think...
-[Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
+![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
 ### What is Research Software?
 

@@ -21,7 +21,7 @@ and improve your work
 - Focused on motivation and awareness
 
 
-[Figure 1. ???](../fig/ew-intro.png)
+![Figure 1. ???](../fig/ew-intro.png)
 
 > ## Discuss in groups
 >

@@ -16,7 +16,7 @@ keypoints:
 - ""
 ---
 
-[Figure 1. Versioning Hell](../fig/ew-versions.png)
+![Figure 1. Versioning Hell](../fig/ew-versions.png)
 *from: Wit and wisdom from Jorge Cham (http://phdcomics.com/
 )*
 

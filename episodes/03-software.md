@@ -93,6 +93,17 @@ chunks that obey this limit, then create programs by combining these
 chunks. Putting code into functions also makes it easier to test and
 troubleshoot when things go wrong.
 
+> ## I am a problem
+>
+> Defined here.
+>
+>> ## Solution
+>>
+>> *   I am an answer.
+>> *   So am I.
+> {: .solution}
+{: .challenge}
+
 ### Be ruthless about eliminating duplication
 
 Write and re-use
@@ -123,8 +134,12 @@ the greater the scope of a variable, the more informative its name
 should be: while it's acceptable to call the counter variable in a
 loop `i` or `j`, things that are re-used often, such as the major
 data structures in a program should *not* have one-letter names.
-Remember to follow each language's conventions for names, such as
-`net_charge` for Python and `NetCharge` for Java.
+
+> ## Language style guides
+>
+> Remember to follow each language's conventions for names, such as
+> `net_charge` for Python and `NetCharge` for Java.
+{: .callout}
 
 > **Tab Completion**
 >

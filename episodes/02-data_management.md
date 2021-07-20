@@ -87,10 +87,6 @@ that case, record the exact procedure used to obtain the raw data,
 as well as any other pertinent information, such as an official
 version number or the date of download.
 
-**Ensure that raw data is backed up in more than one location.**  
-> ## Discussion (2 minutes)  
-> How do you back-up your data? Enter your answers in the collaborative document.  
-{: .challenge}  
   
 If external hard drives
 are used, store them off-site of the original location. Universities

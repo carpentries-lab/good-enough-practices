@@ -1,7 +1,7 @@
 ---
 title: "Data Management"
-teaching: 0
-exercises: 0
+teaching: 12
+exercises: 18
 questions:
 - "What is data management?"  
 - "How should I back up my data?"  

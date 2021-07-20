@@ -3,14 +3,14 @@ title: "Software"
 teaching: 0
 exercises: 0
 questions:
-- "How to understand the code of someone (that could be me in the future)?"
-- "How to ease the debugging task?"
-- "How to make your code readable?"
+- "How to understand someone else's code? (Including your future self!)"
+- "What can you do to make debugging code easier?"
+- "What are the characteristics of readable code?"
 objectives:
-- "Describe what is Research software and its purpose"
+- "Describe what is research software and its purpose"
 - "Decompose a workflow into identifiable components"
 - "Know when to separate a script into several functions"
-- "Write code that is easy to run by others by including all dependencies, requirements and examples"
+- "Write code that is easy to run by others by including all dependencies, requirements, documentation, and examples"
 - "Make your code accessible and citable by submitting to a DOI-issuing repository"
 keypoints:
 - "Write your code to be read by other people, including future you"

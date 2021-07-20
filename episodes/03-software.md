@@ -167,40 +167,30 @@ Writing pseudocode can be useful to think through the logic of your analysis, an
 > ~~~
 > coconuts = 0
 > for each tree on my island
-> {
->   coconuts = coconuts plus coconuts on tree 
-> }
+>     coconuts = coconuts plus coconuts on tree 
 >
 > cherries = 0
 > for each tree on my island
-> {
->   cherries = cherries plus cherries on tree
-> }
-> 
+>     cherries = cherries plus cherries on tree
+>  
 > peaches = 0
 > for each tree on Sam's island
-> {
->   peaches = peaches plus peaches on tree
-> }
+>     peaches = peaches plus peaches on tree
 > ~~~
 > {: .source}
 >
 >> ## Solution
 >>
 >> ~~~
->> count = function(fruit, island)
->> {
->>   fruit = 0
->>   for each tree on island
->>   {
->>     fruit = fruit + fruit of this type on tree
->>   }
->>   return fruit
->> }
+>> count_fruit_on_island = function(fruit, island)
+>>     fruit = 0
+>>     for each tree on island
+>>         fruit = fruit + fruit of this type on tree
+>>     return fruit
 >> 
->> count(coconuts, my island)
->> count(cherries, my island)
->> count(peaches, Sam's island)
+>> count_fruit_on_island(coconuts, my island)
+>> count_fruit_on_island(cherries, my island)
+>> count_fruit_on_island(peaches, Sam's island)
 >> ~~~
 >> {: .source}
 > {: .solution}

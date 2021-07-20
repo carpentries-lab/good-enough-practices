@@ -216,9 +216,9 @@ libraries in a centralized source, for instance R has
 CRAN[^11], Python has
 PyPI[^12], and so on. So
 ***always search for well-maintained software libraries
-that do what you need (2d)*** before
+that do what you need*** before
 writing new code yourself, but ***test libraries before
-relying on them (2e)***.
+relying on them***.
 
 ### Give functions and variables meaningful names
 

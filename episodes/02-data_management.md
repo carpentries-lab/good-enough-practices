@@ -3,17 +3,16 @@ title: "Data Management"
 teaching: 0
 exercises: 0
 questions:
-- ""
-- ""
-- ""
+- "What goes wrong in data management?"
+- "What could go right in data management?"
 objectives:
 - ""
 - ""
-- ""
 keypoints:
-- ""
-- ""
-- ""
+- "Save the raw data"
+- "Create the data you wish to see in the world"
+- "Record all the steps used to process data"
+- "Digital object identifiers (DOIs) make data findable"
 ---
 
 ![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
@@ -221,35 +220,6 @@ the entire data set is not trivial or inexpensive.
 > Content of this episode was adopted after Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
-
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
-
 
 
 {% include links.md %}

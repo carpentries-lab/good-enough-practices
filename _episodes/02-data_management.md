@@ -155,7 +155,7 @@ because that facilitated data entry or human inspection. Imagine one
 row per field site and then columns for measurements made at each of
 several time points. Be prepared to gather such columns into a
 variable of measurements, plus a new variable for time point.
-Figure 2 presents an example of such a transformation.
+The figure above presents an example of such a transformation.
 
 
 ### Record all the steps used to process data

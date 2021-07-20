@@ -1,13 +1,14 @@
 ---
 title: "Introduction"
-teaching: 0
+teaching: 20
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How can we use computers more effectively in a scientific project?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Discuss what can go wrong and right in scientific computing"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Computing is essential in science and (almost) all data are digital"
+- "A set of good enough practices can make you more efficient"
 ---
 
 How to not lose your stuff, and generally be more efficient.

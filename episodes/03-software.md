@@ -22,6 +22,16 @@ keypoints:
 ### What your future self may think...
 ![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
+The tweet illustrates a real example of research software problems, from [Prof. Neil Ferguson](https://en.wikipedia.org/wiki/Neil_Ferguson_(epidemiologist)).
+In that case, research software written for one purpose was suddenly in high demand, for important public health reasons, over a decade later.
+And that software was hard for others to use.
+
+Smaller-scale versions of this problem are more common:
+- you want to re-run a data analysis that you did six months ago
+- a new post-doc starts working on a related project and needs to adapt your analysis to a new dataset
+- you publish a paper, and a masters student from the other side of the world emails to reproduce the results for their project
+
+
 ### What is research software?
 
 - Any code that runs in order to process your research data

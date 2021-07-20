@@ -16,22 +16,6 @@ keypoints:
 - ""
 ---
 
-## Ten simple rules for reproducible computational research
-
-- Keep Track of How Every Result Was Produced
-- Avoid Manual Data Manipulation Steps
-- Track Versions of All External Programs Used
-- Version Control Your Protocols/Scripts
-- Record All Intermediate Results
-- Track Relevant Sources of Randomness
-- Store Raw Data behind Plots
-- Allow Layers of Detail to Be Inspected
-- Connect Statements to Underlying Results
-- Share Scripts, Runs, and Results
-
-After [Geir Kjetil Sandve et al (2013)](https://doi.org/10.1371/journal.pcbi.1003285)
-
-
 > Heads up
 >
 > When you lose your data, or stare, disgusted, at a horrible file, think of today.

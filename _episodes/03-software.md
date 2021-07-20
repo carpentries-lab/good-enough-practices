@@ -56,10 +56,10 @@ balance ease of use with benefit for you and collaborators.
 
 ### Place a brief explanatory comment at the start of every program
 
-no matter how short it is. That comment should include at least one example of how
-the program is used: remember, a good example is worth a thousand
+Short is fine; always include at least one example of how
+the program is used. Remember, a good example is worth a thousand
 words. Where possible, the comment should also indicate reasonable
-values for parameters. An example of such a comment is show below.
+values for parameters like in this example.
 
         Synthesize image files for testing circularity estimation algorithm.
 

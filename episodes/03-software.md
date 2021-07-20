@@ -33,8 +33,10 @@ keypoints:
 > Discussion – what goes wrong with software?
 > *   I don’t remember what this code does
 > *   This code doesn’t work any more
+> *   This code doesn't work on an updated version of my dataset
+> *   This code doesn't work on a different computing system
 > *   I’m not sure if this calculation is correct
->
+
 {: .challenge}
 
 If you or your group are creating tens of thousands of lines of software
@@ -43,13 +45,13 @@ engineering. If you're writing a few dozen lines now and again, and are
 probably going to be its only user, you may not be doing engineering,
 but you can still make things easier on yourself by adopting a few key
 engineering practices. What's more, adopting these practices will make
-it easier for people to understand and (re)use your code.
+it easier for other people and your future self to understand and (re)use your code.
 
 The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
 clearly-defined inputs and outputs [[hunt1999](#hunt1999)]. Much has been written on
-this topic (refs!), and this section focuses on practices that best
+this topic (e.g. [Carey 2018](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871), and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
 
 ### Place a brief explanatory comment at the start of every program

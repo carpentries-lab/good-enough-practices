@@ -3,17 +3,20 @@ title: "Collaboration"
 teaching: 0
 exercises: 0
 questions:
-- ""
-- ""
-- ""
+- "What do collaborators need to know to contribute to my project?"
+- "How can documentation make my project more efficient?"
+- "What is a (software) license and does my project need one?"
 objectives:
-- ""
-- ""
-- ""
+- "Facilitate contributions from present and future collaborators."
+- "Learn to treat every project as a collaborative project."
+- "Describe a project in a README file."
+- "Evaluate software licenses for your project."
 keypoints:
-- ""
-- ""
-- ""
+- "Create an overview of your project."
+- "Create a shared “to-do” list."
+- "Decide on communication strategies."
+- "Make the license explicit."
+- "Make the project citable."
 ---
 
 You may start working on projects by yourself or with a small group of
@@ -27,39 +30,76 @@ they know *what* to contribute, and make the contribution process clear
 so that they know *how* to contribute. You also want to make it easy for
 people to give you credit for your work.
 
-> ## Collaboration problems
+
+> ## Collaboration opportunities and challenges
 >
-> Discussion – what goes wrong with collaboration?
+> Discussion 
+> - How does collaboration help in scientific computing?
+> – What goes wrong with collaboration? 
+> - How can you prepare to collaborate?
 >
->> ## Solution
+>> ## Suggestions
 >>
->> *   What are we trying to do?
->> *   Whose job is it to do this thing?
+>> How collaboration can help
+>> *   Collaboration brings other ideas and perspectives on your project
+>> *   Describing your project to (potential) collaborators can help to focus the project
+>> *   Thinking about other people helps you to return to your project later
+>> 
+>> What can go wrong with collaboration
+>> *   People can be confused
+>> *   Confusion about goals: what are we trying to do?
+>> *   Confusion about process: what tools will we use, how will we do it?
+>> *   Confusion about responsibilities: whose job is it to do this thing?
+>> *   Confusion about credit: how are contributions going to be recognized?
+>> 
+>> How to prepare for collaboration
+>> *   Document important things
+>> *   Decide on goals and a way of working (process)
+>> *   Clarify the scope and audience of your project
+>> 
 > {: .solution}
 {: .challenge}
 
+
 ### Create an overview of your project.
 
-Have a short file in the
+Written documentation is essential for collaboration.
+Future you will forget things, and your collaborators will not know them in the first place.
+An overview document can collect the most important information about your project, 
+and act as a signpost.
+The overview is usually the first thing people read about your project, so it is often called a "README".
+
+Create a short file in the
 project's home directory that explains the purpose of the project.
 This file (generally called `README`, `README.txt`, or something
-similar) should contain the project's title, a brief description,
-up-to-date contact information, and an example or two of how to run
-various cleaning or analysis tasks. It is often the first thing
-users and collaborators on your project will look at, so make it
+similar) should contain :
+
+- the project's title
+- a brief description
+- up-to-date contact information
+- an example or two of how to run the most important tasks
+
+
+#### Describe how to contribute to the project
+
+Because the README is usually the first thing
+users and collaborators on your project will look at, make it
 explicit how you want people to engage with the project. If you are
 looking for more contributors, make it explicit that you welcome
 contributors and point them to the license (more below) and ways
 they can help.
 
-You should also create a `CONTRIBUTING` file that describes what
+A separate `CONTRIBUTING` file can also describe what
 people need to do in order to get the project going and use or
-contribute to it, i.e., dependencies that need to be installed,
-tests that can be run to ensure that software has been installed
-correctly, and guidelines or checklists that your project adheres
-to.
+contribute to it:
+- dependencies that need to be installed
+- tests that can be run to ensure that software has been installed correctly
+- guidelines or checklists that your project adheres to.
 
-### Create a shared "to-do" list
+A `CONTRIBUTING` file like this can be very helpful in reminding you details of your project that may be forgotten over time.
+
+
+### Create a shared "to-do" list.
 
 This can be a plain text
 file called something like `notes.txt` or `todo.txt`, or you can use
@@ -119,7 +159,7 @@ license [[laurent2004](#laurent2004)].
 > integrate permissively-licensed software into other projects, see
 > chapter three in [[laurent2004](#laurent2004)].
 
-### Make the project citable
+### Make the project citable.
 
 by including a `CITATION`
 file in the project's home directory that describes how to cite this
@@ -141,34 +181,6 @@ khmer[^18] project.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
 
-
-
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
 
 
 

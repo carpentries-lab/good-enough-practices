@@ -230,8 +230,7 @@ relying on them***.
 
 ### Give functions and variables meaningful names
 
-both to document their
-purpose and to make the program easier to read. As a rule of thumb,
+Meaningful names for functions and variables document their purpose and make the program generally easy to read. As a rule of thumb,
 the greater the scope of a variable, the more informative its name
 should be: while it's acceptable to call the counter variable in a
 loop `i` or `j`, things that are re-used often, such as the major
@@ -296,24 +295,23 @@ the project, or by adding a "Getting Started" section to the
 
 ### Do not comment and uncomment sections of code to control a program's behavior
 
-since this is error prone and makes it difficult or impossible to
+This is error prone and makes it difficult or impossible to
 automate analyses. Instead, put if/else statements in the program to
 control what it does.
 
 ### Provide a simple example or test data set
 
-that users (including
-yourself) can run to determine whether the program is working and
+Users (including
+yourself) can run your program on this set to determine whether it is working and
 whether it gives a known correct output for a simple known input.
-Such a "build and smoke test" is particularly helpful when
+Such a test is particularly helpful when
 supposedly-innocent changes are being made to the program, or when
 it has to run on several different machines, e.g., the developer's
-laptop and the department's cluster.
+laptop and the department's cluster. This type of test is called an integration test.
 
 ### Submit code to a reputable DOI-issuing repository
 
-upon submission of
-paper, just as you do with data. Your software is as much a product
+Time this for submission of your paper, just as you do with data. Your software is as much a product
 of your research as your papers, and should be as easy for people to
 credit. DOIs for software are provided by
 Figshare[^13] and
@@ -324,37 +322,6 @@ with GitHub.
 > Content of this episode was adopted after Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
-
-
-
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
-
 
 {% include links.md %}
 

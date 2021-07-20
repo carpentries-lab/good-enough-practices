@@ -1,19 +1,15 @@
 ---
-title: "Conclusion"
-teaching: 0
+title: "What to do next"
+teaching: 10
 exercises: 0
 questions:
-- ""
-- ""
-- ""
+- "How can you improve practices after this workshop?"
 objectives:
-- ""
-- ""
-- ""
+- "Learn about other resources to improve good practices"
+- "Reflect on good enough practices appropriate for your career stage"
 keypoints:
-- ""
-- ""
-- ""
+- "Learning good practices is a long-term process"
+- "Different people make different contributions to good practice"
 ---
 
 > Heads up
@@ -23,7 +19,7 @@ keypoints:
 {: .callout}
 
 
-## Conclusion
+## Learning best practices is a long-term process
 
 We have outlined a series of practices for scientific computing based on
 our collective experience, and the experience of the thousands of
@@ -36,7 +32,46 @@ done in less time and with less pain. They also accelerate research as a
 whole by making computational work (which increasingly means *all* work)
 more reproducible.
 
-But progress will not happen by itself. The practices are being
+We have covered good enough practices in several areas:
+
+- Data management
+- Software
+- Collaboration
+- Project organization
+- Keeping track of changes
+- Manuscripts
+
+
+These have in common several key points:
+
+- Document everything important
+- Plan the organization, including naming conventions
+- Think through your work from a collaborator's point of view
+
+
+Learning best practices is a long-term process that never stops.
+We [left out many good practices](_extras/what-we-left-out.md) that, although useful,
+have more niche application.
+We particularly recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
+especially for those gaining more experience with coding.
+There are [many other useful papers and resources that we have selected](_extras/resources.md)
+
+One of the best resources is your colleagues - talk to them!
+In our experience, people who have learned best practices themselves are eager to teach them to others.
+
+
+> ## What other resources are available?
+>
+> - Where can you look for more help?
+> - What resources are available in your research group? Your institution?
+>
+{: .discussion}
+
+
+## Different people make different contributions to good practice
+
+For the scientific community as a whole, progress in computational good
+practices will not happen by itself. The practices are being
 increasingly incentivized through requirements from funding agencies and
 journals, but the time and skills required to put these approaches into
 practice are still not being valued.
@@ -68,6 +103,14 @@ insist that researchers do things without teaching them how. We believe
 it is now time for funders to invest in such training; we hope that our
 recommendations will help shape consensus on what "good enough" looks
 like and how to achieve it.
+
+
+> ## What will you do next?
+>
+> - Which good enough practices will you use in your next project?
+> - How can you help your colleagues in using good practices?
+>
+{: .discussion}
 
 
 > ## Attribution

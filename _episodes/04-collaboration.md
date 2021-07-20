@@ -3,17 +3,20 @@ title: "Collaboration"
 teaching: 0
 exercises: 0
 questions:
-- ""
-- ""
-- ""
+- "What do collaborators need to know to contribute to my project?"
+- "How can documentation make my project more efficient?"
+- "What is a (software) license and does my project need one?"
 objectives:
-- ""
-- ""
-- ""
+- "Facilitate contributions from present and future collaborators."
+- "Learn to treat every project as a collaborative project."
+- "Describe a project in a README file."
+- "Evaluate software licenses for your project."
 keypoints:
-- ""
-- ""
-- ""
+- "Create an overview of your project."
+- "Create a shared “to-do” list."
+- "Decide on communication strategies."
+- "Make the license explicit."
+- "Make the project citable."
 ---
 
 You may start working on projects by yourself or with a small group of
@@ -59,7 +62,7 @@ tests that can be run to ensure that software has been installed
 correctly, and guidelines or checklists that your project adheres
 to.
 
-### Create a shared "to-do" list
+### Create a shared "to-do" list.
 
 This can be a plain text
 file called something like `notes.txt` or `todo.txt`, or you can use
@@ -119,7 +122,7 @@ license [[laurent2004](#laurent2004)].
 > integrate permissively-licensed software into other projects, see
 > chapter three in [[laurent2004](#laurent2004)].
 
-### Make the project citable
+### Make the project citable.
 
 by including a `CITATION`
 file in the project's home directory that describes how to cite this

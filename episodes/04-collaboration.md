@@ -104,17 +104,23 @@ contribute to it:
 A `CONTRIBUTING` file like this can be very helpful in reminding you details of your project that may be forgotten over time.
 
 > ## Comparing README files
-> Here is a README file for a data project and one for a software project.
-> What do you think is good and what can be improved about each one.  
+> Discussion
+> 
+> Here is a README file for a data project and one for a software project. 
+> 
+> What do you think is good and what can be improved about each one ?
 > [Data Project README](https://github.com/ewallace/pseudonuclease_evolution_2020)  
 > [Software Project README](https://github.com/DualSPHysics/DualSPHysics)
 >> ## Data Project README
 >> - contains a DOI
 >> - describes the purpose of the code and link to a related paper
 >> - describes the project structure
+>> - include the source for the data
+>> - describes the data to be analysed
+>> - describes the outputs
 >> - includes a license  
 >> however
->> - does not contain requirements
+>> - does not contain software and libraries requirements
 >> - does not include a working example
 >> - does not include a explicit list of authors (can be inferred from paper though)
 >> ## Software Project README

@@ -46,13 +46,13 @@ people to give you credit for your work.
 >> *   Thinking about other people helps you to return to your project later
 >> 
 >> What can go wrong with collaboration
->> *   People can be confused
->>  *   about goals: what are we trying to do?
->>  *   about process: what tools will we use, how will we do it?
->>  *   about responsibilities: whose job is it to do this thing?
->>  *   about credit: how are contributions going to be recognized?
->>  *   about data: how do we share sensitive data?
->>  *   about timelines: when will people finish their tasks?
+>> *   People can be confused about:
+>>  *   goals: what are we trying to do?
+>>  *   process: what tools will we use, how will we do it?
+>>  *   responsibilities: whose job is it to do this thing?
+>>  *   credit: how are contributions going to be recognized?
+>>  *   data: how do we share sensitive data?
+>>  *   timelines: when will people finish their tasks?
 >> 
 >> How to prepare for collaboration
 >> *   Document important things
@@ -104,23 +104,17 @@ contribute to it:
 A `CONTRIBUTING` file like this can be very helpful in reminding you details of your project that may be forgotten over time.
 
 > ## Comparing README files
-> Discussion
-> 
-> Here is a README file for a data project and one for a software project. 
-> 
-> What do you think is good and what can be improved about each one ?
+> Here is a README file for a data project and one for a software project.
+> What do you think is good and what can be improved about each one.  
 > [Data Project README](https://github.com/ewallace/pseudonuclease_evolution_2020)  
 > [Software Project README](https://github.com/DualSPHysics/DualSPHysics)
 >> ## Data Project README
 >> - contains a DOI
 >> - describes the purpose of the code and link to a related paper
 >> - describes the project structure
->> - include the source for the data
->> - describes the data to be analysed
->> - describes the outputs
 >> - includes a license  
 >> however
->> - does not contain software and libraries requirements
+>> - does not contain requirements
 >> - does not include a working example
 >> - does not include a explicit list of authors (can be inferred from paper though)
 >> ## Software Project README
@@ -159,9 +153,14 @@ meeting notes, as well as which of these channels will be public or
 private.
 
 ### Working with sensitive data
-How to share? Who is responsible?
+It is important to identify whether your project will work with sensitive data - by which we might mean:
+  * research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
+  * commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
+  * data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
 
-Intellectual property? GDPR? 
+It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).  These laws vary between countries and may affect whether you can share information between collaborators in different countries.
+
+If you determine that your project will include work with sensitive data, it is important to agree with collaborators on how and where the data will be stored, as well as what the mechanisms for sharing the data will be and who is ultimately responsible for ensuring these are followed. 
 
 ### Make the license explicit.
 
@@ -205,8 +204,7 @@ license [[laurent2004](#laurent2004)]. A useful resource to compare different li
 
 ### Make the project citable.
 
-by including a `CITATION`
-file in the project's home directory that describes how to cite this
+A `CITATION` file describes how to cite this
 project as a whole, and where to find (and how to cite) any data
 sets, code, figures, and other artifacts that have their own DOIs.
 The example below shows the `CITATION` file for the

@@ -35,7 +35,7 @@ people to give you credit for your work.
 >
 > Discussion 
 > - How does collaboration help in scientific computing?
-> – What goes wrong with collaboration? 
+> - What goes wrong with collaboration? 
 > - How can you prepare to collaborate?
 >
 >> ## Suggestions
@@ -58,7 +58,7 @@ people to give you credit for your work.
 >> *   Clarify the scope and audience of your project
 >> 
 > {: .solution}
-{: .challenge}
+{: .discussion}
 
 
 ### Create an overview of your project.
@@ -97,6 +97,16 @@ contribute to it:
 - guidelines or checklists that your project adheres to.
 
 A `CONTRIBUTING` file like this can be very helpful in reminding you details of your project that may be forgotten over time.
+
+> ## Comparing README files
+> Here is a README file for a data project and one for a software project.
+> What do you think is good and what can be improved about each one.
+>
+>> ## Suggestions
+>> 
+> {: .solution}
+{: .challenge}
+
 
 
 ### Create a shared "to-do" list.

@@ -15,33 +15,36 @@ objectives:
 keypoints:
 - "Write your code to be read by other people, including future you"
 - "Give functions meaningful names"
-- "Be explicit about requirements and dependencies such input files, arguments and expected behaviour"
-- "Figshare and Zenodo allows people to use your code in a citable way"
+- "Decompose your code into bite-sized functions"
+- "Be explicit about requirements and dependencies such as input files, arguments and expected behaviour"
+- "Figshare and Zenodo allow people to use your code in a citable way"
 ---
 
 ### What your future self may think...
 ![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
 The tweet illustrates a real example of research software problems, from [Prof. Neil Ferguson](https://en.wikipedia.org/wiki/Neil_Ferguson_(epidemiologist)).
-In that case, research software written for one purpose was suddenly in high demand, for important public health reasons, over a decade later.
+In that case,  the research software written for one purpose was suddenly in high demand, for important public health reasons, over a decade later.
 And that software was hard for others to use.
 
 Smaller-scale versions of this problem are more common:
 - you want to re-run a data analysis that you did six months ago
 - a new post-doc starts working on a related project and needs to adapt your analysis to a new dataset
-- you publish a paper, and a masters student from the other side of the world emails to reproduce the results for their project
+- you publish a paper, and a master student from the other side of the world emails you to reproduce the results for their project
 
 
 ### What is research software?
 
 - Any code that runs in order to process your research data
-- A record of all the steps used to process your data. Script everything if possible: data analysis is software.
-- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable. Use them.
+- A record of all the steps used to process your data (scripts and workflow such data analysis are software)
+- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable
 
 > ## Software problems
->
-> Discussion – what goes wrong with software?
+> __Discussion__
+> 
+> What goes wrong with software?
 > *   I don’t remember what this code does
+> *   I don't remember why I made this choice
 > *   This code doesn’t work any more
 > *   This code doesn't work on an updated version of my dataset
 > *   This code doesn't work on a different computing system
@@ -49,7 +52,7 @@ Smaller-scale versions of this problem are more common:
 
 {: .challenge}
 
-If you or your group are creating tens of thousands of lines of software
+If you or your group are creating ten thousands lines of software
 for use by hundreds of people you have never met, you are doing software
 engineering. If you're writing a few dozen lines now and again, and are
 probably going to be its only user, you may not be doing engineering,
@@ -60,8 +63,11 @@ it easier for other people and your future self to understand and (re)use your c
 The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
-clearly-defined inputs and outputs [[hunt1999](#hunt1999)]. Much has been written on
-this topic (e.g. ?), and this section focuses on practices that best
+clearly-defined inputs and outputs 
+[Hunt 1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999). 
+Much has been written on
+this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-modules-796bd941f036), 
+and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
 
 ### Place a brief explanatory comment at the start of every program
@@ -82,16 +88,16 @@ values for parameters like in this example.
         -s seed    = random number generator seed (large integer)
         -v         = verbose
         -w size    = image width/height in pixels (typically 480-800)
-        -h = show help message
+        -h         = show help message
 
 
 > ## Writing helpful explanatory comments
 > __Multiple Choice__
+> 
 > An example function `GetData` reads in data files of a particular type. 
 > Which of the following should be included in an explanatory comment for this function? 
 > 
->> ## Solution
->>
+>> ## Options
 >> * "this function reads a file"
 >> * file name 
 >> * file type 
@@ -102,11 +108,13 @@ values for parameters like in this example.
 >> * data columns or other properties 
 >> * expected file path / address (for example a specific directory or web address)
 >> * all of the above
+>> 
+>> ## Solution
+>> * file type - it is good to know what the function is tailored to process
+>> * output type - it is good to know how to integrate a function in a workflow
+>> * data columns or other properties - it is good to know the internal structure of the data
+>> * expected file path / address (for example a specific directory or web address) - it is good to know the origin to evaluate the validity of the data
 > {: .solution}
->> * file type 
->> * output type 
->> * data columns or other properties 
->> * expected file path / address (for example a specific directory or web address)
 {: .challenge}
 
 

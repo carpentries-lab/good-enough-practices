@@ -5,7 +5,7 @@ exercises: 0
 questions:
 - "What do collaborators need to know to contribute to my project?"
 - "How can documentation make my project more efficient?"
-- "What is a (software) license and does my project need one?"
+- "What is a license and does my project need one?"
 objectives:
 - "Facilitate contributions from present and future collaborators."
 - "Learn to treat every project as a collaborative project."
@@ -170,7 +170,8 @@ If you determine that your project will include work with sensitive data, it is 
 > - Specifies allowable copying and reuse
 > - Without a licence, people cannot legally reuse your code or data
 > - Different options for different goals and funder requirements (Apache, MIT, CC, ...)
-> - For example, this lesson is reusable with attribution under a Creative Commons Attribution (CC BY) 4.0 licence.
+> - For example, this lesson is reusable with attribution under a Creative Commons Attribution (CC BY) 4.0 licence
+> - Applies to all material in a project, e.g. data, text and code
 >
 {: .callout}
 
@@ -180,14 +181,15 @@ apply to the project's software, data, and manuscripts. Lack of an
 explicit license does not mean there isn't one; rather, it implies
 the author is keeping all rights and others are not allowed to
 re-use or modify the material. 
+A project that consists of data and text may benefit from a different license to a project consisting primarily of code.
 
 We recommend Creative Commons licenses for data and text, either
-CC-0[^15] (the "No Rights Reserved"
-license) or CC-BY[^16] (the "Attribution"
+[CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/) (the "No Rights Reserved"
+license) or [CC-BY](https://wellcome.org/grant-funding/guidance/creative-commons-attribution-licence-cc) (the "Attribution"
 license, which permits sharing and reuse but requires people to give
 appropriate credit to the creators). For software, we recommend a
 permissive open source license such as the MIT, BSD, or Apache
-license [[laurent2004](#laurent2004)]. A useful resource to compare different licenses is available (here)[https://tldrlegal.com/]. More advice for how to use licences for research data is available (here)[https://www.openaire.eu/research-data-how-to-license/]. 
+license [[laurent2004](#laurent2004)]. A useful resource to compare different licenses is available at [tldrlegal](https://tldrlegal.com/). More advice for how to use licences for research data is available at [openaire](https://www.openaire.eu/research-data-how-to-license/). 
 
 
 > **What Not To Do**
@@ -208,9 +210,9 @@ A `CITATION` file describes how to cite this
 project as a whole, and where to find (and how to cite) any data
 sets, code, figures, and other artifacts that have their own DOIs.
 The example below shows the `CITATION` file for the
-Ecodata Retriever[^17]; for an example of
+[Ecodata Retriever](https://github.com/weecology/retriever); for an example of
 a more detailed `CITATION` file, see the one for the
-khmer[^18] project.
+[khmer](https://github.com/dib-lab/khmer) project.
 
     Please cite this work as:
 

@@ -131,14 +131,41 @@ chunks that obey this limit, then create programs by combining these
 chunks. Putting code into functions also makes it easier to test and
 troubleshoot when things go wrong.
 
-> ## I am a problem
+> ## Decompose this pseudocode statement into functions.
 >
-> Defined here.
+> coconuts = 0
+> for each tree on my island
+> {
+>   coconuts = coconuts plus coconuts on tree
+> }
+> 
+> cherries = 0
+> for each tree on my island
+> {
+>   cherries = cherries plus cherries on tree
+> }
+> 
+> peaches = 0
+> for each tree on Sam's island
+> {
+>   peaches = peaches plus peaches on tree
+> }
 >
 >> ## Solution
 >>
->> *   I am an answer.
->> *   So am I.
+>> count = function(fruit, island)
+>> {
+>>   fruit = 0
+>>   for each tree on island
+>>   {
+>>     fruit = fruit + fruit of this type on tree
+>>   }
+>>   return fruit
+>> }
+>> 
+>> count(coconuts, my island)
+>> count(cherries, my island)
+>> count(peaches, Sam's island)
 > {: .solution}
 {: .challenge}
 

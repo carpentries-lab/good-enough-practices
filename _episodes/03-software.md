@@ -51,7 +51,7 @@ The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
 clearly-defined inputs and outputs [[hunt1999](#hunt1999)]. Much has been written on
-this topic (e.g. [Carey 2018](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871), and this section focuses on practices that best
+this topic (e.g. ?), and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
 
 ### Place a brief explanatory comment at the start of every program

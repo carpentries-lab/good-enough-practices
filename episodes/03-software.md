@@ -22,10 +22,10 @@ keypoints:
 ### What your future self may think...
 ![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
-### What is Research Software?
+### What is research software?
 
 - Any code that runs in order to process your research data
-- “Record all the steps used to process data.” That means, script everything if possible. Data analysis is software.
+- A record of all the steps used to process your data. Script everything if possible: data analysis is software.
 - R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable. Use them.
 
 > ## Software problems

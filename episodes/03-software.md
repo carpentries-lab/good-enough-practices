@@ -115,13 +115,33 @@ values for parameters like in this example.
 
 A function is a reusable section of
 software that can be treated as a black box by the rest of the
-program. The syntax for creating functions depends on programming
-language, but generally you name the function, list its input
-parameters, and describe what information it produces. Functions
-should take no more than five or six input parameters and should not
-reference outside information. Functions should be no more than
+program. 
+This is like the way we combine actions in everyday life.
+Suppose that it is teatime.
+You could get a teabag, put the teabag in a mug, 
+boil the kettle, pour the boiling water into the mug,
+wait 3 minutes for the tea to brew, remove the teabag, and add milk if desired.
+It is much easier to think of this as a single function, "make a cup of tea".
+
+Software programming languages also allow you to combine many steps into a single function.
+The syntax for creating functions depends on programming
+language, but generally you:
+- name the function
+- list its input parameters
+- describe what information it produces
+- write some lines of code that produce the desired output.
+
+Good functions should have only one main task:
+for example, "make a cup of tea" does not also specify how to make a sandwich.
+Functions can also be built up from other functions:
+for example, "boil the kettle" involves checking if there is water in the kettle, 
+filling the kettle if not, and then turning the kettle on.
+Having one main task means that functions should take no more than five or six input parameters 
+and should not reference outside information. 
+Functions should be no more than
 one page (about 60 lines) long: you should be able to see the entire function
 in a standard (~10pt) font on a laptop screen.
+If your function grows larger than this, it is usually best to break that up into simpler functions.
 
 The key motivation here is to fit the program into the most limited
 memory of all: ours. Human short-term memory is famously incapable
@@ -130,6 +150,9 @@ are to understand what our software is doing, we must break it into
 chunks that obey this limit, then create programs by combining these
 chunks. Putting code into functions also makes it easier to test and
 troubleshoot when things go wrong.
+
+[Pseudocode](https://en.wikipedia.org/wiki/Pseudocode) is a plain language description of code or analysis steps.
+Writing pseudocode can be useful to think through the logic of your analysis, and how to decompose it in to functions.
 
 > ## Decompose this pseudocode statement into functions.
 >

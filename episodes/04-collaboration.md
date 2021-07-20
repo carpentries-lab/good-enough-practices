@@ -10,7 +10,7 @@ objectives:
 - "Facilitate contributions from present and future collaborators."
 - "Learn to treat every project as a collaborative project."
 - "Describe a project in a README file."
-- "Evaluate software licenses for your project."
+- "Explain how licenses are useful for your project."
 keypoints:
 - "Create an overview of your project."
 - "Create a shared “to-do” list."
@@ -47,15 +47,18 @@ people to give you credit for your work.
 >> 
 >> What can go wrong with collaboration
 >> *   People can be confused
->> *   Confusion about goals: what are we trying to do?
->> *   Confusion about process: what tools will we use, how will we do it?
->> *   Confusion about responsibilities: whose job is it to do this thing?
->> *   Confusion about credit: how are contributions going to be recognized?
+>>  *   about goals: what are we trying to do?
+>>  *   about process: what tools will we use, how will we do it?
+>>  *   about responsibilities: whose job is it to do this thing?
+>>  *   about credit: how are contributions going to be recognized?
+>>  *   about data: how do we share sensitive data?
+>>  *   about timelines: when will people finish their tasks?
 >> 
 >> How to prepare for collaboration
 >> *   Document important things
 >> *   Decide on goals and a way of working (process)
 >> *   Clarify the scope and audience of your project
+>> *   Highlight outstanding issues
 >> 
 > {: .solution}
 {: .discussion}
@@ -68,6 +71,7 @@ Future you will forget things, and your collaborators will not know them in the 
 An overview document can collect the most important information about your project, 
 and act as a signpost.
 The overview is usually the first thing people read about your project, so it is often called a "README".
+The README has two jobs, what is inside and how it relates to the outside.
 
 Create a short file in the
 project's home directory that explains the purpose of the project.
@@ -78,6 +82,7 @@ similar) should contain :
 - a brief description
 - up-to-date contact information
 - an example or two of how to run the most important tasks
+- broad overview of folder structure
 
 
 #### Describe how to contribute to the project
@@ -101,6 +106,8 @@ A `CONTRIBUTING` file like this can be very helpful in reminding you details of 
 > ## Comparing README files
 > Here is a README file for a data project and one for a software project.
 > What do you think is good and what can be improved about each one.
+> (Data Project README)[https://github.com/ewallace/pseudonuclease_evolution_2020]
+> (Software Project README)[https://github.com/DualSPHysics/DualSPHysics]
 >
 >> ## Suggestions
 >> 
@@ -129,6 +136,11 @@ lists, chat channels, voice / video conferencing, documentation, and
 meeting notes, as well as which of these channels will be public or
 private.
 
+### Working with sensitive data
+How to share? Who is responsible?
+
+Intellectual property? GDPR? 
+
 ### Make the license explicit.
 
 
@@ -146,7 +158,7 @@ in the project's home directory that clearly states what license(s)
 apply to the project's software, data, and manuscripts. Lack of an
 explicit license does not mean there isn't one; rather, it implies
 the author is keeping all rights and others are not allowed to
-re-use or modify the material.
+re-use or modify the material. 
 
 We recommend Creative Commons licenses for data and text, either
 CC-0[^15] (the "No Rights Reserved"
@@ -154,7 +166,7 @@ license) or CC-BY[^16] (the "Attribution"
 license, which permits sharing and reuse but requires people to give
 appropriate credit to the creators). For software, we recommend a
 permissive open source license such as the MIT, BSD, or Apache
-license [[laurent2004](#laurent2004)].
+license [[laurent2004](#laurent2004)]. A useful resource to compare different licenses is available (here)[https://tldrlegal.com/]. More advice for how to use licences for research data is available (here)[https://www.openaire.eu/research-data-how-to-license/]. 
 
 
 > **What Not To Do**

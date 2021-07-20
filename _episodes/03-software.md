@@ -3,17 +3,20 @@ title: "Software"
 teaching: 0
 exercises: 0
 questions:
-- ""
-- ""
-- ""
+- "How to understand the code of someone (that could be me in the future)?"
+- "How to ease the debugging task?"
+- "How to make your code readable?"
 objectives:
-- ""
-- ""
-- ""
+- "Describe what is Research software and its purpose"
+- "Decompose a workflow into identifiable components"
+- "Know when to separate a script into several functions"
+- "Write code that is easy to run by others by including all dependencies, requirements and examples"
+- "Make your code accessible and citable by submitting to a DOI-issuing repository"
 keypoints:
-- ""
-- ""
-- ""
+- "Write your code to be read by other people, including future you"
+- "Give functions meaningful names"
+- "Be explicit about requirements and dependencies such input files, arguments and expected behaviour"
+- "Figshare and Zenodo allows people to use your code in a citable way"
 ---
 
 ### What your future self may think...
@@ -51,8 +54,7 @@ balance ease of use with benefit for you and collaborators.
 
 ### Place a brief explanatory comment at the start of every program
 
-no matter how
-short it is. That comment should include at least one example of how
+no matter how short it is. That comment should include at least one example of how
 the program is used: remember, a good example is worth a thousand
 words. Where possible, the comment should also indicate reasonable
 values for parameters. An example of such a comment is show below.
@@ -69,6 +71,32 @@ values for parameters. An example of such a comment is show below.
         -v         = verbose
         -w size    = image width/height in pixels (typically 480-800)
         -h = show help message
+
+
+> ## Writing helpful explanatory comments
+> __Multiple Choice__
+> An example function `GetData` reads in data files of a particular type. 
+> Which of the following should be included in an explanatory comment for this function? 
+> 
+>> ## Solution
+>>
+>> * "this function reads a file"
+>> * file name 
+>> * file type 
+>> * output type 
+>> * date
+>> * function author 
+>> * function version 
+>> * data columns or other properties 
+>> * expected file path / address (for example a specific directory or web address)
+>> * all of the above
+> {: .solution}
+>> * file type 
+>> * output type 
+>> * data columns or other properties 
+>> * expected file path / address (for example a specific directory or web address)
+{: .challenge}
+
 
 
 ### Decompose programs into functions
@@ -89,6 +117,17 @@ are to understand what our software is doing, we must break it into
 chunks that obey this limit, then create programs by combining these
 chunks. Putting code into functions also makes it easier to test and
 troubleshoot when things go wrong.
+
+> ## I am a problem
+>
+> Defined here.
+>
+>> ## Solution
+>>
+>> *   I am an answer.
+>> *   So am I.
+> {: .solution}
+{: .challenge}
 
 ### Be ruthless about eliminating duplication
 
@@ -120,8 +159,47 @@ the greater the scope of a variable, the more informative its name
 should be: while it's acceptable to call the counter variable in a
 loop `i` or `j`, things that are re-used often, such as the major
 data structures in a program should *not* have one-letter names.
-Remember to follow each language's conventions for names, such as
-`net_charge` for Python and `NetCharge` for Java.
+
+> ## Name that function
+>
+> An example function is defined in the format `functionName (variableName)`
+> This function cubes every third number in a sequence.
+> What are the most meaningful names for `functionName` and `variableName`? Choose one from each of the following sections:
+> 
+> `functionName`
+> 1.   processFunction
+> 2.   computeCubesOfThird
+> 3.   cubeEveryThirdNumberInASequence
+> 4.   cubeEachThird
+> 5.   3rdCubed
+> 
+> `variableName`
+> 1.   arrayOfNumbersToBeCubed
+> 2.   input
+> 3.   numericSequence
+> 4.   S
+>
+>> ## Solution
+>> `functionName`
+>> 1.   processFunction - incorrect, too vague
+>> 2.   computeCubesOfThird - incorrect, doesn't imply every third in sequence
+>> 3.   cubeEveryThirdNumberInASequence - incorrect, too long
+>> 4.   **cubeEachThird - correct, short and includes information on the data and caculation performed**
+>> 5.   3rdCubed - incorrect, bad practice to put a number at the beginning of a function name (and not allowed by some programming languages)
+>> 
+>> `variableName`
+>> 1.   arrayOfNumbersToBeCubed - incorrect, too long
+>> 2.   input - incorrect, too vague
+>> 3.   **numericSequence - correct, short and included information about the type of input**
+>> 4.   S - incorrect, too vague
+>> {: .solution}
+{: .challenge}
+
+> ## Language style guides
+>
+> Remember to follow each language's conventions for names, such as
+> `net_charge` for Python and `NetCharge` for Java.
+{: .callout}
 
 > **Tab Completion**
 >

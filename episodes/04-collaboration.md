@@ -183,34 +183,6 @@ khmer[^18] project.
 
 
 
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
-
 
 {% include links.md %}
 

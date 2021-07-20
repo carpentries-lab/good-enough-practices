@@ -105,12 +105,17 @@ A `CONTRIBUTING` file like this can be very helpful in reminding you details of 
 
 > ## Comparing README files
 > Here is a README file for a data project and one for a software project.
-> What do you think is good and what can be improved about each one.
+> What do you think is good and what can be improved about each one.  
 > (Data Project README)[https://github.com/ewallace/pseudonuclease_evolution_2020]
+>
+>> ## Suggestions
+>> The README contains a DOI
+> {: .solution}
+> 
 > (Software Project README)[https://github.com/DualSPHysics/DualSPHysics]
 >
 >> ## Suggestions
->> 
+>> The README does not contain a DOI
 > {: .solution}
 {: .challenge}
 

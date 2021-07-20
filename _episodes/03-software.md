@@ -22,6 +22,16 @@ keypoints:
 ### What your future self may think...
 ![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
+The tweet illustrates a real example of research software problems, from [Prof. Neil Ferguson](https://en.wikipedia.org/wiki/Neil_Ferguson_(epidemiologist)).
+In that case, research software written for one purpose was suddenly in high demand, for important public health reasons, over a decade later.
+And the software was hard for others to use.
+
+Smaller-scale versions of this problem are more common:
+- you want to re-run a data analysis that you did six months ago
+- a new post-doc starts working on a related project and needs to adapt your analysis to a new dataset
+- you publish a paper, and a masters student from the other side of the world emails to reproduce the results for their project
+
+
 ### What is research software?
 
 - Any code that runs in order to process your research data
@@ -33,10 +43,8 @@ keypoints:
 > Discussion – what goes wrong with software?
 > *   I don’t remember what this code does
 > *   This code doesn’t work any more
-> *   This code doesn't work on an updated version of my dataset
-> *   This code doesn't work on a different computing system
 > *   I’m not sure if this calculation is correct
-
+>
 {: .challenge}
 
 If you or your group are creating tens of thousands of lines of software
@@ -45,21 +53,21 @@ engineering. If you're writing a few dozen lines now and again, and are
 probably going to be its only user, you may not be doing engineering,
 but you can still make things easier on yourself by adopting a few key
 engineering practices. What's more, adopting these practices will make
-it easier for other people and your future self to understand and (re)use your code.
+it easier for people to understand and (re)use your code.
 
 The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
 clearly-defined inputs and outputs [[hunt1999](#hunt1999)]. Much has been written on
-this topic (e.g. ?), and this section focuses on practices that best
+this topic (refs!), and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
 
 ### Place a brief explanatory comment at the start of every program
 
-Short is fine; always include at least one example of how
-the program is used. Remember, a good example is worth a thousand
+no matter how short it is. That comment should include at least one example of how
+the program is used: remember, a good example is worth a thousand
 words. Where possible, the comment should also indicate reasonable
-values for parameters like in this example.
+values for parameters. An example of such a comment is show below.
 
         Synthesize image files for testing circularity estimation algorithm.
 

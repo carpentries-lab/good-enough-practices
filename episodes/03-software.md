@@ -156,12 +156,13 @@ Writing pseudocode can be useful to think through the logic of your analysis, an
 
 > ## Decompose this pseudocode statement into functions.
 >
+> ~~~
 > coconuts = 0
 > for each tree on my island
 > {
->   coconuts = coconuts plus coconuts on tree
+>   coconuts = coconuts plus coconuts on tree 
 > }
-> 
+>
 > cherries = 0
 > for each tree on my island
 > {
@@ -173,9 +174,12 @@ Writing pseudocode can be useful to think through the logic of your analysis, an
 > {
 >   peaches = peaches plus peaches on tree
 > }
+> ~~~
+> {: .source}
 >
 >> ## Solution
 >>
+>> ~~~
 >> count = function(fruit, island)
 >> {
 >>   fruit = 0
@@ -189,6 +193,8 @@ Writing pseudocode can be useful to think through the logic of your analysis, an
 >> count(coconuts, my island)
 >> count(cherries, my island)
 >> count(peaches, Sam's island)
+>> ~~~
+>> {: .source}
 > {: .solution}
 {: .challenge}
 

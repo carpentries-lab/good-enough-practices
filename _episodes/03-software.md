@@ -160,6 +160,41 @@ should be: while it's acceptable to call the counter variable in a
 loop `i` or `j`, things that are re-used often, such as the major
 data structures in a program should *not* have one-letter names.
 
+> ## Name that function
+>
+> An example function is defined in the format `functionName (variableName)`
+> This function cubes every third number in a sequence.
+> What are the most meaningful names for `functionName` and `variableName`? Choose one from each of the following sections:
+> 
+> `functionName`
+> 1.   processFunction
+> 2.   computeCubesOfThird
+> 3.   cubeEveryThirdNumberInASequence
+> 4.   cubeEachThird
+> 5.   3rdCubed
+> 
+> `variableName`
+> 1.   arrayOfNumbersToBeCubed
+> 2.   input
+> 3.   numericSequence
+> 4.   S
+>
+>> ## Solution
+>> `functionName`
+>> 1.   processFunction - incorrect, too vague
+>> 2.   computeCubesOfThird - incorrect, doesn't imply every third in sequence
+>> 3.   cubeEveryThirdNumberInASequence - incorrect, too long
+>> 4.   **cubeEachThird - correct, short and includes information on the data and caculation performed**
+>> 5.   3rdCubed - incorrect, bad practice to put a number at the beginning of a function name (and not allowed by some programming languages)
+>> 
+>> `variableName`
+>> 1.   arrayOfNumbersToBeCubed - incorrect, too long
+>> 2.   input - incorrect, too vague
+>> 3.   **numericSequence - correct, short and included information about the type of input**
+>> 4.   S - incorrect, too vague
+>> {: .solution}
+{: .challenge}
+
 > ## Language style guides
 >
 > Remember to follow each language's conventions for names, such as

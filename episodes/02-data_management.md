@@ -17,6 +17,7 @@ keypoints:
 ---
 
 ![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
+Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382) 
 
 > ## Data management problems
 >

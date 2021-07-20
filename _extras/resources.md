@@ -1,20 +1,10 @@
 ---
 title: "Resources"
-teaching: 0
-exercises: 0
-questions:
-- ""
-- ""
-- ""
-objectives:
-- ""
-- ""
-- ""
-keypoints:
-- ""
-- ""
-- ""
+subtitle: "Further resources on good practices"
 ---
+
+This page has a collection of resources on good practices in scientific computing.
+Feel free to refer to them.
 
 ## On open and good practices
 
@@ -70,34 +60,6 @@ For more courses:
 - The Carpentries worldwide, https://carpentries.org/
 - Stack Overflow, https://stackoverflow.com/
 - Your colleagues! (even on twitter, @ewjwallace)
-- What are your favourite resources?
-
-
-
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
 
 
 {% include links.md %}

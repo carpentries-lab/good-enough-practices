@@ -62,13 +62,13 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > * Network drive  
 > 
 > > ## Solution  
-> > Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it?  
-> > In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
-> > USB pen drive: definitely not! pen-drives are prone to dying (and your data with it). It also raises data security issues.  
-> > External hard-drive: see above.  
-> > My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
-> > My workstation's hard-disk: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
-> > Network drive: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
+> > * Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it?  
+> > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
+> > * USB pen drive: definitely not! pen-drives are prone to dying (and your data with it). It also raises data security issues.  
+> > * External hard-drive: see above.  
+> > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
+> > * My workstation's hard-disk: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
+> > * Network drive: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
 > {: .solution}  
 {: .challenge}  
   

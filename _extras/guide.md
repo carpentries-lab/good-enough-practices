@@ -11,6 +11,8 @@ Learners will always have a mixture of backgrounds and skills, whatever their ca
 Based on their education, past research experience, past jobs, and hobbies, there can be a lot of variation.
 The goal of the material is that everyone has a chance to reflect on their practice and learn something valuable.
 
+Pre-lesson (or even pre-episode) survey are extremely useful to understand the level at which the learners are entering the lesson/episode. You should include these in the etherpad to help tweak you discussion level.
+
 
 ## Discussions are the opportunity for peer to peer learning
 
@@ -23,6 +25,7 @@ It is useful to ask these small groups to summarize their discussions for the wh
 Learners' horror stories, such as "I lost a month's worth of data because I hadn't backed it up", help to motivate.
 Their success stories, such as "I started scripting my data analysis and it saved me lots of time", also help to motivate.
 
+Discussions are the instructor's best opportunity to figure out where the learners are at and how to adjust the material accordingly.
 
 ## This lesson prepares learners for version control, but does not teach it
 

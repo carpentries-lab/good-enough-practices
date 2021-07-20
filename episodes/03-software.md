@@ -3,17 +3,20 @@ title: "Software"
 teaching: 0
 exercises: 0
 questions:
-- ""
-- ""
-- ""
+- "How to understand the code of someone (that could be me in the future)?"
+- "How to ease the debugging task?"
+- "How to make your code readable?"
 objectives:
-- ""
-- ""
-- ""
+- "Describe what is Research software and its purpose"
+- "Decompose a workflow into identifiable components"
+- "Know when to separate a script into several functions"
+- "Write code that is easy to run by others by including all dependencies, requirements and examples"
+- "Make your code accessible and citable by submitting to a DOI-issuing repository"
 keypoints:
-- ""
-- ""
-- ""
+- "Write your code to be read by other people, including future you"
+- "Give functions meaningful names"
+- "Be explicit about requirements and dependencies such input files, arguments and expected behaviour"
+- "Figshare and Zenodo allows people to use your code in a citable way"
 ---
 
 ### What your future self may think...

@@ -149,6 +149,7 @@ make, BiBTeX, and Git/GitHub.
 | Ease of merging changes and suggestions      | Low                  | Medium               | High                             |
 | Distributed control                          | Low                  | High                 | High                             |
 | Ease of formatting changes for re-submission | Low                  | Low                  | High                             |
+
 While we feel that text-based version control is a superior method, the barriers to entry may be too high for many users. The single master online approach is a good compromise where the institute is using the MS Office environment, as users can stay within their familiar desktop GUI applications while still taking advantage of automatic file versioning and shared editing.
 
 

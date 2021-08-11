@@ -1,7 +1,7 @@
 ---
 title: "Collaboration"
-teaching: 0
-exercises: 0
+teaching: 15
+exercises: 25
 questions:
 - "What do collaborators need to know to contribute to my project?"
 - "How can documentation make my project more efficient?"
@@ -24,7 +24,7 @@ collaborators you already know, but you should design it to make it easy
 for new collaborators to join. These collaborators might be new grad
 students or postdocs in the lab, or they might be *you* returning to a
 project that has been idle for some time. As summarized in
-[[steinmacher2015](#steinmacher2015)], you want to make it easy for people to set up a local
+[[steinmacher2015](https://www.sciencedirect.com/science/article/abs/pii/S0950584914002390?via%3Dihub)], you want to make it easy for people to set up a local
 workspace so that they *can* contribute, help them find tasks so that
 they know *what* to contribute, and make the contribution process clear
 so that they know *how* to contribute. You also want to make it easy for
@@ -189,7 +189,8 @@ license) or [CC-BY](https://wellcome.org/grant-funding/guidance/creative-commons
 license, which permits sharing and reuse but requires people to give
 appropriate credit to the creators). For software, we recommend a
 permissive open source license such as the MIT, BSD, or Apache
-license [[laurent2004](#laurent2004)]. A useful resource to compare different licenses is available at [tldrlegal](https://tldrlegal.com/). More advice for how to use licences for research data is available at [openaire](https://www.openaire.eu/research-data-how-to-license/). 
+license [[laurent2004](https://www.oreilly.com/library/view/understanding-open-source/0596005814/)]. 
+A useful resource to compare different licenses is available at [tldrlegal](https://tldrlegal.com/). More advice for how to use licences for research data is available at [openaire](https://www.openaire.eu/research-data-how-to-license/). 
 
 
 > **What Not To Do**
@@ -202,7 +203,7 @@ license [[laurent2004](#laurent2004)]. A useful resource to compare different li
 > "non-commercial". We recommend permissive software licenses rather
 > than the GNU General Public License (GPL) because it is easier to
 > integrate permissively-licensed software into other projects, see
-> chapter three in [[laurent2004](#laurent2004)].
+> chapter three in [[laurent2004](https://www.oreilly.com/library/view/understanding-open-source/0596005814/)].
 
 ### Make the project citable.
 

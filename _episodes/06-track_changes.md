@@ -22,14 +22,23 @@ keypoints:
 
 > ## Problems with change
 >
-> Discussion – what goes wrong while keeping track of change?
->
->> ## Solution
->>
->> *   I have fifteen versions of this file and I don’t know which is which
->> *   I can’t remake this figure from last year
-> {: .solution}
+> Which of this issues you can relate to ?
+> 
+> * I have fifteen versions of this file and I don’t know which is which
+> * I can’t remake this figure from last year
+> * I modified my code and something apparently unrelated does not work anymore
+> * I have several copies of the same directory because I'm worried about breaking something
+> * Somebody duplicated a record in a shared file with samples
+> * You remember seing a data file but cannot find it anymore : is it deleted ? Moved away ?
+> * I tried multiple analysis and I don't remember which one I chose to generate my output data
+> * I have to merge changes to a paper from mails with collaborators
+> * I accidently deleted a part of my work
+> * I came to an old project and forgot where I left it
+> * I have trouble to find the source of a mistake in an experiment
+> * My directory is polluted with a lot of unused/temporary/old folders because I'm afraid of losing something important
+> * I made a lot of changes to my paper but only want to bring back one of paragraph
 {: .challenge}
+
 
 Keeping track of changes that you or your collaborators make to data and
 software is a critical part of research. Being able to reference or

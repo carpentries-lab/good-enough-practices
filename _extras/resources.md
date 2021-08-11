@@ -1,20 +1,10 @@
 ---
 title: "Resources"
-teaching: 0
-exercises: 0
-questions:
-- ""
-- ""
-- ""
-objectives:
-- ""
-- ""
-- ""
-keypoints:
-- ""
-- ""
-- ""
+subtitle: "Further resources on good practices"
 ---
+
+This page has a collection of resources on good practices in scientific computing.
+Feel free to refer to them.
 
 ## On open and good practices
 
@@ -31,6 +21,22 @@ Florian Markowetz,G enome Biology https://doi.org/10.1186/s13059-015-0850-7
 - Ten Simple rules https://collections.plos.org/ten-simple-rules
 Data, coding, careers, writing,...
 - Education section https://collections.plos.org/compbiol-education
+
+## Ten simple rules for reproducible computational research
+
+- Keep Track of How Every Result Was Produced
+- Avoid Manual Data Manipulation Steps
+- Track Versions of All External Programs Used
+- Version Control Your Protocols/Scripts
+- Record All Intermediate Results
+- Track Relevant Sources of Randomness
+- Store Raw Data behind Plots
+- Allow Layers of Detail to Be Inspected
+- Connect Statements to Underlying Results
+- Share Scripts, Runs, and Results
+
+After [Geir Kjetil Sandve et al (2013)](https://doi.org/10.1371/journal.pcbi.1003285)
+
 
 ## Research is changing
 
@@ -70,34 +76,6 @@ For more courses:
 - The Carpentries worldwide, https://carpentries.org/
 - Stack Overflow, https://stackoverflow.com/
 - Your colleagues! (even on twitter, @ewjwallace)
-- What are your favourite resources?
-
-
-
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
 
 
 {% include links.md %}

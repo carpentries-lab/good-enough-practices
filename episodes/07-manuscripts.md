@@ -1,19 +1,18 @@
 ---
 title: "Manuscripts"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
-- ""
-- ""
-- ""
+- "How do I write a collaborative paper?"
 objectives:
-- ""
-- ""
-- ""
+- "Discuss writing manuscripts as a computing project"
+- "Present benefits and drawbacks of 3 approaches"
+- "Introduce text-based version control as a good practice for writing manuscripts"
 keypoints:
-- ""
-- ""
-- ""
+- "Have all authors agree on a workflow before the writing starts"
+- "Email-based workflows work better with informative filenames and clear co-ordination"
+- "Text-based documents with version control scale better, if co-authors are familiar with the tools"
+- "Single Master Online approaches can be an effective compromise"
 ---
 
 An old joke says that doing the research is the first 90% of any
@@ -101,7 +100,7 @@ Our first alternative will already be familiar to many researchers:
 
 1.  ***Write manuscripts using online tools with rich
     formatting, change tracking, and reference
-    management (6a)***, such as Google Docs.
+    management (6a)***, such as Google Docs or MS OneDrive.
     With the document online, everyone's changes are in one place, and
     hence don't need to be merged manually.
 
@@ -139,6 +138,16 @@ fully-reproducible research. However, it requires all contributors to
 understand a much larger set of tools, including markdown or LaTeX,
 make, BiBTeX, and Git/GitHub.
 
+It is even possible using this approach to combine manuscripts and data analysis,
+e.g. through [Rmarkdown](https://rmarkdown.rstudio.com/).
+
+> **Top tips for writing manuscripts via text-based version control**
+>
+> 1. Project organization is crucial here, structure your folder thoughtfully.
+> 2. Make a project/manuscript README file, including the agreed workflow.
+> 3. Separate sentences by linebreaks in your plain-text document, to make comparisons and merging easier.
+
+
 ### Benefits and drawbacks of each approach
 
 | Things to consider                           | Email based workflow | Single master online | Text-based under version control |
@@ -150,15 +159,23 @@ make, BiBTeX, and Git/GitHub.
 | Distributed control                          | Low                  | High                 | High                             |
 | Ease of formatting changes for re-submission | Low                  | Low                  | High                             |
 
-While we feel that text-based version control is a superior method, the barriers to entry may be too high for many users. The single master online approach is a good compromise where the institute is using the MS Office environment, as users can stay within their familiar desktop GUI applications while still taking advantage of automatic file versioning and shared editing.
+While we feel that text-based version control is a superior method, 
+the barriers to entry may be too high for many users. 
+The single master online approach is a good compromise. 
+If your instution has invested in an environment (Google Docs / MS Office), 
+users can stay within their familiar desktop GUI applications while still 
+taking advantage of automatic file versioning and shared editing.
+
 
 > ## Approaching your next manuscript
 > __Discussion__
 > 
-> * What tools have you used before?
-> * What's gone wrong with collaborative papers you've been involved with in the past?
+> Discuss on a collaborative document:
+> 
+> * What tools have you used before to write manuscripts?
+> * What's gone wrong with collaborative manuscripts you've been involved with in the past?
 > * Which of the above approaches do you feel most comfortable with?
-> * What new skills would you need to learn to try text-based writing under version control?
+> * What skills taught in this lesson would you apply to text-based writing under version control?
 
 
 ### Supplementary Materials
@@ -167,7 +184,10 @@ Supplementary materials often contain much of the work that went into
 the project, such as tables and figures or more elaborate descriptions
 of the algorithms, software, methods, and analyses. In order to make
 these materials as accessible to others as possible, do not rely solely
-on the PDF format, since extracting data from PDFs is notoriously hard. For the same reason, Excel is not a suitable file format for table data that others may want to re-analyze. It is acceptable for summary statistics tables so long as the underlying data is also available in a text file format such as CSV.
+on the PDF format, since extracting data from PDFs is notoriously hard. 
+For the same reason, Excel is not a suitable file format for table data 
+that others may want to re-analyze. It is acceptable for summary statistics 
+tables so long as the underlying data is also available in a text file format such as CSV.
 
 We recommend separating the results that you may expect others
 to reuse (e.g., data in tables, data behind figures) into separate,
@@ -181,35 +201,6 @@ supplementary material: use the format that most easily enables reuse
 > Content of this episode was adopted after Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
-
-
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
 
 
 {% include links.md %}

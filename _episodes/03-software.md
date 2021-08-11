@@ -250,7 +250,7 @@ data structures in a program should *not* have one-letter names.
 >> 1.   processFunction - incorrect, too vague
 >> 2.   computeCubesOfThird - incorrect, doesn't imply every third in sequence
 >> 3.   cubeEveryThirdNumberInASequence - incorrect, too long
->> 4.   **cubeEachThird - correct, short and includes information on the data and caculation performed**
+>> 4.   **cubeEachThird - correct, short and includes information on the data and calculation performed**
 >> 5.   3rdCubed - incorrect, bad practice to put a number at the beginning of a function name (and not allowed by some programming languages)
 >> 
 >> `variableName`
@@ -287,7 +287,7 @@ the project, or by adding a "Getting Started" section to the
 
 This is error prone and makes it difficult or impossible to
 automate analyses. Instead, put if/else statements in the program to
-control what it does.
+control what it does, and use input arguments on the command line to select particular behaviour. For example, including the input argument `--option` and corresponding if/else statements to control running an optional piece of the program. Remember to use descriptive names for input arguments.
 
 ### Provide a simple example or test data set
 

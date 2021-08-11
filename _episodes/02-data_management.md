@@ -87,10 +87,6 @@ that case, record the exact procedure used to obtain the raw data,
 as well as any other pertinent information, such as an official
 version number or the date of download.
 
-**Ensure that raw data is backed up in more than one location.**  
-> ## Discussion (2 minutes)  
-> How do you back-up your data? Enter your answers in the collaborative document.  
-{: .challenge}  
   
 If external hard drives
 are used, store them off-site of the original location. Universities
@@ -159,7 +155,7 @@ because that facilitated data entry or human inspection. Imagine one
 row per field site and then columns for measurements made at each of
 several time points. Be prepared to gather such columns into a
 variable of measurements, plus a new variable for time point.
-Figure 2 presents an example of such a transformation.
+The figure above presents an example of such a transformation.
 
 
 ### Record all the steps used to process data

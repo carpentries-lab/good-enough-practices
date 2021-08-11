@@ -152,6 +152,14 @@ make, BiBTeX, and Git/GitHub.
 
 While we feel that text-based version control is a superior method, the barriers to entry may be too high for many users. The single master online approach is a good compromise where the institute is using the MS Office environment, as users can stay within their familiar desktop GUI applications while still taking advantage of automatic file versioning and shared editing.
 
+> ## Approaching your next manuscript
+> __Discussion__
+> 
+> * What tools have you used before?
+> * What's gone wrong with collaborative papers you've been involved with in the past?
+> * Which of the above approaches do you feel most comfortable with?
+> * What new skills would you need to learn to try text-based writing under version control?
+
 
 ### Supplementary Materials
 

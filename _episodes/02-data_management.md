@@ -47,7 +47,7 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 ## Data management  
 Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
 Data management is the process of storing, documenting, organising, and sharing the data created and collected during a project.  
-Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](#wickham2014), [hart2016](#hart2016)].
+Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
 ### Save the raw data  
 > ## Backing up your data (2+2 minutes)  
@@ -87,16 +87,13 @@ that case, record the exact procedure used to obtain the raw data,
 as well as any other pertinent information, such as an official
 version number or the date of download.
 
-  
 If external hard drives
 are used, store them off-site of the original location. Universities
 often have their own data storage solutions, so it is worthwhile to
 consult with your local Information Technology (IT) group or
 library. Alternatively cloud computing resources, like
-Amazon Simple Storage Service (Amazon
-S3)[^4], Google Cloud
-Storage[^5] or
-https://azure.microsoft.com/en-us/services/storage/ are
+Amazon Simple Storage Service (Amazon S3), Google Cloud
+Storage or https://azure.microsoft.com/en-us/services/storage/ are
 reasonably priced and reliable. For large data sets, where storage
 and transfer can be expensive and time-consuming, you may need to
 use incremental backup or specialized storage systems, and people in
@@ -120,13 +117,13 @@ called `name1` and `name2` to `personal_name` and `family_name`,
 recode the treatment variable from `1` vs. `2` to `untreated` vs.
 `treated`, and replace artificial codes for missing data, such as
 "-99", with `NA`, a code used in most programming languages to
-indicate that data is "Not Available" [[white2013](#white2013)].
+indicate that data is "Not Available" [[white2013](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608)].
 
 *File formats*: Convert data from closed, proprietary formats to
 open, non-proprietary formats that ensure machine readability across
-time and computing setups [[UIllinois](#UIllinois)]. Good options include CSV for
+time and computing setups [[UIllinois](https://www.library.illinois.edu/rds/file-formats/)]. Good options include CSV for
 tabular data, JSON, YAML, or XML for non-tabular data such as
-graphs[^6], and HDF5 for certain kinds of structured data.
+graphs, and HDF5 for certain kinds of structured data.
 
 Create the dataset you *wish* you had received. The goal here is to improve machine and
 human readability, but *not* to do vigorous data filtering or add
@@ -142,7 +139,8 @@ transformations that we recommend at the beginning of analysis:
 {: .challenge}  
   
 Analysis can be much easier
-if you are working with so-called "tidy" data [[wickham2014](#wickham2014)]. Two key
+if you are working with so-called "tidy" data 
+[[wickham2014](https://www.jstatsoft.org/article/view/v059i10)]. Two key
 principles are:
 
 *Make each column a variable*: Don't cram two variables into one,
@@ -174,8 +172,7 @@ projects. For very large data sets, data preparation may also
 include writing and saving scripts to obtain the data or subsets of
 the data from remote storage.
 
-Some data cleaning tools, such as
-OpenRefine[^7], provide a graphical user
+Some data cleaning tools, such as OpenRefine, provide a graphical user
 interface, but also automatically keep track of each step in the
 process. When tools like these or scripting is not feasible, it's
 important to clearly document every manual action (what menu was
@@ -224,9 +221,7 @@ when variables in two datasets refer to the same thing.
 Your data is as much a
 product of your research as the papers you write, and just as likely
 to be useful to others (if not more so). Sites such as
-Figshare[^8],
-Dryad[^9], and
-Zenodo[^10] allow others to find your
+Figshare, Dryad, and Zenodo allow others to find your
 work, use it, and cite it; we discuss licensing in
 Section [sec:collaboration] below. Follow your research community's
 standards for how to provide metadata. Note that there are two types
@@ -234,7 +229,8 @@ of metadata: metadata about the dataset as a whole and metadata
 about the content within the dataset. If the audience is humans,
 write the metadata (the README file) for humans. If the audience
 includes automatic metadata harvesters, fill out the formal metadata
-and write a good README file for the humans [[wickes2015](#wickes2015)].
+and write a good README file for the humans 
+[[wickes2015](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/issues/3#issuecomment-157410442)].
 
 > ## What is a DOI?  
 > - A digital object identifier is a persistent identifier or handle used to identify objects uniquely.  

@@ -21,13 +21,52 @@ project; writing up is the other 90%. While writing is rarely addressed
 in discussions of scientific computing, computing has changed scientific
 writing just as much as it has changed research.
 
-A common practice in academic writing is for the lead author to send
+Writing manuscripts is often collaborative, and so a team with
+diverse backgrounds, skills, and expectations must work together.
+In our experience, setting explicit expectations for writing
+is essential, just like other collaborations.
+
+> **The First Rule Is…**
+>
+> The workflow you choose is less important than having all authors
+> agree on the workflow *before* writing starts. Make sure to also agree
+> on a single method to provide feedback, be it an email thread or
+> mailing list, an issue tracker, or some sort of shared online to-do list.
+
+We suggest having a meeting (or online thread) of all authors at the
+beginning of the writing process. Ask everyone how they would prefer to
+write a manuscript. The agree a decision and process, and put the outcome
+in writing. If co-authors are learning new tools, ask someone
+familiar with those tools to support them!
+
+
+### Making email-based workflows work
+
+A common practice in academic writing is for the lead author to email
 successive versions of a manuscript to coauthors to collect feedback,
 which is returned as changes to the document, comments on the document,
 plain text in email, or a mix of all three. This allows co-authors to
 use familiar tools, but results in a lot of files to keep track of, and
 a lot of tedious manual labor to merge comments to create the next
 master version.
+
+However, if a (senior) co-author insists on using a particular format,
+like word or LaTeX, or on sending comments by email or written on printouts,
+in our experience it can be very difficult to convince them to change.
+Two principles make an email-based workflow work: informative filenames
+with initals and dates, and a single co-ordinator.
+
+> **Top tips for writing manuscripts via email**
+>
+> 1. Give your manuscript file an informative name, and update the initials
+> and date of last edit, for example `best_practices_manuscript_GW_2013-12-01`
+> would be the version edited by GW on 1st December 2013.
+> 2. Choose one person to co-ordinate (e.g. the first or corresponding author),
+> who is responsible for merging comments and sending out updated manuscripts
+> to all other co-authors.
+
+
+### Good practices beyond an email-based workflow
 
 Instead of an email-based workflow, we recommend mirroring good
 practices for managing software and data to make writing scalable,
@@ -54,13 +93,7 @@ approaches for managing manuscripts. The goals of both are to:
 -   Make it easy to share that final version with collaborators and to
     submit it to a journal.
 
-> **The First Rule Is…**
->
-> The workflow you choose is less important than having all authors
-> agree on the workflow *before* writing starts. Make sure to also agree
-> on a single method to provide feedback, be it an email thread or
-> mailing list, an issue tracker (like the ones provided by GitHub and
-> Bitbucket), or some sort of shared online to-do list.
+
 
 ### Single Master Online
 
@@ -81,6 +114,7 @@ folder. Unfortunately, this means merging some changes and suggestions
 manually, as existing tools cannot always do this automatically when
 switching from a desktop file format to text and back (although
 Pandoc[^27] can go a long way).
+
 
 ### Text-based Documents Under Version Control
 

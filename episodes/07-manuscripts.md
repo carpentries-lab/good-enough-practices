@@ -105,50 +105,20 @@ fully-reproducible research. However, it requires all contributors to
 understand a much larger set of tools, including markdown or LaTeX,
 make, BiBTeX, and Git/GitHub.
 
-### Why Two Recommendations for Manuscripts?
+### Benefits and drawbacks of each approach
 
-We initially recommended that researchers should always using plain text
-in version control to manage manuscripts. However, several members of
-our community felt strongly that the learning curve associated with this
-recommendation was a significant barrier to entry. For example, Stephen
-Turner wrote:
+|                                                    | Text-based with version control | Single master online                    | Named coordinator plus file name versioning |
+|----------------------------------------------------|---------------------------------|-----------------------------------------|---------------------------------------------|
+| Tool familiarity                                   | Often low                       | High                                    | High                                        |
+| Method familiarity                                 | Often low                       | Medium                                  | High                                        |
+| Likelihood of inconsistencies and information loss | Low                             | Low                                     | High                                        |
+| Institutional support                              | Low                             | High (within the MS Office environment) | Low                                         |
+| Manual merging of changes and suggestions          | Low                             | Medium                                  | High                                        |
+| Distributed control                                | High                            | High                                    | Low                                         |
+| Ease of formatting changes for re-submission       | High                            | Low                                     | Low                                         |
 
-> …try to explain the notion of compiling a document to an
-> overworked physician you collaborate with. Oh, but before that, you
-> have to explain the difference between plain text and word processing.
-> And text editors. And markdown/LaTeX compilers. And BiBTeX. And Git.
-> And GitHub. Etc. Meanwhile he/she is getting paged from the
-> OR…
->
-> …as much as we want to convince ourselves otherwise, when
-> you have to collaborate with those outside the scientific computing
-> bubble, the barrier to collaborating on papers in this framework is
-> simply too high to overcome. Good intentions aside, it always comes
-> down to "just give me a Word document with tracked changes," or
-> similar.
+While we feel that text-based version control is a superior method, the barriers to entry may be too high for many users. The single master online approach is a good compromise where the institute is using the MS Office environment, as users can stay within their familiar desktop GUI applications while still taking advantage of automatic file versioning and shared editing.
 
-Similarly, Arjun Raj said in a blog post[^31]:
-
-> Google Docs excels at easy sharing, collaboration, simultaneous
-> editing, commenting and reply-to-commenting. Sure, one can approximate
-> these using text-based systems and version control. The question is
-> why anyone would like to…
->
-> The goal of reproducible research is to make sure one
-> can… reproduce… computational analyses. The
-> goal of version control is to track changes to source code. These are
-> fundamentally distinct goals, and while there is some overlap, version
-> control is merely a tool to help achieve that, and comes with so much
-> overhead and baggage that it is often not worth the effort.
-
-Collaborative editing in something like Google Docs does not have all
-the benefits of text-based formats (notably, being able to store
-manuscripts in the same place, and in the same way, as other materials).
-However, it does meet the requirements that we initially outlined. We
-still recommend *against* using desktop tools like LibreOffice and
-MicrosoftWord with either email or file-sharing services like Dropbox,
-as workflows based on these do not scale beyond a small number of
-participants.
 
 ### Supplementary Materials
 
@@ -156,8 +126,9 @@ Supplementary materials often contain much of the work that went into
 the project, such as tables and figures or more elaborate descriptions
 of the algorithms, software, methods, and analyses. In order to make
 these materials as accessible to others as possible, do not rely solely
-on the PDF format, since extracting data from PDFs is notoriously hard.
-Instead, we recommend separating the results that you may expect others
+on the PDF format, since extracting data from PDFs is notoriously hard. For the same reason, Excel is not a suitable file format for table data that others may want to re-analyze. It is acceptable for summary statistics tables so long as the underlying data is also available in a text file format such as CSV.
+
+We recommend separating the results that you may expect others
 to reuse (e.g., data in tables, data behind figures) into separate,
 text-format files in formats such as CSV, JSON, YAML, XML, or HDF5[^32].
 The same holds for any commands or code you want to include as

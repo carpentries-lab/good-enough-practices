@@ -141,17 +141,24 @@ make, BiBTeX, and Git/GitHub.
 
 ### Benefits and drawbacks of each approach
 
-|                                                    | Text-based with version control | Single master online                    | Named coordinator plus file name versioning |
-|----------------------------------------------------|---------------------------------|-----------------------------------------|---------------------------------------------|
-| Tool familiarity                                   | Often low                       | High                                    | High                                        |
-| Method familiarity                                 | Often low                       | Medium                                  | High                                        |
-| Likelihood of inconsistencies and information loss | Low                             | Low                                     | High                                        |
-| Institutional support                              | Low                             | High (within the MS Office environment) | Low                                         |
-| Manual merging of changes and suggestions          | Low                             | Medium                                  | High                                        |
-| Distributed control                                | High                            | High                                    | Low                                         |
-| Ease of formatting changes for re-submission       | High                            | Low                                     | Low                                         |
+| Things to consider                           | Email based workflow | Single master online | Text-based under version control |
+|----------------------------------------------|----------------------|----------------------|----------------------------------|
+| Previous user experience/comfort             | High                 | Medium               | Low                              |
+| Visible tracking of changes                  | Low                  | Variable             | High                             |
+| Institutional support                        | Low                  | High*                | Low                              |
+| Ease of merging changes and suggestions      | Low                  | Medium               | High                             |
+| Distributed control                          | Low                  | High                 | High                             |
+| Ease of formatting changes for re-submission | Low                  | Low                  | High                             |
 
 While we feel that text-based version control is a superior method, the barriers to entry may be too high for many users. The single master online approach is a good compromise where the institute is using the MS Office environment, as users can stay within their familiar desktop GUI applications while still taking advantage of automatic file versioning and shared editing.
+
+> ## Approaching your next manuscript
+> __Discussion__
+> 
+> * What tools have you used before?
+> * What's gone wrong with collaborative papers you've been involved with in the past?
+> * Which of the above approaches do you feel most comfortable with?
+> * What new skills would you need to learn to try text-based writing under version control?
 
 
 ### Supplementary Materials

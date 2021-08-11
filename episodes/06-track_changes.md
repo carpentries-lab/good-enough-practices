@@ -225,6 +225,28 @@ many scientific users.
 >     If so, they facilitate identifying conflict and merging changes.
 {: .callout}
 
+
+> ## Changelog in action
+>
+> Have a look at one of the github repositories and how they track changes*:
+> * [data from E.R. Ballou et al. 2020](https://github.com/ewallace/pseudonuclease_evolution_2020/commits/master)
+> * [data from I. Boehm et al. 2020](https://github.com/BioRDM/nmj-pig/commits/main)
+>
+> and find examples of:
+> * good entries in the changelog
+> * what could be improved
+>
+> Think what would be the most dificult feature to replicate with manual version control?
+>
+>> ## Solution
+>> The good things:
+>> *   all log entries contain date and author
+>> *   
+>> *   So am I.
+> {: .solution}
+{: .challenge}
+
+
 ## What Not to Put Under Version Control
 
 The benefits of version control systems don't apply equally to all file

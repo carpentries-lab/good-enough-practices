@@ -53,12 +53,12 @@ However, if a (senior) co-author insists on using a particular format,
 like word or LaTeX, or on sending comments by email or written on printouts,
 in our experience it can be very difficult to convince them to change.
 Two principles make an email-based workflow work: informative filenames
-with date and initials, and a single co-ordinator.
+with date and initials, and a single lead author who co-ordinates.
 
 > **Top tips for writing manuscripts via email**
 >
 > 1. Give your manuscript file an informative name, and update the date and
-> initials of last edit, for example `best_practices_manuscript_2013-12-01_GW.odt`
+> initials of last edit, for example `best_practices_manuscript_2013-12-01_GW.doc`
 > would be the version edited by GW on 1st December 2013.
 > 2. Choose one person to co-ordinate (i.e. the lead author),
 > who is responsible for merging comments and sending out updated manuscripts
@@ -159,19 +159,19 @@ e.g. through [Rmarkdown](https://rmarkdown.rstudio.com/).
 | Distributed control                          | Low                  | High                 | High                             |
 | Ease of formatting changes for re-submission | Low                  | Low                  | High                             |
 
-While we feel that text-based version control is a superior method, 
-the barriers to entry may be too high for many users. 
-The single master online approach is a good compromise. 
-If your instution has invested in an environment (Google Docs / MS Office), 
-users can stay within their familiar desktop GUI applications while still 
+While we feel that text-based version control is a superior method,
+the barriers to entry may be too high for many users.
+The single master online approach is a good compromise.
+If your instution has invested in an environment (Google Docs / MS Office),
+users can stay within their familiar desktop GUI applications while still
 taking advantage of automatic file versioning and shared editing.
 
 
 > ## Approaching your next manuscript
 > __Discussion__
-> 
+>
 > Discuss on a collaborative document:
-> 
+>
 > * What tools have you used before to write manuscripts?
 > * What's gone wrong with collaborative manuscripts you've been involved with in the past?
 > * Which of the above approaches do you feel most comfortable with?
@@ -184,9 +184,9 @@ Supplementary materials often contain much of the work that went into
 the project, such as tables and figures or more elaborate descriptions
 of the algorithms, software, methods, and analyses. In order to make
 these materials as accessible to others as possible, do not rely solely
-on the PDF format, since extracting data from PDFs is notoriously hard. 
-For the same reason, Excel is not a suitable file format for table data 
-that others may want to re-analyze. It is acceptable for summary statistics 
+on the PDF format, since extracting data from PDFs is notoriously hard.
+For the same reason, Excel is not a suitable file format for table data
+that others may want to re-analyze. It is acceptable for summary statistics
 tables so long as the underlying data is also available in a text file format such as CSV.
 
 We recommend separating the results that you may expect others

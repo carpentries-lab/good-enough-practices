@@ -54,14 +54,14 @@ However, if a (senior) co-author insists on using a particular format,
 like word or LaTeX, or on sending comments by email or written on printouts,
 in our experience it can be very difficult to convince them to change.
 Two principles make an email-based workflow work: informative filenames
-with initals and dates, and a single co-ordinator.
+with date and initials, and a single co-ordinator.
 
 > **Top tips for writing manuscripts via email**
 >
-> 1. Give your manuscript file an informative name, and update the initials
-> and date of last edit, for example `best_practices_manuscript_GW_2013-12-01`
+> 1. Give your manuscript file an informative name, and update the date and
+> initials of last edit, for example `best_practices_manuscript_2013-12-01_GW.odt`
 > would be the version edited by GW on 1st December 2013.
-> 2. Choose one person to co-ordinate (e.g. the first or corresponding author),
+> 2. Choose one person to co-ordinate (i.e. the lead author),
 > who is responsible for merging comments and sending out updated manuscripts
 > to all other co-authors.
 

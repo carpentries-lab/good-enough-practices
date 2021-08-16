@@ -1,7 +1,7 @@
 ---
 title: "Software"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 20
 questions:
 - "How to understand someone else's code? (Including your future self!)"
 - "What can you do to make debugging code easier?"
@@ -64,7 +64,7 @@ The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
 clearly-defined inputs and outputs 
-[Hunt 1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999). 
+[[hunt 1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999)]. 
 Much has been written on
 this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-modules-796bd941f036), 
 and this section focuses on practices that best
@@ -153,7 +153,7 @@ If your function grows larger than this, it is usually best to break that up int
 
 The key motivation here is to fit the program into the most limited
 memory of all: ours. Human short-term memory is famously incapable
-of holding more than about seven items at once [[miller1956](#miller1956)]. If we
+of holding more than about seven items at once [[miller1956](https://psycnet.apa.org/record/1957-02914-001)]. If we
 are to understand what our software is doing, we must break it into
 chunks that obey this limit, then create programs by combining these
 chunks. Putting code into functions also makes it easier to test and
@@ -211,8 +211,7 @@ written and made available for distribution that have a particular
 function. For instances there are libraries for statistics,
 modeling, mapping and many more. Many languages catalog the
 libraries in a centralized source, for instance R has
-CRAN[^11], Python has
-PyPI[^12], and so on. So
+CRAN, Python has PyPI, and so on. So
 ***always search for well-maintained software libraries
 that do what you need*** before
 writing new code yourself, but ***test libraries before
@@ -304,8 +303,8 @@ laptop and the department's cluster. This type of test is called an integration 
 Time this for submission of your paper, just as you do with data. Your software is as much a product
 of your research as your papers, and should be as easy for people to
 credit. DOIs for software are provided by
-Figshare[^13] and
-Zenodo[^14]. Zenodo integrates directly
+Figshare and
+Zenodo. Zenodo integrates directly
 with GitHub.
 
 > ## Attribution

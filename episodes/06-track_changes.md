@@ -3,15 +3,15 @@ title: "Keeping Track of Changes"
 teaching: 15
 exercises: 25
 questions:
-- ""
-- ""
+- "How not to worry about making changes to a project?"
+- "Why does github exist?"
 - ""
 objectives:
-- ""
-- ""
-- ""
+- "What are the problems with introducing changes to files"
+- "How to document changes"
+- "What makes a good change description"
 keypoints:
-- ""
+- "Version control systems help adhere to good practices"
 - ""
 - ""
 ---

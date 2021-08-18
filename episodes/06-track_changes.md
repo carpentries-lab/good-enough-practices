@@ -128,7 +128,11 @@ moment a laptop is stolen or its hard drive fails.
 >
 > * new regulation heatmap  
 > As suggested by Will I used the normalization and variance stabilization procedure from Hafemeister et al prior to clustering and heatmap generation
-
+>
+> The largest the project (measured either in: collaborators, file numbers, or workflow complexity) the more detailed the change description should be.
+> While your personal project can get away with one liner descrptions, the largest projects should always contain inforamtion about motivation behind the change and 
+> what are the consequences. 
+>
 {: .callout}
 
 ## Manual Versioning
@@ -336,32 +340,7 @@ but these are not yet mature enough for us to recommend.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
 
-## I am a section
 
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
 
 
 

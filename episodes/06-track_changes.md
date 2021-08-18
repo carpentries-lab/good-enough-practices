@@ -54,9 +54,11 @@ when and by whom, and synchronize changes to a central server so that
 many users can manage changes to the same set of files.
 
 While these version control tools make tracking changes easier, they can
-have a steep learning curve. So, we provide two sets of recommendations,
-*1* a systematic manual approach for managing changes and *2* version
-control in its full glory, and you can use the first while working
+have a steep learning curve. So, we provide two sets of recommendations:
+1. a systematic manual approach for managing changes and 
+2. version control in its full glory, 
+
+and you can use the first while working
 towards the second, or just jump in to version control.
 
 Whatever system you chose, we recommend that you:

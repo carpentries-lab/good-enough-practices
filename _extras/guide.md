@@ -18,14 +18,33 @@ Pre-lesson (or even pre-episode) survey are extremely useful to understand the l
 
 Discussions are the structured opportunity for learners to learn from each other, facilitated by the material and instructors/helpers.
 In our experience, it is more effective if people learn from multiple peers than just from the instructor.
-We found small discussions of 2-5 people effective, at a table or (online) in a breakout room.
+Discussions are the instructor's best opportunity to figure out where the learners are at and how to adjust the material accordingly.
+
+Different approaches can work with different groups based on group size and time available.
+
+### Whole-group discussions
+
+Can get everyone talking.
+
+### Small group discussions (breakout rooms)
+
+We find small discussions of 2-5 people effective, at a table in real life in a breakout room online.
 Instructors/helpers can join these discussions if that's helpful.
 
 It is useful to ask these small groups to summarize their discussions for the whole group.
 Learners' horror stories, such as "I lost a month's worth of data because I hadn't backed it up", help to motivate.
 Their success stories, such as "I started scripting my data analysis and it saved me lots of time", also help to motivate.
 
-Discussions are the instructor's best opportunity to figure out where the learners are at and how to adjust the material accordingly.
+### Collaborative document
+
+We recommend as an efficient approach: ask learners to fill in their responses in the collaborative document, and the instructor can then read out highlights to lead and steer a group discussion.
+Collaborative documents are used regularly for Carpentries workshops (e.g. etherpad, hackmd, Google doc).
+It helps to set up the prompts in the doc first.
+Do we need to make a template for that in this repository??
+
+In this lesson, using the collaborative document teaches the collaboration skills that we want to teach.
+This is especially important for the manuscripts episode, where the group collaborating in a document is an example of the "Single Master Online" approach and so leads learners to reflect on the process of collaborating.
+
 
 ## This lesson prepares learners for version control, but does not teach it
 

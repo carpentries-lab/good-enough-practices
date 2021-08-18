@@ -1,63 +1,81 @@
 ---
 title: "Software"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 20
 questions:
-- "How to understand the code of someone (that could be me in the future)?"
-- "How to ease the debugging task?"
-- "How to make your code readable?"
+- "How to understand someone else's code? (Including your future self!)"
+- "What can you do to make debugging code easier?"
+- "What are the characteristics of readable code?"
 objectives:
-- "Describe what is Research software and its purpose"
+- "Describe what is research software and its purpose"
 - "Decompose a workflow into identifiable components"
 - "Know when to separate a script into several functions"
-- "Write code that is easy to run by others by including all dependencies, requirements and examples"
+- "Write code that is easy to run by others by including all dependencies, requirements, documentation, and examples"
 - "Make your code accessible and citable by submitting to a DOI-issuing repository"
 keypoints:
 - "Write your code to be read by other people, including future you"
 - "Give functions meaningful names"
-- "Be explicit about requirements and dependencies such input files, arguments and expected behaviour"
-- "Figshare and Zenodo allows people to use your code in a citable way"
+- "Decompose your code into bite-sized functions"
+- "Be explicit about requirements and dependencies such as input files, arguments and expected behaviour"
+- "Figshare and Zenodo allow people to use your code in a citable way"
 ---
 
 ### What your future self may think...
 ![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
-### What is Research Software?
+The tweet illustrates a real example of research software problems, from [Prof. Neil Ferguson](https://en.wikipedia.org/wiki/Neil_Ferguson_(epidemiologist)).
+In that case,  the research software written for one purpose was suddenly in high demand, for important public health reasons, over a decade later.
+And that software was hard for others to use.
+
+Smaller-scale versions of this problem are more common:
+- you want to re-run a data analysis that you did six months ago
+- a new post-doc starts working on a related project and needs to adapt your analysis to a new dataset
+- you publish a paper, and a master student from the other side of the world emails you to reproduce the results for their project
+
+
+### What is research software?
 
 - Any code that runs in order to process your research data
-- “Record all the steps used to process data.” That means, script everything if possible. Data analysis is software.
-- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable. Use them.
+- A record of all the steps used to process your data (scripts and workflow such data analysis are software)
+- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable
 
 > ## Software problems
->
-> Discussion – what goes wrong with software?
+> __Discussion__
+> 
+> What goes wrong with software?
 > *   I don’t remember what this code does
+> *   I don't remember why I made this choice
 > *   This code doesn’t work any more
+> *   This code doesn't work on an updated version of my dataset
+> *   This code doesn't work on a different computing system
 > *   I’m not sure if this calculation is correct
->
+
 {: .challenge}
 
-If you or your group are creating tens of thousands of lines of software
+If you or your group are creating ten thousands lines of software
 for use by hundreds of people you have never met, you are doing software
 engineering. If you're writing a few dozen lines now and again, and are
 probably going to be its only user, you may not be doing engineering,
 but you can still make things easier on yourself by adopting a few key
 engineering practices. What's more, adopting these practices will make
-it easier for people to understand and (re)use your code.
+it easier for other people and your future self to understand and (re)use your code.
 
 The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
-clearly-defined inputs and outputs [[hunt1999](#hunt1999)]. Much has been written on
-this topic (refs!), and this section focuses on practices that best
+clearly-defined inputs and outputs 
+[[hunt 1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999)]. 
+Much has been written on
+this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-modules-796bd941f036), 
+and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
 
 ### Place a brief explanatory comment at the start of every program
 
-no matter how short it is. That comment should include at least one example of how
-the program is used: remember, a good example is worth a thousand
+Short is fine; always include at least one example of how
+the program is used. Remember, a good example is worth a thousand
 words. Where possible, the comment should also indicate reasonable
-values for parameters. An example of such a comment is show below.
+values for parameters like in this example.
 
         Synthesize image files for testing circularity estimation algorithm.
 
@@ -70,16 +88,16 @@ values for parameters. An example of such a comment is show below.
         -s seed    = random number generator seed (large integer)
         -v         = verbose
         -w size    = image width/height in pixels (typically 480-800)
-        -h = show help message
+        -h         = show help message
 
 
 > ## Writing helpful explanatory comments
 > __Multiple Choice__
+> 
 > An example function `GetData` reads in data files of a particular type. 
 > Which of the following should be included in an explanatory comment for this function? 
 > 
->> ## Solution
->>
+>> ## Options
 >> * "this function reads a file"
 >> * file name 
 >> * file type 
@@ -90,42 +108,91 @@ values for parameters. An example of such a comment is show below.
 >> * data columns or other properties 
 >> * expected file path / address (for example a specific directory or web address)
 >> * all of the above
+>> 
+>> ## Solution
+>> * file type - it is good to know what the function is tailored to process
+>> * output type - it is good to know how to integrate a function in a workflow
+>> * data columns or other properties - it is good to know the internal structure of the data
+>> * expected file path / address (for example a specific directory or web address) - it is good to know the origin to evaluate the validity of the data
 > {: .solution}
->> * file type 
->> * output type 
->> * data columns or other properties 
->> * expected file path / address (for example a specific directory or web address)
 {: .challenge}
 
 
 
 ### Decompose programs into functions
 
-that are no more than
-one page (about 60 lines) long. A function is a reusable section of
+A function is a reusable section of
 software that can be treated as a black box by the rest of the
-program. The syntax for creating functions depends on programming
-language, but generally you name the function, list its input
-parameters, and describe what information it produces. Functions
-should take no more than five or six input parameters and should not
-reference outside information.
+program. 
+This is like the way we combine actions in everyday life.
+Suppose that it is teatime.
+You could get a teabag, put the teabag in a mug, 
+boil the kettle, pour the boiling water into the mug,
+wait 3 minutes for the tea to brew, remove the teabag, and add milk if desired.
+It is much easier to think of this as a single function, "make a cup of tea".
+
+Software programming languages also allow you to combine many steps into a single function.
+The syntax for creating functions depends on programming
+language, but generally you:
+- name the function
+- list its input parameters
+- describe what information it produces
+- write some lines of code that produce the desired output.
+
+Good functions should have only one main task:
+for example, "make a cup of tea" does not also specify how to make a sandwich.
+Functions can also be built up from other functions:
+for example, "boil the kettle" involves checking if there is water in the kettle, 
+filling the kettle if not, and then turning the kettle on.
+Having one main task means that functions should take no more than five or six input parameters 
+and should not reference outside information. 
+Functions should be no more than
+one page (about 60 lines) long: you should be able to see the entire function
+in a standard (~10pt) font on a laptop screen.
+If your function grows larger than this, it is usually best to break that up into simpler functions.
 
 The key motivation here is to fit the program into the most limited
 memory of all: ours. Human short-term memory is famously incapable
-of holding more than about seven items at once [[miller1956](#miller1956)]. If we
+of holding more than about seven items at once [[miller1956](https://psycnet.apa.org/record/1957-02914-001)]. If we
 are to understand what our software is doing, we must break it into
 chunks that obey this limit, then create programs by combining these
 chunks. Putting code into functions also makes it easier to test and
 troubleshoot when things go wrong.
 
-> ## I am a problem
+[Pseudocode](https://en.wikipedia.org/wiki/Pseudocode) is a plain language description of code or analysis steps.
+Writing pseudocode can be useful to think through the logic of your analysis, and how to decompose it in to functions.
+
+> ## Decompose this pseudocode statement into functions.
 >
-> Defined here.
+> ~~~
+> coconuts = 0
+> for each tree on my island
+>     coconuts = coconuts plus coconuts on tree 
+>
+> cherries = 0
+> for each tree on my island
+>     cherries = cherries plus cherries on tree
+>  
+> peaches = 0
+> for each tree on Sam's island
+>     peaches = peaches plus peaches on tree
+> ~~~
+> {: .source}
 >
 >> ## Solution
 >>
->> *   I am an answer.
->> *   So am I.
+>> ~~~
+>> count_fruit_on_island = function(fruit, island)
+>>     fruit = 0
+>>     for each tree on island
+>>         fruit = fruit + fruit of this type on tree
+>>     return fruit
+>> 
+>> count_fruit_on_island(coconuts, my island)
+>> count_fruit_on_island(cherries, my island)
+>> count_fruit_on_island(peaches, Sam's island)
+>> ~~~
+>> {: .source}
 > {: .solution}
 {: .challenge}
 
@@ -144,17 +211,15 @@ written and made available for distribution that have a particular
 function. For instances there are libraries for statistics,
 modeling, mapping and many more. Many languages catalog the
 libraries in a centralized source, for instance R has
-CRAN[^11], Python has
-PyPI[^12], and so on. So
+CRAN, Python has PyPI, and so on. So
 ***always search for well-maintained software libraries
-that do what you need (2d)*** before
+that do what you need*** before
 writing new code yourself, but ***test libraries before
-relying on them (2e)***.
+relying on them***.
 
 ### Give functions and variables meaningful names
 
-both to document their
-purpose and to make the program easier to read. As a rule of thumb,
+Meaningful names for functions and variables document their purpose and make the program generally easy to read. As a rule of thumb,
 the greater the scope of a variable, the more informative its name
 should be: while it's acceptable to call the counter variable in a
 loop `i` or `j`, things that are re-used often, such as the major
@@ -184,7 +249,7 @@ data structures in a program should *not* have one-letter names.
 >> 1.   processFunction - incorrect, too vague
 >> 2.   computeCubesOfThird - incorrect, doesn't imply every third in sequence
 >> 3.   cubeEveryThirdNumberInASequence - incorrect, too long
->> 4.   **cubeEachThird - correct, short and includes information on the data and caculation performed**
+>> 4.   **cubeEachThird - correct, short and includes information on the data and calculation performed**
 >> 5.   3rdCubed - incorrect, bad practice to put a number at the beginning of a function name (and not allowed by some programming languages)
 >> 
 >> `variableName`
@@ -219,65 +284,33 @@ the project, or by adding a "Getting Started" section to the
 
 ### Do not comment and uncomment sections of code to control a program's behavior
 
-since this is error prone and makes it difficult or impossible to
+This is error prone and makes it difficult or impossible to
 automate analyses. Instead, put if/else statements in the program to
-control what it does.
+control what it does, and use input arguments on the command line to select particular behaviour. For example, including the input argument `--option` and corresponding if/else statements to control running an optional piece of the program. Remember to use descriptive names for input arguments.
 
 ### Provide a simple example or test data set
 
-that users (including
-yourself) can run to determine whether the program is working and
+Users (including
+yourself) can run your program on this set to determine whether it is working and
 whether it gives a known correct output for a simple known input.
-Such a "build and smoke test" is particularly helpful when
+Such a test is particularly helpful when
 supposedly-innocent changes are being made to the program, or when
 it has to run on several different machines, e.g., the developer's
-laptop and the department's cluster.
+laptop and the department's cluster. This type of test is called an integration test.
 
 ### Submit code to a reputable DOI-issuing repository
 
-upon submission of
-paper, just as you do with data. Your software is as much a product
+Time this for submission of your paper, just as you do with data. Your software is as much a product
 of your research as your papers, and should be as easy for people to
 credit. DOIs for software are provided by
-Figshare[^13] and
-Zenodo[^14]. Zenodo integrates directly
+Figshare and
+Zenodo. Zenodo integrates directly
 with GitHub.
 
 > ## Attribution
 > Content of this episode was adopted after Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
-
-
-
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
-
 
 {% include links.md %}
 

@@ -1,19 +1,18 @@
 ---
 title: "Manuscripts"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
-- ""
-- ""
-- ""
+- "How do I write a collaborative paper?"
 objectives:
-- ""
-- ""
-- ""
+- "Discuss writing manuscripts as a computing project"
+- "Present benefits and drawbacks of 3 approaches"
+- "Introduce text-based version control as a good practice for writing manuscripts"
 keypoints:
-- ""
-- ""
-- ""
+- "Have all authors agree on a workflow before the writing starts"
+- "Email-based workflows work better with informative filenames and clear co-ordination"
+- "Text-based documents with version control scale better, if co-authors are familiar with the tools"
+- "Single Master Online approaches can be an effective compromise"
 ---
 
 An old joke says that doing the research is the first 90% of any
@@ -21,13 +20,52 @@ project; writing up is the other 90%. While writing is rarely addressed
 in discussions of scientific computing, computing has changed scientific
 writing just as much as it has changed research.
 
-A common practice in academic writing is for the lead author to send
+Writing manuscripts is often collaborative, and so a team with
+diverse backgrounds, skills, and expectations must work together.
+In our experience, setting explicit expectations for writing
+is essential, just like other collaborations.
+
+> **The First Rule Is…**
+>
+> The workflow you choose is less important than having all authors
+> agree on the workflow *before* writing starts. Make sure to also agree
+> on a single method to provide feedback, be it an email thread or
+> mailing list, an issue tracker, or some sort of shared online to-do list.
+
+We suggest having a meeting (or online thread) of all authors at the
+beginning of the writing process. Ask everyone how they would prefer to
+write a manuscript. The agree a decision and process, and put the outcome
+in writing. If co-authors are learning new tools, ask someone
+familiar with those tools to support them!
+
+
+### Making email-based workflows work
+
+A common practice in academic writing is for the lead author to email
 successive versions of a manuscript to coauthors to collect feedback,
 which is returned as changes to the document, comments on the document,
 plain text in email, or a mix of all three. This allows co-authors to
 use familiar tools, but results in a lot of files to keep track of, and
 a lot of tedious manual labor to merge comments to create the next
 master version.
+
+However, if a (senior) co-author insists on using a particular format,
+like word or LaTeX, or on sending comments by email or written on printouts,
+in our experience it can be very difficult to convince them to change.
+Two principles make an email-based workflow work: informative filenames
+with date and initials, and a single lead author who co-ordinates.
+
+> **Top tips for writing manuscripts via email**
+>
+> 1. Give your manuscript file an informative name, and update the date and
+> initials of last edit, for example `best_practices_manuscript_2013-12-01_GW.doc`
+> would be the version edited by GW on 1st December 2013.
+> 2. Choose one person to co-ordinate (i.e. the lead author),
+> who is responsible for merging comments and sending out updated manuscripts
+> to all other co-authors.
+
+
+### Good practices beyond an email-based workflow
 
 Instead of an email-based workflow, we recommend mirroring good
 practices for managing software and data to make writing scalable,
@@ -54,13 +92,7 @@ approaches for managing manuscripts. The goals of both are to:
 -   Make it easy to share that final version with collaborators and to
     submit it to a journal.
 
-> **The First Rule Is…**
->
-> The workflow you choose is less important than having all authors
-> agree on the workflow *before* writing starts. Make sure to also agree
-> on a single method to provide feedback, be it an email thread or
-> mailing list, an issue tracker (like the ones provided by GitHub and
-> Bitbucket), or some sort of shared online to-do list.
+
 
 ### Single Master Online
 
@@ -68,7 +100,7 @@ Our first alternative will already be familiar to many researchers:
 
 1.  ***Write manuscripts using online tools with rich
     formatting, change tracking, and reference
-    management (6a)***, such as Google Docs.
+    management (6a)***, such as Google Docs or MS OneDrive.
     With the document online, everyone's changes are in one place, and
     hence don't need to be merged manually.
 
@@ -81,6 +113,7 @@ folder. Unfortunately, this means merging some changes and suggestions
 manually, as existing tools cannot always do this automatically when
 switching from a desktop file format to text and back (although
 [Pandoc](https://pandoc.org/) can go a long way).
+
 
 ### Text-based Documents Under Version Control
 
@@ -105,50 +138,45 @@ fully-reproducible research. However, it requires all contributors to
 understand a much larger set of tools, including markdown or LaTeX,
 make, BiBTeX, and Git/GitHub.
 
-### Why Two Recommendations for Manuscripts?
+It is even possible using this approach to combine manuscripts and data analysis,
+e.g. through [Rmarkdown](https://rmarkdown.rstudio.com/).
 
-We initially recommended that researchers should always using plain text
-in version control to manage manuscripts. However, several members of
-our community felt strongly that the learning curve associated with this
-recommendation was a significant barrier to entry. For example, Stephen
-Turner wrote:
-
-> …try to explain the notion of compiling a document to an
-> overworked physician you collaborate with. Oh, but before that, you
-> have to explain the difference between plain text and word processing.
-> And text editors. And markdown/LaTeX compilers. And BiBTeX. And Git.
-> And GitHub. Etc. Meanwhile he/she is getting paged from the
-> OR…
+> **Top tips for writing manuscripts via text-based version control**
 >
-> …as much as we want to convince ourselves otherwise, when
-> you have to collaborate with those outside the scientific computing
-> bubble, the barrier to collaborating on papers in this framework is
-> simply too high to overcome. Good intentions aside, it always comes
-> down to "just give me a Word document with tracked changes," or
-> similar.
+> 1. Project organization is crucial here, structure your folder thoughtfully.
+> 2. Make a project/manuscript README file, including the agreed workflow.
+> 3. Separate sentences by linebreaks in your plain-text document, to make comparisons and merging easier.
 
-Similarly, Arjun Raj said in a blog post:
 
-> Google Docs excels at easy sharing, collaboration, simultaneous
-> editing, commenting and reply-to-commenting. Sure, one can approximate
-> these using text-based systems and version control. The question is
-> why anyone would like to…
+### Benefits and drawbacks of each approach
+
+| Things to consider                           | Email based workflow | Single master online | Text-based under version control |
+|----------------------------------------------|----------------------|----------------------|----------------------------------|
+| Previous user experience/comfort             | High                 | Medium               | Low                              |
+| Visible tracking of changes                  | Low                  | Variable             | High                             |
+| Institutional support                        | Low                  | High*                | Low                              |
+| Ease of merging changes and suggestions      | Low                  | Medium               | High                             |
+| Distributed control                          | Low                  | High                 | High                             |
+| Ease of formatting changes for re-submission | Low                  | Low                  | High                             |
+
+While we feel that text-based version control is a superior method,
+the barriers to entry may be too high for many users.
+The single master online approach is a good compromise.
+If your instution has invested in an environment (Google Docs / MS Office),
+users can stay within their familiar desktop GUI applications while still
+taking advantage of automatic file versioning and shared editing.
+
+
+> ## Approaching your next manuscript
+> __Discussion__
 >
-> The goal of reproducible research is to make sure one
-> can… reproduce… computational analyses. The
-> goal of version control is to track changes to source code. These are
-> fundamentally distinct goals, and while there is some overlap, version
-> control is merely a tool to help achieve that, and comes with so much
-> overhead and baggage that it is often not worth the effort.
+> Discuss on a collaborative document:
+>
+> * What tools have you used before to write manuscripts?
+> * What's gone wrong with collaborative manuscripts you've been involved with in the past?
+> * Which of the above approaches do you feel most comfortable with?
+> * What skills taught in this lesson would you apply to text-based writing under version control?
 
-Collaborative editing in something like Google Docs does not have all
-the benefits of text-based formats (notably, being able to store
-manuscripts in the same place, and in the same way, as other materials).
-However, it does meet the requirements that we initially outlined. We
-still recommend *against* using desktop tools like LibreOffice and
-MicrosoftWord with either email or file-sharing services like Dropbox,
-as workflows based on these do not scale beyond a small number of
-participants.
 
 ### Supplementary Materials
 
@@ -157,7 +185,11 @@ the project, such as tables and figures or more elaborate descriptions
 of the algorithms, software, methods, and analyses. In order to make
 these materials as accessible to others as possible, do not rely solely
 on the PDF format, since extracting data from PDFs is notoriously hard.
-Instead, we recommend separating the results that you may expect others
+For the same reason, Excel is not a suitable file format for table data
+that others may want to re-analyze. It is acceptable for summary statistics
+tables so long as the underlying data is also available in a text file format such as CSV.
+
+We recommend separating the results that you may expect others
 to reuse (e.g., data in tables, data behind figures) into separate,
 text-format files in formats such as CSV, JSON, YAML, XML, or HDF5.
 The same holds for any commands or code you want to include as
@@ -169,35 +201,6 @@ supplementary material: use the format that most easily enables reuse
 > Content of this episode was adopted after Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
-
-
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
 
 
 {% include links.md %}

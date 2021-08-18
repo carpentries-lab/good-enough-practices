@@ -226,12 +226,12 @@ and thereby require less self-discipline for more reliable results.
 
 > ## Changelog in action
 >
-> Have a look at one of the github repositories and how they track changes*:
+> Have a look at one of the example github repositories and how they track changes*:
 > * [data from E.R. Ballou et al. 2020](https://github.com/ewallace/pseudonuclease_evolution_2020/commits/master)
 > * [data from I. Boehm et al. 2020](https://github.com/BioRDM/nmj-pig/commits/main)
 >
-> and find examples of:
-> * good entries in the changelog
+> Give examples of:
+> * what makes them good changelog
 > * what could be improved
 >
 > Think what would be the most dificult feature to replicate with manual version control?
@@ -239,8 +239,14 @@ and thereby require less self-discipline for more reliable results.
 >> ## Solution
 >> The good things:
 >> *   all log entries contain date and author
->> *   
->> *   So am I.
+>> *   all log entries contain list of files that have been modified
+>> *   for text files the actual change can be visible
+>> *   the description text gives an idea of the change
+>>
+>> What could be improved  
+>> *   The pigs files should probably be recorded in smaller chunks (commits). The raw data and cleaned data could be added separetely unless they all were captured at the same time.
+>> *   Rather than general "Readme update" a more specific descriptin could be provied "Reformated headers and list"
+>> *   some of the Ballous changes could do with more detailed descriptions, for example why the change took place in case of IQ_TREE entries 
 > {: .solution}
 {: .challenge}
 

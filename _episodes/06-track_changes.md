@@ -22,7 +22,7 @@ keypoints:
 
 > ## Problems with change
 >
-> Which of this issues you can relate to ?
+> Which of this issues can you relate to ?
 > 
 > * I have fifteen versions of this file and I don’t know which is which
 > * I can’t remake this figure from last year
@@ -100,11 +100,36 @@ proven value of checklists.
 
 ### Store each project in a folder that is mirrored off the researcher's working machine
 
-using a system such as Dropboxor a
-remote version control repository such as
-GitHub. Synchronize that folder at
-least daily. It may take a few minutes, but that time is repaid the
+* using a system such as Dropboxor 
+* a remote version control repository such as GitHub. 
+
+Synchronize that folder at least daily. It may take a few minutes, but that time is repaid the
 moment a laptop is stolen or its hard drive fails.
+
+> ## How to document a change
+>
+> A good entry that documents changes should contain:
+> * date of the change
+> * author of the change
+> * list of affected files
+> * A short description of the nature of the introduced changes AND/OR motivation behind the change.
+>
+> Examples of the descriptions are:
+> * added flow cytometry data for the control and starvation stressed samples
+>
+> * updated matplot library to version 3.4.3 and regenerated figures
+>
+> * added pane with protein localization to the Figure 3 and its discussion in the text
+>
+> * reverted to the previous version of the abstract text as the manuscript reached word limits
+> 
+> * cleaned the strain inventory  
+> Recent freezer cleaning and ordering indicated a lot of problem with the strains data. The missing physical samples were removed from the table, the duplicated ids are marked for checking with PCR. The antibiotic resistence were moved from phenotype description to its own column.
+>
+> * new regulation heatmap  
+> As suggested by Will I used the normalization and variance stabilization procedure from Hafemeister et al prior to clustering and heatmap generation
+
+{: .callout}
 
 ## Manual Versioning
 

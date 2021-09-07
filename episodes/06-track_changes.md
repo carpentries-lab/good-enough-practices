@@ -3,33 +3,31 @@ title: "Keeping Track of Changes"
 teaching: 15
 exercises: 25
 questions:
-- "How not to worry about making changes to a project?"
+- "How do I make changes to a project without losing or breaking things?"
 - "Why does github exist?"
-- ""
 objectives:
-- "What are the problems with introducing changes to files"
-- "How to document changes"
-- "What makes a good change description"
+- "Describe the problems with introducing changes to files"
+- "Explain good practices in tracking changes"
+- "Discuss what makes a good change description"
 keypoints:
+- "Small, frequent changes are easier to track"
+- "Tracking change systematically with checklists is helpful"
 - "Version control systems help adhere to good practices"
-- ""
-- ""
 ---
 
 ![Figure 1. Versioning Hell](../fig/ew-versions.png)
-*from: Wit and wisdom from Jorge Cham (http://phdcomics.com/
-)*
+*from: Wit and wisdom from Jorge Cham (http://phdcomics.com/)*
 
 > ## Problems with change
 >
 > Which of this issues can you relate to ?
-> 
+>
 > * I have fifteen versions of this file and I don’t know which is which
 > * I can’t remake this figure from last year
 > * I modified my code and something apparently unrelated does not work anymore
 > * I have several copies of the same directory because I'm worried about breaking something
 > * Somebody duplicated a record in a shared file with samples
-> * You remember seing a data file but cannot find it anymore : is it deleted ? Moved away ?
+> * You remember seeing a data file but cannot find it anymore : is it deleted ? Moved away ?
 > * I tried multiple analysis and I don't remember which one I chose to generate my output data
 > * I have to merge changes to a paper from mails with collaborators
 > * I accidently deleted a part of my work
@@ -55,8 +53,8 @@ many users can manage changes to the same set of files.
 
 While these version control tools make tracking changes easier, they can
 have a steep learning curve. So, we provide two sets of recommendations:
-1. a systematic manual approach for managing changes and 
-2. version control in its full glory, 
+1. a systematic manual approach for managing changes and
+2. version control in its full glory,
 
 and you can use the first while working
 towards the second, or just jump in to version control.
@@ -97,13 +95,14 @@ simultaneous, possibly conflicting, changes.
 The list should include writing log messages that clearly explain
 any changes, the size and content of individual changes, style
 guidelines for code, updating to-do lists, and bans on committing
-half-done work or broken code. See [[gawande2011](https://books.google.co.uk/books/about/The_Checklist_Manifesto.html?id=qoZCRAAACAAJ&redir_esc=y)] for more on the
+half-done work or broken code.
+See [[gawande2011](https://books.google.co.uk/books/about/The_Checklist_Manifesto.html?id=qoZCRAAACAAJ&redir_esc=y)] for more on the
 proven value of checklists.
 
 ### Store each project in a folder that is mirrored off the researcher's working machine
 
-* using a system such as Dropboxor 
-* a remote version control repository such as GitHub. 
+* using a system such as Dropbox, or
+* a remote version control repository such as GitHub.
 
 Synchronize that folder at least daily. It may take a few minutes, but that time is repaid the
 moment a laptop is stolen or its hard drive fails.
@@ -124,16 +123,16 @@ moment a laptop is stolen or its hard drive fails.
 > * added pane with protein localization to the Figure 3 and its discussion in the text
 >
 > * reverted to the previous version of the abstract text as the manuscript reached word limits
-> 
-> * cleaned the strain inventory  
+>
+> * cleaned the strain inventory
 > Recent freezer cleaning and ordering indicated a lot of problem with the strains data. The missing physical samples were removed from the table, the duplicated ids are marked for checking with PCR. The antibiotic resistence were moved from phenotype description to its own column.
 >
-> * new regulation heatmap  
+> * new regulation heatmap
 > As suggested by Will I used the normalization and variance stabilization procedure from Hafemeister et al prior to clustering and heatmap generation
 >
 > The largest the project (measured either in: collaborators, file numbers, or workflow complexity) the more detailed the change description should be.
-> While your personal project can get away with one liner descrptions, the largest projects should always contain inforamtion about motivation behind the change and 
-> what are the consequences. 
+> While your personal project can get away with one liner descrptions, the largest projects should always contain inforamtion about motivation behind the change and
+> what are the consequences.
 >
 {: .callout}
 
@@ -265,19 +264,19 @@ and thereby require less self-discipline for more reliable results.
 > * what makes them good changelog
 > * what could be improved
 >
-> Think what would be the most dificult feature to replicate with manual version control?
+> Think what would be the most difficult feature to replicate with manual version control?
 >
 >> ## Solution
->> The good things:
+>> Some good things:
 >> *   all log entries contain date and author
 >> *   all log entries contain list of files that have been modified
 >> *   for text files the actual change can be visible
 >> *   the description text gives an idea of the change
 >>
->> What could be improved  
+>> Some things that could be improved:
 >> *   The pigs files should probably be recorded in smaller chunks (commits). The raw data and cleaned data could be added separetely unless they all were captured at the same time.
 >> *   Rather than general "Readme update" a more specific descriptin could be provied "Reformated headers and list"
->> *   some of the Ballous changes could do with more detailed descriptions, for example why the change took place in case of IQ_TREE entries 
+>> *   Some of the Ballou et al changes could do with more detailed descriptions, for example why the change took place in case of IQ_TREE entries
 > {: .solution}
 {: .challenge}
 

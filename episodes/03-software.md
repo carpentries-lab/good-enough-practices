@@ -23,14 +23,15 @@ keypoints:
 ### What your future self may think...
 ![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
-The tweet illustrates a real example of research software problems, from [Prof. Neil Ferguson](https://en.wikipedia.org/wiki/Neil_Ferguson_(epidemiologist)).
+The [twitter thread illustrates a real example of research software problems](https://twitter.com/neil_ferguson/status/1241835454707699713),
+from [Prof. Neil Ferguson](https://en.wikipedia.org/wiki/Neil_Ferguson_(epidemiologist)).
 In that case,  the research software written for one purpose was suddenly in high demand, for important public health reasons, over a decade later.
 And that software was hard for others to use.
 
 Smaller-scale versions of this problem are more common:
 - you want to re-run a data analysis that you did six months ago
 - a new post-doc starts working on a related project and needs to adapt your analysis to a new dataset
-- you publish a paper, and a master student from the other side of the world emails you to reproduce the results for their project
+- you publish a paper, and a masters student from the other side of the world emails you to reproduce the results for their project
 
 
 ### What is research software?
@@ -41,15 +42,16 @@ Smaller-scale versions of this problem are more common:
 
 > ## Software problems
 > __Discussion__
-> 
-> What goes wrong with software?
-> *   I don’t remember what this code does
-> *   I don't remember why I made this choice
-> *   This code doesn’t work any more
-> *   This code doesn't work on an updated version of my dataset
-> *   This code doesn't work on a different computing system
-> *   I’m not sure if this calculation is correct
-
+>
+> What can go wrong with writing research software?
+>> ## Suggestions
+>> *   I don’t remember what this code does
+>> *   I don't remember why I made this choice
+>> *   This code doesn’t work any more
+>> *   This code doesn't work on an updated version of my dataset
+>> *   This code doesn't work on a different computing system
+>> *   I’m not sure if this calculation is correct
+> {: .solution}
 {: .challenge}
 
 If you or your group are creating ten thousands lines of software
@@ -58,15 +60,16 @@ engineering. If you're writing a few dozen lines now and again, and are
 probably going to be its only user, you may not be doing engineering,
 but you can still make things easier on yourself by adopting a few key
 engineering practices. What's more, adopting these practices will make
-it easier for other people and your future self to understand and (re)use your code.
+it easier for other people and your future self to understand and (re)use
+your code.
 
 The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
-clearly-defined inputs and outputs 
-[[hunt 1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999)]. 
+clearly-defined inputs and outputs
+[[hunt 1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999)].
 Much has been written on
-this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-modules-796bd941f036), 
+this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-modules-796bd941f036),
 and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
 
@@ -93,22 +96,22 @@ values for parameters like in this example.
 
 > ## Writing helpful explanatory comments
 > __Multiple Choice__
-> 
-> An example function `GetData` reads in data files of a particular type. 
-> Which of the following should be included in an explanatory comment for this function? 
-> 
->> ## Options
->> * "this function reads a file"
->> * file name 
->> * file type 
->> * output type 
->> * date
->> * function author 
->> * function version 
->> * data columns or other properties 
->> * expected file path / address (for example a specific directory or web address)
->> * all of the above
->> 
+>
+> An example function `GetData` reads in data files of a particular type.
+> Which of the following should be included in an explanatory comment for this function?
+>
+> ## Options
+> * "this function reads a file"
+> * file name
+> * file type
+> * output type
+> * date
+> * function author
+> * function version
+> * data columns or other properties
+> * expected file path / address (for example a specific directory or web address)
+> * all of the above
+>
 >> ## Solution
 >> * file type - it is good to know what the function is tailored to process
 >> * output type - it is good to know how to integrate a function in a workflow
@@ -123,10 +126,10 @@ values for parameters like in this example.
 
 A function is a reusable section of
 software that can be treated as a black box by the rest of the
-program. 
+program.
 This is like the way we combine actions in everyday life.
 Suppose that it is teatime.
-You could get a teabag, put the teabag in a mug, 
+You could get a teabag, put the teabag in a mug,
 boil the kettle, pour the boiling water into the mug,
 wait 3 minutes for the tea to brew, remove the teabag, and add milk if desired.
 It is much easier to think of this as a single function, "make a cup of tea".
@@ -142,10 +145,10 @@ language, but generally you:
 Good functions should have only one main task:
 for example, "make a cup of tea" does not also specify how to make a sandwich.
 Functions can also be built up from other functions:
-for example, "boil the kettle" involves checking if there is water in the kettle, 
+for example, "boil the kettle" involves checking if there is water in the kettle,
 filling the kettle if not, and then turning the kettle on.
-Having one main task means that functions should take no more than five or six input parameters 
-and should not reference outside information. 
+Having one main task means that functions should take no more than five or six input parameters
+and should not reference outside information.
 Functions should be no more than
 one page (about 60 lines) long: you should be able to see the entire function
 in a standard (~10pt) font on a laptop screen.
@@ -167,12 +170,12 @@ Writing pseudocode can be useful to think through the logic of your analysis, an
 > ~~~
 > coconuts = 0
 > for each tree on my island
->     coconuts = coconuts plus coconuts on tree 
+>     coconuts = coconuts plus coconuts on tree
 >
 > cherries = 0
 > for each tree on my island
 >     cherries = cherries plus cherries on tree
->  
+>
 > peaches = 0
 > for each tree on Sam's island
 >     peaches = peaches plus peaches on tree
@@ -187,7 +190,7 @@ Writing pseudocode can be useful to think through the logic of your analysis, an
 >>     for each tree on island
 >>         fruit = fruit + fruit of this type on tree
 >>     return fruit
->> 
+>>
 >> count_fruit_on_island(coconuts, my island)
 >> count_fruit_on_island(cherries, my island)
 >> count_fruit_on_island(peaches, Sam's island)
@@ -230,14 +233,14 @@ data structures in a program should *not* have one-letter names.
 > An example function is defined in the format `functionName (variableName)`
 > This function cubes every third number in a sequence.
 > What are the most meaningful names for `functionName` and `variableName`? Choose one from each of the following sections:
-> 
+>
 > `functionName`
 > 1.   processFunction
 > 2.   computeCubesOfThird
 > 3.   cubeEveryThirdNumberInASequence
 > 4.   cubeEachThird
 > 5.   3rdCubed
-> 
+>
 > `variableName`
 > 1.   arrayOfNumbersToBeCubed
 > 2.   input
@@ -251,19 +254,21 @@ data structures in a program should *not* have one-letter names.
 >> 3.   cubeEveryThirdNumberInASequence - incorrect, too long
 >> 4.   **cubeEachThird - correct, short and includes information on the data and calculation performed**
 >> 5.   3rdCubed - incorrect, bad practice to put a number at the beginning of a function name (and not allowed by some programming languages)
->> 
+>>
 >> `variableName`
 >> 1.   arrayOfNumbersToBeCubed - incorrect, too long
 >> 2.   input - incorrect, too vague
 >> 3.   **numericSequence - correct, short and included information about the type of input**
 >> 4.   S - incorrect, too vague
->> {: .solution}
+> {: .solution}
 {: .challenge}
 
 > ## Language style guides
 >
 > Remember to follow each language's conventions for names, such as
 > `net_charge` for Python and `NetCharge` for Java.
+> These conventions are often described in "style guides",
+> and can even be checked automatically.
 {: .callout}
 
 > **Tab Completion**
@@ -302,10 +307,9 @@ laptop and the department's cluster. This type of test is called an integration 
 
 Time this for submission of your paper, just as you do with data. Your software is as much a product
 of your research as your papers, and should be as easy for people to
-credit. DOIs for software are provided by
-Figshare and
-Zenodo. Zenodo integrates directly
-with GitHub.
+credit.
+DOIs for software are provided by Figshare and Zenodo, for example.
+Zenodo integrates directly with GitHub.
 
 > ## Attribution
 > Content of this episode was adopted after Wilson et al.

@@ -1,35 +1,33 @@
 ---
 title: "Keeping Track of Changes"
-teaching: 0
-exercises: 0
+teaching: 15
+exercises: 25
 questions:
-- ""
-- ""
-- ""
+- "How do I make changes to a project without losing or breaking things?"
+- "Why does github exist?"
 objectives:
-- ""
-- ""
-- ""
+- "Describe the problems with introducing changes to files"
+- "Explain good practices in tracking changes"
+- "Discuss what makes a good change description"
 keypoints:
-- ""
-- ""
-- ""
+- "Small, frequent changes are easier to track"
+- "Tracking change systematically with checklists is helpful"
+- "Version control systems help adhere to good practices"
 ---
 
 ![Figure 1. Versioning Hell](../fig/ew-versions.png)
-*from: Wit and wisdom from Jorge Cham (http://phdcomics.com/
-)*
+*from: Wit and wisdom from Jorge Cham (http://phdcomics.com/)*
 
 > ## Problems with change
 >
-> Which of this issues you can relate to ?
-> 
+> Which of this issues can you relate to ?
+>
 > * I have fifteen versions of this file and I don’t know which is which
 > * I can’t remake this figure from last year
 > * I modified my code and something apparently unrelated does not work anymore
 > * I have several copies of the same directory because I'm worried about breaking something
 > * Somebody duplicated a record in a shared file with samples
-> * You remember seing a data file but cannot find it anymore : is it deleted ? Moved away ?
+> * You remember seeing a data file but cannot find it anymore : is it deleted ? Moved away ?
 > * I tried multiple analysis and I don't remember which one I chose to generate my output data
 > * I have to merge changes to a paper from mails with collaborators
 > * I accidently deleted a part of my work
@@ -54,9 +52,11 @@ when and by whom, and synchronize changes to a central server so that
 many users can manage changes to the same set of files.
 
 While these version control tools make tracking changes easier, they can
-have a steep learning curve. So, we provide two sets of recommendations,
-*1* a systematic manual approach for managing changes and *2* version
-control in its full glory, and you can use the first while working
+have a steep learning curve. So, we provide two sets of recommendations:
+1. a systematic manual approach for managing changes and
+2. version control in its full glory,
+
+and you can use the first while working
 towards the second, or just jump in to version control.
 
 Whatever system you chose, we recommend that you:
@@ -95,16 +95,46 @@ simultaneous, possibly conflicting, changes.
 The list should include writing log messages that clearly explain
 any changes, the size and content of individual changes, style
 guidelines for code, updating to-do lists, and bans on committing
-half-done work or broken code. See [[gawande2011](#gawande2011)] for more on the
+half-done work or broken code.
+See [[gawande2011](https://books.google.co.uk/books/about/The_Checklist_Manifesto.html?id=qoZCRAAACAAJ&redir_esc=y)] for more on the
 proven value of checklists.
 
 ### Store each project in a folder that is mirrored off the researcher's working machine
 
-using a system such as Dropbox[^20] or a
-remote version control repository such as
-GitHub[^21]. Synchronize that folder at
-least daily. It may take a few minutes, but that time is repaid the
+* using a system such as Dropbox, or
+* a remote version control repository such as GitHub.
+
+Synchronize that folder at least daily. It may take a few minutes, but that time is repaid the
 moment a laptop is stolen or its hard drive fails.
+
+> ## How to document a change
+>
+> A good entry that documents changes should contain:
+> * date of the change
+> * author of the change
+> * list of affected files
+> * A short description of the nature of the introduced changes AND/OR motivation behind the change.
+>
+> Examples of the descriptions are:
+> * added flow cytometry data for the control and starvation stressed samples
+>
+> * updated matplot library to version 3.4.3 and regenerated figures
+>
+> * added pane with protein localization to the Figure 3 and its discussion in the text
+>
+> * reverted to the previous version of the abstract text as the manuscript reached word limits
+>
+> * cleaned the strain inventory
+> Recent freezer cleaning and ordering indicated a lot of problem with the strains data. The missing physical samples were removed from the table, the duplicated ids are marked for checking with PCR. The antibiotic resistence were moved from phenotype description to its own column.
+>
+> * new regulation heatmap
+> As suggested by Will I used the normalization and variance stabilization procedure from Hafemeister et al prior to clustering and heatmap generation
+>
+> The largest the project (measured either in: collaborators, file numbers, or workflow complexity) the more detailed the change description should be.
+> While your personal project can get away with one liner descrptions, the largest projects should always contain inforamtion about motivation behind the change and
+> what are the consequences.
+>
+{: .callout}
 
 ## Manual Versioning
 
@@ -112,7 +142,7 @@ Our first suggested approach, in which everything is done by hand, has
 two additional parts:
 
 1.  ***Add a file called `CHANGELOG.txt` to the project's
-    `docs` subfolder (5f)***, and make dated
+    `docs` subfolder***, and make dated
     notes about changes to the project in this file in reverse
     chronological order (i.e., most recent first). This file is the
     equivalent of a lab notebook, and should contain entries like those
@@ -129,7 +159,7 @@ two additional parts:
         * Removed question about staph exposure (can be inferred from blood test results).
 
 2.  ***Copy the entire project whenever a significant change
-    has been made (5g)*** (i.e., one that
+    has been made*** (i.e., one that
     materially affects the results), and store that copy in a sub-folder
     whose name reflects the date in the area that's being synchronized.
     This approach results in projects being organized as shown below:
@@ -171,59 +201,85 @@ approach—the one we use in our own projects–don't just accelerate the
 manual process: they also automate some steps while enforcing others,
 and thereby require less self-discipline for more reliable results.
 
-1.  ***Use a version control
-    system (5h)***, to manage changes to a
-    project.
+  1.  ***Use a version control
+      system ***, to manage changes to a
+      project.
 
-Box 2 briefly explains how version control systems work. It's hard to
-know what version control tool is most widely used in research today,
-but the one that's most talked about is undoubtedly
-Git[^22]. This is largely because of
-GitHub[^23], a popular hosting site that
-combines the technical infrastructure for collaboration via Git with a
-modern web interface. GitHub is free for public and open source projects
-and for users in academia and nonprofits.
-GitLab[^24] is a well-regarded alternative
-that some prefer, because the GitLab platform itself is free and open
-source. Bitbucket[^25] provides free hosting
-for both Git and Mercurial repositories, but does not have nearly as
-many scientific users.
+  Box 2 briefly explains how version control systems work. It's hard to
+  know what version control tool is most widely used in research today,
+  but the one that's most talked about is undoubtedly Git. This is largely because of
+  GitHub, a popular hosting site that combines the technical infrastructure for collaboration via Git with a
+  modern web interface. GitHub is free for public and open source projects
+  and for users in academia and nonprofits.
+  GitLab is a well-regarded alternative
+  that some prefer, because the GitLab platform itself is free and open
+  source. Bitbucket provides free hosting
+  for both Git and Mercurial repositories, but does not have nearly as
+  many scientific users.
 
-> ## Box 2: How Version Control Systems Work
+  > ## Box 2: How Version Control Systems Work
+  >
+  > A version control system stores snapshots of a project's files in a
+  > repository. Users modify their working copy of the project, and then
+  > save changes to the repository when they wish to make a permanent record
+  > and/or share their work with colleagues. The version control system
+  > automatically records when the change was made and by whom along with
+  > the changes themselves.
+  >
+  > Crucially, if several people have edited files simultaneously, the
+  > version control system will detect the collision and require them to
+  > resolve any conflicts before recording the changes. Modern version
+  > control systems also allow repositories to be synchronized with each
+  > other, so that no one repository becomes a single point of failure.
+  > Tool-based version control has several benefits over manual version
+  > control:
+  >
+  > -   Instead of requiring users to make backup copies of the whole
+  >     project, version control safely stores just enough information to
+  >     allow old versions of files to be re-created on demand.
+  >
+  > -   Instead of relying on users to choose sensible names for backup
+  >     copies, the version control system timestamps all saved changes
+  >     automatically.
+  >
+  > -   Instead of requiring users to be disciplined about completing the
+  >     changelog, version control systems prompt them every time a change
+  >     is saved. They also keep a 100% accurate record of what was
+  >     *actually* changed, as opposed to what the user *thought* they
+  >     changed, which can be invaluable when problems crop up later.
+  >
+  > -   Instead of simply copying files to remote storage, version control
+  >     checks to see whether doing that would overwrite anyone else's work.
+  >     If so, they facilitate identifying conflict and merging changes.
+  {: .callout}
+
+
+> ## Changelog in action
 >
-> A version control system stores snapshots of a project's files in a
-> repository. Users modify their working copy of the project, and then
-> save changes to the repository when they wish to make a permanent record
-> and/or share their work with colleagues. The version control system
-> automatically records when the change was made and by whom along with
-> the changes themselves.
+> Have a look at one of the example github repositories and how they track changes*:
+> * [data from E.R. Ballou et al. 2020](https://github.com/ewallace/pseudonuclease_evolution_2020/commits/master)
+> * [data from I. Boehm et al. 2020](https://github.com/BioRDM/nmj-pig/commits/main)
 >
-> Crucially, if several people have edited files simultaneously, the
-> version control system will detect the collision and require them to
-> resolve any conflicts before recording the changes. Modern version
-> control systems also allow repositories to be synchronized with each
-> other, so that no one repository becomes a single point of failure.
-> Tool-based version control has several benefits over manual version
-> control:
+> Give examples of:
+> * what makes them good changelog
+> * what could be improved
 >
-> -   Instead of requiring users to make backup copies of the whole
->     project, version control safely stores just enough information to
->     allow old versions of files to be re-created on demand.
+> Think what would be the most difficult feature to replicate with manual version control?
 >
-> -   Instead of relying on users to choose sensible names for backup
->     copies, the version control system timestamps all saved changes
->     automatically.
->
-> -   Instead of requiring users to be disciplined about completing the
->     changelog, version control systems prompt them every time a change
->     is saved. They also keep a 100% accurate record of what was
->     *actually* changed, as opposed to what the user *thought* they
->     changed, which can be invaluable when problems crop up later.
->
-> -   Instead of simply copying files to remote storage, version control
->     checks to see whether doing that would overwrite anyone else's work.
->     If so, they facilitate identifying conflict and merging changes.
-{: .callout}
+>> ## Solution
+>> Some good things:
+>> *   all log entries contain date and author
+>> *   all log entries contain list of files that have been modified
+>> *   for text files the actual change can be visible
+>> *   the description text gives an idea of the change
+>>
+>> Some things that could be improved:
+>> *   The pigs files should probably be recorded in smaller chunks (commits). The raw data and cleaned data could be added separetely unless they all were captured at the same time.
+>> *   Rather than general "Readme update" a more specific descriptin could be provied "Reformated headers and list"
+>> *   Some of the Ballou et al changes could do with more detailed descriptions, for example why the change took place in case of IQ_TREE entries
+> {: .solution}
+{: .challenge}
+
 
 ## What Not to Put Under Version Control
 
@@ -232,7 +288,7 @@ types. In particular, version control can be more or less rewarding
 depending on file size and format. First, file comparison in version
 control systems is optimized for plain text files, such as source code.
 The ability to see so-called "diffs" is one of the great joys of version
-control. Unfortunately, Microsoft^^ Office files (like the `.docx` files
+control. Unfortunately, Microsoft Office files (like the `.docx` files
 used by Word) or other binary files, e.g., PDFs, can be stored in a
 version control system, but it is not possible to pinpoint specific
 changes from one version to the next. Tabular data (such as CSV files)
@@ -251,7 +307,7 @@ Third, today's version control systems are not designed to handle
 megabyte-sized files, never mind gigabytes, so large data or results
 files should not be included. (As a benchmark for "large", the limit for
 an individual file on GitHub is 100MB.) Some emerging hybrid systems
-such as Git LFS[^26] put textual notes under
+such as [Git LFS](https://git-lfs.github.com/) put textual notes under
 version control, while storing the large data itself in a remote server,
 but these are not yet mature enough for us to recommend.
 
@@ -270,12 +326,12 @@ but these are not yet mature enough for us to recommend.
 
 > ## Some git resources
 >
-> Software Carpentry git workshop https://swcarpentry.github.io/git-novice/
-> Edinburgh Carpentries runs courses: https://edcarp.github.io/
->  https://ourcodingclub.github.io/tutorials/git/
->  Crash course on youtube: https://youtu.be/SWYqp7iY_Tc
->  Learn git branching: https://learngitbranching.js.org/
->  Learn git-game: https://github.com/git-game/git-game
+> - Software Carpentry git workshop https://swcarpentry.github.io/git-novice/
+> - Edinburgh Carpentries runs courses: https://edcarp.github.io/
+> - https://ourcodingclub.github.io/tutorials/git/
+> - Crash course on youtube: https://youtu.be/SWYqp7iY_Tc
+> - Learn git branching: https://learngitbranching.js.org/
+> - Learn git-game: https://github.com/git-game/git-game
 >
 {: .callout}
 
@@ -285,32 +341,7 @@ but these are not yet mature enough for us to recommend.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
 
-## I am a section
 
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
 
 
 

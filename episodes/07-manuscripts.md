@@ -112,7 +112,7 @@ editor file format (e.g., Microsoft^^ Word `.docx` or LibreOffice
 folder. Unfortunately, this means merging some changes and suggestions
 manually, as existing tools cannot always do this automatically when
 switching from a desktop file format to text and back (although
-Pandoc[^27] can go a long way).
+[Pandoc](https://pandoc.org/) can go a long way).
 
 
 ### Text-based Documents Under Version Control
@@ -122,11 +122,11 @@ used by researchers in mathematics, astronomy, physics, and related
 disciplines for decades:
 
 1.  ***Write the manuscript in a plain text format that
-    permits version control (6b)*** such as
-    LaTeX[^28] or
-    Markdown[^29], and then convert them to
+    permits version control*** such as
+    [LaTeX](https://www.latex-project.org/) or
+    [Markdown](https://daringfireball.net/projects/markdown/), and then convert them to
     other formats such as PDF as needed using scriptable tools like
-    Pandoc[^30].
+    Pandoc[Pandoc](https://pandoc.org/).
 
 Using a version control system provides good support for finding and
 merging differences resulting from concurrent changes. It also provides
@@ -191,7 +191,7 @@ tables so long as the underlying data is also available in a text file format su
 
 We recommend separating the results that you may expect others
 to reuse (e.g., data in tables, data behind figures) into separate,
-text-format files in formats such as CSV, JSON, YAML, XML, or HDF5[^32].
+text-format files in formats such as CSV, JSON, YAML, XML, or HDF5.
 The same holds for any commands or code you want to include as
 supplementary material: use the format that most easily enables reuse
 (source code files, Unix shell scripts etc).

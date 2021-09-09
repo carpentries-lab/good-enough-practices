@@ -67,7 +67,8 @@ In biology, as in other sciences:
 - Other people have thought about good practices and created good tools.
 - You don’t have to reinvent practices and tools.
 - You can learn to be "good enough" in scientific computing.
-- But, this is an ongoing process through your career.
+- Future you will thank you for adopting good practices.
+- This is an ongoing process through your career.
 
 {% include links.md %}
 

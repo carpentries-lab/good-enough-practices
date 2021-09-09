@@ -9,6 +9,7 @@ objectives:
 keypoints:
 - "Computing is essential in science and (almost) all data are digital"
 - "A set of good enough practices can make you more efficient"
+- "Future you will thank past you for adopting good practices."
 ---
 
 Computers are now essential in all branches of science.
@@ -67,7 +68,6 @@ In biology, as in other sciences:
 - Other people have thought about good practices and created good tools.
 - You don’t have to reinvent practices and tools.
 - You can learn to be "good enough" in scientific computing.
-- Future you will thank you for adopting good practices.
 - This is an ongoing process through your career.
 
 {% include links.md %}

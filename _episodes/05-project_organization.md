@@ -3,17 +3,14 @@ title: "Project Organization"
 teaching: 0
 exercises: 0
 questions:
-- ""
-- ""
-- ""
+- "How should I name my files?"
+- "How does folder organization help me"
 objectives:
-- ""
-- ""
-- ""
+- "Understand elements of good naming strategy"
+- "Evaluate pros and cons of different project organizations"
 keypoints:
-- ""
-- ""
-- ""
+- "A good file name suggests the file content"
+- "Good project organization saves you time"
 ---
 
 Organizing the files that make up a project in a logical and consistent
@@ -115,6 +112,7 @@ output, a single controller script should be placed in the main
 scripts of this kind; note how it uses one variable, `TEMP_DIR`, to
 avoid repeating the name of a particular directory four times.
 
+```
     TEMP_DIR = ./temp_zip_files
 
     echo "Packaging zip files required by analysis tool..."
@@ -126,11 +124,12 @@ avoid repeating the name of a particular directory four times.
 
     echo "Cleaning up..."
     rm -rf $(TEMP_DIR)
+```
 
 ### Put compiled programs in the `bin` directory
 
 `bin` contains
-executable programs compiled from code in the `src` directory[^19].
+executable programs compiled from code in the `src` directory.
 Projects that do not have any will not require `bin`.
 
 > **Scripts vs. Programs**
@@ -171,6 +170,7 @@ change as the project evolves.
 The diagram in Figure [fig:project] provides a concrete example of how a
 simple project might be organized following these recommendations:
 
+```
     .
     |-- CITATION
     |-- README
@@ -187,6 +187,7 @@ simple project might be organized following these recommendations:
     |-- src
     |   -- sightings_analysis.py
     |   -- runall.py
+```
 
 The root directory contains a `README` file that provides an overview of
 the project as a whole, a `CITATION` file that explains how to reference
@@ -206,6 +207,66 @@ various ideas for the project and how these were implemented and the
 other containing a running draft of a manuscript describing the project
 findings.
 
+> ## Naming and sorting (3+2 minutes)
+> Have a look at the example files from a project, similar
+> to the one from the previous metadata episode.
+>
+> All the files have been sorted by name and
+> demonstrate consequences of different naming strategies.
+>
+> For your information, to encode experimental details the following conventions were taken:
+> * phyB/phyA are sample genotypes
+> * sXX is the sample number
+> * LD/SD are different light conditions (long or short day)
+> * on/off are different media (on sucrose, off sucrose)
+> * measurement date
+> * other details are timepoint and raw or normalized data
+>
+> > ```
+> > 2020-07-14_s12_phyB_on_SD_t04.raw.xlsx  
+> > 2020-07-14_s1_phyA_on_LD_t05.raw.xlsx  
+> > 2020-07-14_s2_phyB_on_SD_t11.raw.xlsx  
+> > 2020-08-12_s03_phyA_on_LD_t03.raw.xlsx  
+> > 2020-08-12_s12_phyB_on_LD_t01.raw.xlsx  
+> > 2020-08-13_s01_phyB_on_SD_t02.raw.xlsx  
+> > 2020-7-12_s2_phyB_on_SD_t01.raw.xlsx  
+> > AUG-13_phyB_on_LD_s1_t11.raw.xlsx  
+> > JUL-31_phyB_on_LD_s1_t03.raw.xlsx  
+> > LD_phyA_off_t04_2020-08-12.norm.xlsx  
+> > LD_phyA_on_t04_2020-07-14.norm.xlsx  
+> > LD_phyB_off_t04_2020-08-12.norm.xlsx  
+> > LD_phyB_on_t04_2020-07-14.norm.xlsx  
+> > SD_phyB_off_t04_2020-08-13.norm.xlsx  
+> > SD_phyB_on_t04_2020-07-12.norm.xlsx  
+> > SD_phya_off_t04_2020-08-13.norm.xlsx  
+> > SD_phya_ons_t04_2020-07-12.norm.xlsx  
+> > ld_phyA_ons_t04_2020-08-12.norm.xlsx  
+> > ```
+> {: .source}
+>
+> * What are the problems with having the date first?
+> * How do different date formats behave once sorted?
+> * Can you tell the importance of a leading 0 (zeros)?
+> * Is it equally easy to find all data from LD conditions as ON media?
+> * Can you spot the problem when using different cases (upper/lower)?
+> * Do you see benefits of keeping consistent lengths of the naming conventions?
+> * Do you see what happens when you mix conventions?
+>
+> > ## Solution
+> >
+> > * Using dates up front makes it difficult to quickly find data for
+> > particular conditions or genotypes. It also masks the "logical" order of samples
+> > or timepoints.
+> > * Named months break the "expected" sorting, same as dates without leading 0
+> > * Without leading zeros, 's12' appear before s1 and s2
+> > * the first (and second) part of the name are easiest to spot
+> > * the last file is also from LD conditions, but appears after SD, same with 'phya' genotypes
+> > * the last 3 file names are easiest to read as all parts appear on top of each other
+> > due to the same 3 letter-length codes ons and off
+> > * The lack of consistency makes it very difficult to get data from related samples/conditions.
+> >
+> {: .solution}
+{: .challenge}
 
 > ## Some helpful organisation tools
 >
@@ -223,35 +284,6 @@ findings.
 > Content of this episode was adopted after Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
-
-## I am a section
-
-With a text.
-
-> ## I am a yellow info
->
-> And my text.
-{: .callout}
-
-
-~~~
-I am code
-~~~
-{: .source}
-
-
-> ## I am a problem
->
-> Defined here.
->
->> ## Solution
->>
->> *   I am an answer.
->> *   So am I.
-> {: .solution}
-{: .challenge}
-
-
 
 
 {% include links.md %}

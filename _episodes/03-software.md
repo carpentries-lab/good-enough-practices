@@ -165,6 +165,27 @@ troubleshoot when things go wrong.
 [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode) is a plain language description of code or analysis steps.
 Writing pseudocode can be useful to think through the logic of your analysis, and how to decompose it in to functions.
 
+The "make a cup of tea" example above might look like this:
+
+        make_cup_of_tea = function(sugar, milk)
+            
+            if kettle is not full
+                fill kettle
+                
+            boil kettle
+            put teabag in cup
+            add water from kettle to cup
+            wait 2 minutes
+            
+            if sugar is true
+                add sugar to cup
+            if milk is true
+                add milk to cup
+            
+            stir with spoon
+            
+            return cup
+
 > ## Decompose this pseudocode statement into functions.
 >
 > ~~~

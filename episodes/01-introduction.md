@@ -10,6 +10,7 @@ keypoints:
 - "Computing is essential in science and (almost) all data are digital"
 - "A set of good enough practices can make you more efficient"
 - "Future you will thank past you for adopting good practices."
+- "Shared Principles: planning, modular organisation, names, documentation"
 ---
 
 Computers are now essential in all branches of science.
@@ -69,6 +70,17 @@ In biology, as in other sciences:
 - You don’t have to reinvent practices and tools.
 - You can learn to be "good enough" in scientific computing.
 - This is an ongoing process through your career.
+
+### Principles: planning, modular organisation, names, documentation
+
+This lesson has episodes covering data management, software, project organisation, collaboration, keeping track of changes, and manuscripts.
+
+Good Enough Practices rely on a shared set of principles that span these areas:
+
+- Planning: plan out how to work, and any plan that you can stick to is better than no plan.
+- Modular organisation: organise your data, code, project and project into coherent modules.
+- Names: give good names to your files, folders, and functions, that make them easy to find and to understand.
+- Documentation: explicitly write down everything you and your collaborators need to know in the future.
 
 {% include links.md %}
 

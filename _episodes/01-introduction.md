@@ -28,7 +28,9 @@ Practically, future you will either
   - curse current you (bad), or
   - thank current you (better).
 
-Which habits and practices can save you time in the future and improve your work?
+Adopting good practices is kind to your future self.
+
+So, which habits and practices can save you time in the future and improve your work?
 
 
 > ## Discuss in groups
@@ -78,7 +80,7 @@ This lesson has episodes covering data management, software, project organisatio
 Good Enough Practices rely on a shared set of principles that span these areas:
 
 - Planning: plan out how to work, and any plan that you can stick to is better than no plan.
-- Modular organisation: organise your data, code, project and project into coherent modules.
+- Modular organisation: organise your data, code, and projects into coherent modules.
 - Names: give good names to your files, folders, and functions, that make them easy to find and to understand.
 - Documentation: explicitly write down everything you and your collaborators need to know in the future.
 

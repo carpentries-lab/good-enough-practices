@@ -19,20 +19,14 @@ keypoints:
 {: .callout}
 
 
-## Learning best practices is a long-term process
+## Learning good practices is a long-term process
 
-We have outlined a series of practices for scientific computing based on
-our collective experience, and the experience of the thousands of
-researchers we have met through Software Carpentry, Data Carpentry, and
-similar organizations. These practices are pragmatic, accessible to
-people who consider themselves new to computing, and can be applied by
-both individuals and groups. Most importantly, these practices make
-researchers more productive individually by enabling them to get more
-done in less time and with less pain. They also accelerate research as a
-whole by making computational work (which increasingly means *all* work)
-more reproducible.
+We have outlined a series of good enough practices for scientific computing.
+These practices are pragmatic, broadly accessible, and can be applied by both individuals and groups. 
+Most importantly, these practices make researchers more productive individually by enabling them to get more done in less time and with less pain.  
+They also accelerate research as a whole by making work more reproducible.
 
-We have covered good enough practices in several areas:
+We have covered good practices in several areas:
 
 - Data management
 - Software
@@ -44,23 +38,24 @@ We have covered good enough practices in several areas:
 Good Enough Practices rely on a shared set of principles that span these areas:
 
 - Planning: plan out how to work, and any plan that you can stick to is better than no plan.
-- Modular organisation: organise your data, code, project and project into coherent modules.
+- Modular organisation: organise your data, code, and projects into coherent modules.
 - Names: give good names to your files, folders, and functions, that make them easy to find and to understand.
 - Documentation: explicitly write down everything you and your collaborators need to know in the future.
 
-Collectively, this makes your work easier to use for other people, including for your future self. It helps to think through your work from a collaborator's point of view
+Collectively, this makes your work easier to use for other people, including for your future self. 
+Thinking through your work from a collaborator's point of view is helpful, and ultimately kinder to your future self.
 
 ## What we left out, and where to learn more
 
-Learning best practices is a long-term process that never stops.
+Learning good practices is a long-term process that never stops.
 We [left out many good practices](_extras/what-we-left-out.md) that, although useful,
 have more niche application.
-We particularly recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
+We recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
 especially for those gaining more experience with coding.
 There are [many other useful papers and resources that we have selected](_extras/resources.md)
 
-One of the best resources is your colleagues - talk to them!
-In our experience, people who have learned best practices themselves are eager to teach them to others.
+One of your best resources is your colleagues - talk to them!
+In our experience, people who have learned good practices themselves are eager to teach them to others.
 
 
 > ## What other resources are available?

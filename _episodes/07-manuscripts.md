@@ -126,7 +126,7 @@ disciplines for decades:
     [LaTeX](https://www.latex-project.org/) or
     [Markdown](https://daringfireball.net/projects/markdown/), and then convert them to
     other formats such as PDF as needed using scriptable tools like
-    Pandoc[Pandoc](https://pandoc.org/).
+    [Pandoc](https://pandoc.org/).
 
 Using a version control system provides good support for finding and
 merging differences resulting from concurrent changes. It also provides

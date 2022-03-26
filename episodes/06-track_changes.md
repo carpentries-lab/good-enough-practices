@@ -202,7 +202,7 @@ manual process: they also automate some steps while enforcing others,
 and thereby require less self-discipline for more reliable results.
 
   1.  ***Use a version control
-      system ***, to manage changes to a
+      system***, to manage changes to a
       project.
 
   Box 2 briefly explains how version control systems work. It's hard to

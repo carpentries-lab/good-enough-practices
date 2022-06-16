@@ -194,6 +194,14 @@ sample_ids.txt
 * My directory is polluted with a lot of unused/temporary/old folders because I’m afraid of losing something important
 * I made a lot of changes to my paper but only want to bring back one of paragraph
 
+### Discussion: What are your tips and strategies for keeping track of changes in your work?
+
+* 
+* 
+* 
+* 
+* 
+
 ### Discussion: what should be documented when you change something?
 
 *

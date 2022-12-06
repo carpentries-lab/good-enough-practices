@@ -3,21 +3,19 @@ title: "Software"
 teaching: 20
 exercises: 20
 questions:
-- "How to understand someone else's code? (Including your future self!)"
-- "What can you do to make debugging code easier?"
+- "What is research software?"
+- "What can you do to make code usable and reusable?"
 - "What are the characteristics of readable code?"
 objectives:
-- "Describe what is research software and its purpose"
+- "Describe what is research software and its purposes"
 - "Decompose a workflow into identifiable components"
 - "Know when to separate a script into several functions"
 - "Write code that is easy to run by others by including all dependencies, requirements, documentation, and examples"
-- "Make your code accessible and citable by submitting to a DOI-issuing repository"
 keypoints:
+- "Any code that runs on your research data is research software"
 - "Write your code to be read by other people, including future you"
-- "Give functions meaningful names"
-- "Decompose your code into bite-sized functions"
+- "Decompose your code into modules: scripts and functions, with meaningful names"
 - "Be explicit about requirements and dependencies such as input files, arguments and expected behaviour"
-- "Figshare and Zenodo allow people to use your code in a citable way"
 ---
 
 ### What your future self may think...
@@ -36,9 +34,15 @@ Smaller-scale versions of this problem are more common:
 
 ### What is research software?
 
-- Any code that runs in order to process your research data
-- A record of all the steps used to process your data (scripts and workflow such data analysis are software)
-- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable
+There are many different shapes and sizes of research software:
+
+- Any code that runs in order to process your research data.
+- A record of all the steps used to process your data (scripts and workflow such data analysis are software).
+- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable. So are Excel macros.
+- Standalone programs that do particular research tasks are also research software.
+
+There are extended discussions about research software at the [Software Sustainability Institute](https://www.software.ac.uk/about).
+
 
 > ## Software problems
 > __Discussion__
@@ -72,6 +76,10 @@ Much has been written on
 this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-modules-796bd941f036),
 and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
+
+Programs themselves are modular, and can be written in scripts that run 
+a clearly-defined set of functions on defined inputs.
+
 
 ### Place a brief explanatory comment at the start of every program
 
@@ -324,11 +332,13 @@ supposedly-innocent changes are being made to the program, or when
 it has to run on several different machines, e.g., the developer's
 laptop and the department's cluster. This type of test is called an integration test.
 
-### Submit code to a reputable DOI-issuing repository
+### Code can be managed like data
 
-Time this for submission of your paper, just as you do with data. Your software is as much a product
-of your research as your papers, and should be as easy for people to
-credit.
+Your code is like your data and also needs to be managed, backed up, and shared.
+
+Your software is as much a product of your research as your papers,
+and should be as easy for people to credit.
+Submit code to a reputable DOI-issuing repository, just as you do with data.
 DOIs for software are provided by Figshare and Zenodo, for example.
 Zenodo integrates directly with GitHub.
 

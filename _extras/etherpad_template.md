@@ -209,25 +209,25 @@ sample_ids.txt
 *
 
 
+
 ## Evaluation and Feedback
 
 Instructors and lesson maintainers use these responses to improve the lesson.
 It's very helpful!
 
-#### Please list 1 thing you liked or found particularly useful
+#### Please list one thing you liked or found particularly useful
 
 - 
 - 
 - 
--
--
+- 
+- 
 
 
 #### Please list another thing you found less useful, or that could be improved
 
 - 
--
--
--
--
-
+- 
+- 
+- 
+- 

@@ -54,7 +54,10 @@ This lesson does not aim to teach version control, but instead aims to prepare u
 If you have git users in the group, they may want to talk about how git solves all the problems. 
 Be prepared to steer the conversations back to the material and suggest that learners take a git workshop in the future.
 
+## Tips
 
+### If teaching from the website, make sure the font is big enough
 
+`Cmd +` on mac, `ctrl +` on windows. 
 
 {% include links.md %}

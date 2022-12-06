@@ -194,6 +194,14 @@ sample_ids.txt
 * My directory is polluted with a lot of unused/temporary/old folders because I’m afraid of losing something important
 * I made a lot of changes to my paper but only want to bring back one of paragraph
 
+### Discussion: What are your tips and strategies for keeping track of changes in your work?
+
+* 
+* 
+* 
+* 
+* 
+
 ### Discussion: what should be documented when you change something?
 
 *
@@ -201,18 +209,25 @@ sample_ids.txt
 *
 
 
-## Evaluation 
 
-Please list 1 thing that you liked or found particularly useful
--  
--  
-- 
--
--
+## Evaluation and Feedback
 
-Please list another thing that you found less useful, or that could be improved
--  
--  
+Instructors and lesson maintainers use these responses to improve the lesson.
+It's very helpful!
+
+#### Please list one thing you liked or found particularly useful
+
 - 
--
--
+- 
+- 
+- 
+- 
+
+
+#### Please list another thing you found less useful, or that could be improved
+
+- 
+- 
+- 
+- 
+- 

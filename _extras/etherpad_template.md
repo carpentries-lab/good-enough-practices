@@ -1,5 +1,7 @@
 # Good enough research practices for scientific computing
 
+**Date**
+
 **Instructor**
 
 **Helper** 
@@ -7,7 +9,7 @@
 **Website**
 https://carpentries-incubator.github.io/good-enough-practices
 
-## Timings
+## Timings - EDIT FOR YOUR WORKSHOP
 
 * Introduction 13:40-13:55 (15 mins)
 * Data management 13.55-14.30 (35 mins)
@@ -16,11 +18,12 @@ https://carpentries-incubator.github.io/good-enough-practices
 * Break 15.30-15.45
 * Project organization 15:45-16.05 (20 mins)
 * Keeping track of changes 16.05-16.30 (25 mins)
+* Manuscripts (optional)
 * Wrap up and feedback 16.30-16.45 (15 mins)
 
 ## Attendees
 
-Please write your name below to confirm attendance
+Please write your name below to confirm attendance, and one thing you're hoping to get out of this workshop:
 
 1.
 2.
@@ -38,9 +41,9 @@ Link to feedback form if needed
 
 What can go wrong in research computing?
 
-*
-*
-*
+* 
+* 
+* 
 
 What can go right in research computing?
 
@@ -52,9 +55,9 @@ What can go right in research computing?
 
 ### Discussion: Data management problems
 
-*
-*
-*
+* 
+* 
+* 
 
 ### Exercise: Backing up your data
 
@@ -70,9 +73,9 @@ What can go right in research computing?
 
 ### Discussion: which file formats do you store data in?
 
-*
-*
-*
+* 
+* 
+* 
 
 ### Discussion with partner: analysis friendly data
 
@@ -131,9 +134,9 @@ What type of data is each of these a good place for sharing?
 
 ### Discussion in groups: what goes wrong?
 
-*
-*
-*
+* 
+* 
+* 
 
 ### Exercise: file organization by directory
 
@@ -204,10 +207,9 @@ sample_ids.txt
 
 ### Discussion: what should be documented when you change something?
 
-*
-*
-*
-
+* 
+* 
+* 
 
 
 ## Evaluation and Feedback
@@ -217,17 +219,17 @@ It's very helpful!
 
 #### Please list one thing you liked or found particularly useful
 
-- 
-- 
-- 
-- 
-- 
+* 
+* 
+* 
+* 
+* 
 
 
 #### Please list another thing you found less useful, or that could be improved
 
-- 
-- 
-- 
-- 
-- 
+* 
+* 
+* 
+* 
+* 

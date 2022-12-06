@@ -12,7 +12,7 @@ keypoints:
 - "Different people make different contributions to good practice"
 ---
 
-> Heads up
+> ## Heads up
 >
 > When you lose your data, or stare, disgusted, at a horrible file, think of today.
 >

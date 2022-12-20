@@ -1,7 +1,7 @@
 ---
 title: "Project Organization"
-teaching: 0
-exercises: 0
+teaching: 15
+exercises: 10
 questions:
 - "How should I name my files?"
 - "How does folder organization help me"
@@ -13,10 +13,8 @@ keypoints:
 - "Good project organization saves you time"
 ---
 
-Organizing the files that make up a project in a logical and consistent
-directory structure will help you and others keep track of them. Our
-recommendations for doing this are drawn primarily from [[noble2009](#noble2009),
-[gentzkow2014](#gentzkow2014)]
+Organizing the files that make up a project in a modular, logical, and consistent
+directory structure will help you and others keep track of them.
 
 > ## Project organisation problems
 >
@@ -47,17 +45,22 @@ project for each manuscript they are working on, while others group
 all research on a common theme, data set, or algorithm into a single
 project.
 
-As a rule of thumb, divide work into projects based on the overlap
+As a rule of thumb, divide work into projects or modules based on the overlap
 in data and code files. If two research efforts share no data or
 code, they will probably be easiest to manage independently. If they
 share more than half of their data and code, they are probably best
 managed together, while if you are building tools that are used in
 several projects, the common code should probably be in a project of
-its own. Projects do often require their own organizational model,
-but the below are recommendations on how you can structure data,
-code, analysis outputs and other files. The important concept is
-that is useful to organize the project by the types of files and
-that consistency helps you effectively find and use things later.
+its own.
+
+Projects do often require their own organizational model.
+The below recommendations on how you can structure data,
+code, analysis outputs and other files, are drawn primarily 
+from [[noble2009](#noble2009), [gentzkow2014](#gentzkow2014)]
+
+The important concepts are that is useful to organize the project by the types of files and
+that consistent planning and good names help you effectively find and use things later.
+
 
 ### Put text documents associated with the project in the `doc` directory.
 

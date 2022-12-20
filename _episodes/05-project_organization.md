@@ -276,18 +276,21 @@ findings.
 > - Integrated Development Environments (IDEs):
 >   - PyCharm, VSCode for python, etc.
 >   - RStudio for R, etc.
-> - Notebooks (jupyter, .Rmd)
->   - Collect data, code, results, thinking
-> - Cookie Cutter project templates
-> [https://github.com/mkrapp/cookiecutter-reproducible-science](https://github.com/mkrapp/cookiecutter-reproducible-science)
+> - Notebooks (jupyter, R markdown .Rmd)
+>   - Collect data, code, results, thinking in single documents
+> - [Cookie Cutter project templates for reproducible science](https://github.com/mkrapp/cookiecutter-reproducible-science)
 >
 {: .callout}
 
 > ## Attribution
 > Content of this episode was adopted after Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
+> 
+> Some content was adapted from [FAIR in Biological Practice episode on files and organisation](https://carpentries-incubator.github.io/fair-bio-practice/09-files-organization/index.html). That material gives a slightly different and also useful perspective.
 {: .callout}
 
 
 {% include links.md %}
 
+[noble2009]: https://doi.org/10.1371/journal.pcbi.1000424
+[gentzkow2014]: https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf

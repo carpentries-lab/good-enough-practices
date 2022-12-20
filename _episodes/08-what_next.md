@@ -23,7 +23,7 @@ keypoints:
 
 We have outlined a series of good enough practices for scientific computing.
 These practices are pragmatic, broadly accessible, and can be applied by both individuals and groups. 
-Most importantly, these practices make researchers more productive individually by enabling them to get more done in less time and with less pain.  
+Most importantly, these practices make researchers more productive individually by enabling them to get more done in less time and with less pain.
 They also accelerate research as a whole by making work more reproducible.
 
 We have covered good practices in several areas:
@@ -45,14 +45,15 @@ Good Enough Practices rely on a shared set of principles that span these areas:
 Collectively, this makes your work easier to use for other people, including for your future self. 
 Thinking through your work from a collaborator's point of view is helpful, and ultimately kinder to your future self.
 
+
 ## What we left out, and where to learn more
 
 Learning good practices is a long-term process that never stops.
-We [left out many good practices](_extras/what-we-left-out.md) that, although useful,
+We [left out many good practices](/_extras/what-we-left-out.md) that, although useful,
 have more niche application.
 We recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
 especially for those gaining more experience with coding.
-There are [many other useful papers and resources that we have selected](_extras/resources).
+There are [many other useful papers and resources that we have selected](/_extras/resources).
 
 One of your best resources is your colleagues - talk to them!
 In our experience, people who have learned good practices themselves are eager to teach them to others.
@@ -72,17 +73,17 @@ Progress in computational good practices comes from different places in the scie
 
 - Funders can require [data management plans](https://www.dcc.ac.uk/resources/data-management-plans) and provide support for data management.
 - Institutions can value the time that goes into data sharing and training.
-- Research librarians, research software engineers, and data managers.
-- PIs and lab heads can require that lab members share code and data.
+- Research librarians, research software engineers, and data managers support others in learning and applying good practices.
+- PIs and lab heads can require that lab members share code and data, and make it easy for them to do so.
 - Lab members can organise "data curation days" and training sessions to share good practices.
 - Self-organised groups led by students and postdocs can share ideas and train each other.
 - Global organisations like [The Carpentries](https://carpentries.org) can co-ordinate training and suport training materials.
 - Professional societies can help to organise training.
 
 It takes time to learn good practices, and time to train others.
-This time has to be valued by individuals, funders, institution, and the scientific community.
+This time has to be valued by individuals, funders, institutions, and the scientific community.
 
-Your own work developing your own good practice is ultimately a personal journey that will impact your career and impact the people around you.
+Developing your own good practices is ultimately a personal journey that will impact your career and impact the people around you.
 Maybe today you will learn to write README files, or next year you might start using version control, or in the future you could find yourself teaching students to write data management plans for their projects.
 
 

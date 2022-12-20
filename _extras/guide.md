@@ -10,8 +10,18 @@ Later-year computational PhD students say "I wish I had know this when I started
 Learners will always have a mixture of backgrounds and skills, whatever their career stage.
 Based on their education, past research experience, past jobs, and hobbies, there can be a lot of variation.
 The goal of the material is that everyone has a chance to reflect on their practice and learn something valuable.
+Informally, if delivering this workshop saves 1 person from losing all their data, then it already made the world a better place.
 
-Pre-lesson (or even pre-episode) survey are extremely useful to understand the level at which the learners are entering the lesson/episode. You should include these in the etherpad to help tweak you discussion level.
+Pre-lesson (or even pre-episode) surveys are extremely useful to understand the level at which the learners are entering the lesson/episode.
+You could include these in the etherpad to help adjust your discussions to the learners.
+These questions are in the [collaborative document template](#collabtemplate).
+
+
+## What to skip
+
+The manuscripts episode is skippable for earlier-career audiences (e.g. 1st-year PhD students) as they are far away from writing a manuscript.
+
+The software-based project organisation template is too detailed for non-programmers so can be gone through very quickly or skipped. However, people who are already programming and finding it hard to organize their code may find it useful to spend more time on.
 
 
 ## Discussions are the opportunity for peer to peer learning
@@ -45,6 +55,9 @@ Do we need to make a template for that in this repository??
 In this lesson, using the collaborative document teaches the collaboration skills that we want to teach.
 This is especially important for the manuscripts episode, where the group collaborating in a document is an example of the "Single Master Online" approach and so leads learners to reflect on the process of collaborating.
 
+There is a [collaborative document template](#collabtemplate) to paste into etherpad or whatever collaborative document you use.
+It includes reminders for a beginning-workshop hello, templates for the exercises, and template for evaluation at the end.
+
 
 ## This lesson prepares learners for version control, but does not teach it
 
@@ -54,10 +67,22 @@ This lesson does not aim to teach version control, but instead aims to prepare u
 If you have git users in the group, they may want to talk about how git solves all the problems. 
 Be prepared to steer the conversations back to the material and suggest that learners take a git workshop in the future.
 
+
+## Collect feedback!
+
+If you're teaching in person you can use [the Carpentries' red and green sticky notes](https://swcarpentry.github.io/swc-releases/2017.02/instructor-training/15-practices/).
+There is also a section for one-up/one-down feedback in the Etherpad template.
+Remember to leave time for evaluation.
+
+Please do file an issue on the github site summarizing the feedback, and feel free to file issues or pull requests suggesting specific edits as well. 
+
+
 ## Tips
 
 ### If teaching from the website, make sure the font is big enough
 
 `Cmd +` on mac, `ctrl +` on windows. 
+
+[#collabtemplate]: https://github.com/carpentries-incubator/good-enough-practices/blob/gh-pages/_extras/etherpad_template.md
 
 {% include links.md %}

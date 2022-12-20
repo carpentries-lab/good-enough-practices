@@ -326,12 +326,11 @@ but these are not yet mature enough for us to recommend.
 
 > ## Some git resources
 >
-> - Software Carpentry git workshop https://swcarpentry.github.io/git-novice/
-> - Edinburgh Carpentries runs courses: https://edcarp.github.io/
-> - https://ourcodingclub.github.io/tutorials/git/
-> - Crash course on youtube: https://youtu.be/SWYqp7iY_Tc
-> - Learn git branching: https://learngitbranching.js.org/
-> - Learn git-game: https://github.com/git-game/git-game
+> - [Software Carpentry git workshop](https://swcarpentry.github.io/git-novice/).
+> - [Intro to git and GitHub for version control, Coding Club](https://ourcodingclub.github.io/tutorials/git/).
+> - [Git & GitHub Crash Course For Beginners, Traversy on YouTube](https://youtu.be/SWYqp7iY_Tc).
+> - [Learn Git Branching, a visual and interactive way to learn Git on the web](https://learngitbranching.js.org/)
+> - [git-game, a command-line game for learning git commands](https://github.com/git-game/git-game).
 >
 {: .callout}
 

@@ -52,7 +52,7 @@ We [left out many good practices](_extras/what-we-left-out.md) that, although us
 have more niche application.
 We recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
 especially for those gaining more experience with coding.
-There are [many other useful papers and resources that we have selected](_extras/resources.md)
+There are [many other useful papers and resources that we have selected](_extras/resources).
 
 One of your best resources is your colleagues - talk to them!
 In our experience, people who have learned good practices themselves are eager to teach them to others.
@@ -68,45 +68,29 @@ In our experience, people who have learned good practices themselves are eager t
 
 ## Different people make different contributions to good practice
 
-For the scientific community as a whole, progress in computational good
-practices will not happen by itself. The practices are being
-increasingly incentivized through requirements from funding agencies and
-journals, but the time and skills required to put these approaches into
-practice are still not being valued.
+Progress in computational good practices comes from different places in the scientific community:
 
-At a local level, PIs can have the most impact, requiring that the
-research their lab produces follow these recommendations. Even if a PI
-doesn't have a background in computation, they can require that students
-show and share their code in lab meetings and with lab mates, that data
-is available and accessible to all in the lab and that computational
-methods sections are comprehensive. PIs can also value the time it takes
-to do these things effectively and provide opportunities for training.
+- Funders can require [data management plans](https://www.dcc.ac.uk/resources/data-management-plans) and provide support for data management.
+- Institutions can value the time that goes into data sharing and training.
+- Research librarians, research software engineers, and data managers.
+- PIs and lab heads can require that lab members share code and data.
+- Lab members can organise "data curation days" and training sessions to share good practices.
+- Self-organised groups led by students and postdocs can share ideas and train each other.
+- Global organisations like [The Carpentries](https://carpentries.org) can co-ordinate training and suport training materials.
+- Professional societies can help to organise training.
 
-Universities can also support such efforts. While this is often provided
-by IT or High Performance Computing (HPC) groups, research librarians
-are an often under-appreciated resource. Librarians have thought about
-and worked with data and provenance even before these computational
-challenges and increasingly have dedicated data librarians on staff who
-have an explicit service role.
+It takes time to learn good practices, and time to train others.
+This time has to be valued by individuals, funders, institution, and the scientific community.
 
-Many campuses also have self-organized groups led by students who wish
-to learn from each other, which may operate independently or in concert
-with organizations like Software Carpentry, Data Carpentry, or
-The Hacker Within[^38].
-
-Finally, many funding agencies now require data management plans and
-education and outreach activities. The true cost of implementing these
-plans includes training: it is unfair as well as counter-productive to
-insist that researchers do things without teaching them how. We believe
-it is now time for funders to invest in such training; we hope that our
-recommendations will help shape consensus on what "good enough" looks
-like and how to achieve it.
+Your own work developing your own good practice is ultimately a personal journey that will impact your career and impact the people around you.
+Maybe today you will learn to write README files, or next year you might start using version control, or in the future you could find yourself teaching students to write data management plans for their projects.
 
 
 > ## What will you do next?
 >
 > - Which good enough practices will you use in your next project?
 > - How can you help your colleagues in using good practices?
+> - What could your longer-term contribution to good practices be?
 >
 {: .discussion}
 

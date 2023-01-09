@@ -13,19 +13,19 @@ questions:
 objectives:  
 - "Identify problems with data management practices"  
 - "Understand what raw data is"  
-- "Understand what is backing up data and why it is important to back up in more than one location"  
+- "Understand what backing up data means and why it is important to back up in more than one location"  
 - "Be able to decide on appropiate file names and identifiers"  
 - "Be able to create analysis ready datasets"  
 - "Understand the importance of documenting your process"  
 - "Understand what a DOI is and its usefulness"  
 
 keypoints:  
-- "Raw data is the data as originally generated. It should be kept read-only"  
+- "Raw data is the data as originally generated -- it should be kept read-only"  
 - "Raw data has to be backed up in more than one location"  
 - "Create the data you wished you have received"  
 - "Keeping track of your actions is a key part of data management"  
 - "The Digital object identifiers (DOIs) is a unique identifier that permanently identifies data and makes it findable"  
-- "Finding a repository tailored to your data is key to making it finable and accessible by the broader community"  
+- "Finding a repository tailored to your data is key to making it findable and accessible by the broader community"  
 
 ---
 
@@ -33,7 +33,7 @@ keypoints:
 Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382) 
 
 > ## Data management problems (2+2 minutes)  
-> In your opinion, what can go wrong with data management? Write down 2 issues in the collaborative document.  
+> In your opinion, what can go wrong when you have poor data management? Write down 2 issues in the collaborative document.  
 >   
 > > ## Solution  
 > > * Data loss  
@@ -46,7 +46,7 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 
 ## Data management  
 Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
-Data management is the process of storing, documenting, organising, and sharing the data created and collected during a project.  
+Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.  
 Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
 ### Save the raw data  
@@ -62,9 +62,9 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > * Network drive  
 > 
 > > ## Solution  
-> > * Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it?  
+> > * Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it? Do you have to pay for the service and what happens to your data if you can no longer afford it? 
 > > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
-> > * USB pen drive: definitely not! pen-drives are prone to dying (and your data with it). It also raises data security issues.  
+> > * USB pen drive: definitely not! Pen-drives are prone to dying (and your data with it). It also raises data security issues and they can be easily lost.  
 > > * External hard-drive: see above.  
 > > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
 > > * My workstation's hard-disk: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
@@ -200,18 +200,18 @@ and "014025" in another. It is generally wise to give each record or
 unit a unique, persistent key and to use the same names and codes
 when variables in two datasets refer to the same thing.
 
-### Submit data to a reputable DOI-issuing repository so that others can access and cite it.  
+### Submit data to a reputable DOI-issuing repository so that others can access and cite it  
 > ## Sharing your data with the world (2+2 minutes)  
 >  
 > Which of the following places would be good places to share your data?  
 > * Personal/lab web-site  
-> * Github  
+> * GitHub  
 > * General repo (i.e.: Zenodo, Data Dryad, etc.)  
 > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.)  
 >   
 > > ## Solution  
 > > * Personal/lab web-site: this is not the best place to store your data long-term. Can you think of why?  
-> > * Github: in itself it is not proper for sharing your data as it can be modified. However, a snapshot of a Github repository can be stored in Zenodo and be issued a DOI.   
+> > * GitHub: in itself it is not proper for sharing your data as it can be modified. However, a snapshot of a Github repository can be stored in Zenodo and be issued a DOI.   
 > > * General repo (i.e.: Zenodo, Data Dryad, etc.): good option to deposit data that does not fit in a specific repository.  
 > > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.): best option to share your data.  
 > >  
@@ -234,8 +234,8 @@ and write a good README file for the humans
 
 > ## What is a DOI?  
 > - A digital object identifier is a persistent identifier or handle used to identify objects uniquely.  
-> - Data with a persistent doi can be found even when your lab website dies  
-> - doi-issuing repositories include: zenodo, figshare, dryad  
+> - Data with a persistent DOI can be found even when your lab website dies.
+> - doi-issuing repositories include: zenodo, figshare, dryad.  
 >  
 {: .callout}  
 
@@ -249,6 +249,30 @@ and write a good README file for the humans
 > - Dryad (http://datadryad.org): A repository that aims to make data archiving as simple and as rewarding as possible through a suite of services not necessarily provided by publishers or institutional websites.
 >
 {: .callout}
+
+
+### Data management plans
+
+Many UK universities and funders require researchers to complete a data management plan (DMP). A DMP is a document which outlines information about your research data and how it will be processed. Many funders provide basic templates for writing a DMP, along with guidelines on what information should be included but the main compoments of a DMP are:
+* Information about your data
+* Information about your metadata and data formats
+* Information on how data can be accessed, shared and re-used
+* Information on how data will be stored and managed, including long-term storage and maintenance after your project is complete
+
+
+> ## Discussion (2 minutes)  
+>  
+> Aside from being a requirement, there are many benefits of writing a DMP to researchers. What sort of benefits do you think there are? Enter your answers in the collaborative document. 
+>   
+> > ## Solution  
+> > * Find and understand data easily 
+> > * Allows continuity of work when colleagues leave or join the lab   
+> > * It helps you consider issues about your data before they arise and come up with solutions
+> >  
+> {: .solution}  
+{: .challenge}  
+
+Writing your first data management plan can be a daunting task but your future self will thank you in the end. It's best to speak to other members of your lab about any existing lab group or grant data management plans. If you lab group doesn't have a data management plan, it may be helpful to work on it together to identify any major considerations.
 
 ### Summary
 

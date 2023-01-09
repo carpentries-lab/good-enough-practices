@@ -71,7 +71,7 @@ The core realization in these practices is that *readable*, *reusable*,
 and *testable* are all side effects of writing *modular* code, i.e., of
 building programs out of short, single-purpose functions with
 clearly-defined inputs and outputs
-[[hunt 1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999)].
+[[hunt1999](https://scholar.google.com/scholar_lookup?title=The+Pragmatic+Programmer&author=A+Hunt&author=D+Thomas&publication_year=1999)].
 Much has been written on
 this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-modules-796bd941f036),
 and this section focuses on practices that best

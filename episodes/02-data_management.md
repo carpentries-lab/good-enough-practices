@@ -272,7 +272,12 @@ Many UK universities and funders require researchers to complete a data manageme
 > {: .solution}  
 {: .challenge}  
 
-Writing your first data management plan can be a daunting task but your future self will thank you in the end. It's best to speak to other members of your lab about any existing lab group or grant data management plans. If you lab group doesn't have a data management plan, it may be helpful to work on it together to identify any major considerations.
+Writing your first data management plan can be a daunting task but your future self will thank you in the end. 
+It's best to speak to other members of your lab about any existing lab group or grant data management plans. 
+If you lab group doesn't have a data management plan, it may be helpful to work on it together to identify any major considerations.
+
+More resources on data management plans are available at [DMP online](https://dmponline.dcc.ac.uk).
+
 
 ### Summary
 

@@ -7,16 +7,16 @@ questions:
 - "How can documentation make my project more efficient?"
 - "What is a license and does my project need one?"
 objectives:
-- "Facilitate contributions from present and future collaborators."
-- "Learn to treat every project as a collaborative project."
-- "Describe a project in a README file."
-- "Explain how licenses are useful for your project."
+- "Facilitate contributions from present and future collaborators"
+- "Learn to treat every project as a collaborative project"
+- "Describe a project in a README file"
+- "Explain how licenses are useful for your project"
 keypoints:
-- "Create an overview of your project."
-- "Create a shared “to-do” list."
-- "Decide on communication strategies."
-- "Make the license explicit."
-- "Make the project citable."
+- "Create an overview of your project"
+- "Create a shared “to-do” list"
+- "Decide on communication strategies"
+- "Make the license explicit"
+- "Make the project citable"
 ---
 
 You may start working on projects by yourself or with a small group of
@@ -40,21 +40,21 @@ people to give you credit for your work.
 >
 >> ## Suggestions
 >>
->> How collaboration can help
+>> How collaboration can help:
 >> *   Collaboration brings other ideas and perspectives on your project
 >> *   Describing your project to (potential) collaborators can help to focus the project
 >> *   Thinking about other people helps you to return to your project later
 >> 
->> What can go wrong with collaboration
+>> What can go wrong with collaboration:
 >> *   People can be confused about:
->>  *   goals: what are we trying to do?
->>  *   process: what tools will we use, how will we do it?
->>  *   responsibilities: whose job is it to do this thing?
->>  *   credit: how are contributions going to be recognized?
->>  *   data: how do we share sensitive data?
->>  *   timelines: when will people finish their tasks?
+>>    *   Goals: what are we trying to do?
+>>    *   Process: what tools will we use, how will we do it?
+>>    *   Responsibilities: whose job is it to do this thing?
+>>    *   Credit: how are contributions going to be recognized?
+>>    *   Data: how do we share sensitive data?
+>>    *   Timelines: when will people finish their tasks?
 >> 
->> How to prepare for collaboration
+>> How to prepare for collaboration:
 >> *   Document important things
 >> *   Decide on goals and a way of working (process)
 >> *   Clarify the scope and audience of your project
@@ -64,7 +64,7 @@ people to give you credit for your work.
 {: .discussion}
 
 
-### Create an overview of your project.
+### Create an overview of your project
 
 Written documentation is essential for collaboration.
 Future you will forget things, and your collaborators will not know them in the first place.
@@ -78,11 +78,11 @@ project's home directory that explains the purpose of the project.
 This file (generally called `README`, `README.txt`, or something
 similar) should contain :
 
-- the project's title
-- a brief description
-- up-to-date contact information
-- an example or two of how to run the most important tasks
-- broad overview of folder structure
+- The project's title
+- A brief description
+- Up-to-date contact information
+- An example or two of how to run the most important tasks
+- Broad overview of folder structure
 
 
 #### Describe how to contribute to the project
@@ -97,9 +97,9 @@ they can help.
 A separate `CONTRIBUTING` file can also describe what
 people need to do in order to get the project going and use or
 contribute to it:
-- dependencies that need to be installed
-- tests that can be run to ensure that software has been installed correctly
-- guidelines or checklists that your project adheres to.
+- Dependencies that need to be installed
+- Tests that can be run to ensure that software has been installed correctly
+- Guidelines or checklists that your project adheres to.
 
 A `CONTRIBUTING` file like this can be very helpful in reminding you details of your project that may be forgotten over time.
 
@@ -108,31 +108,31 @@ A `CONTRIBUTING` file like this can be very helpful in reminding you details of 
 > What do you think is good and what can be improved about each one.  
 > [Data Project README](https://github.com/ewallace/pseudonuclease_evolution_2020)  
 > [Software Project README](https://github.com/DualSPHysics/DualSPHysics)
->> ## Data Project README
->> - contains a DOI
->> - describes the purpose of the code and link to a related paper
->> - describes the project structure
->> - includes a license  
->> however
->> - does not contain requirements
->> - does not include a working example
->> - does not include a explicit list of authors (can be inferred from paper though)
->> ## Software Project README
->> - describes the purpose of the code
->> - describes the requirements
->> - includes instructions for various type of users
->> - describes how to contribute
->> - includes a working example
->> - includes a license  
->> however
->> - does not include an explicit DOI
->> - does not describe the project structure
+>> ## Solution
+>> A Data Project README:
+>> - Contains a DOI
+>> - Describes the purpose of the code and link to a related paper
+>> - Describes the project structure
+>> - Includes a license  
+>> - DOES NOT contain requirements
+>> - DOES NOT include a working example
+>> - DOES NOT include a explicit list of authors (can be inferred from paper though)
+>> 
+>> A Software Project README:
+>> - Describes the purpose of the code
+>> - Describes the requirements
+>> - Includes instructions for various type of users
+>> - Describes how to contribute
+>> - Includes a working example
+>> - Includes a license  
+>> - DOES NOT include an explicit DOI
+>> - DOES NOT describe the project structure
 > {: .solution}
 {: .challenge}
 
 
 
-### Create a shared "to-do" list.
+### Create a shared "to-do" list
 
 This can be a plain text
 file called something like `notes.txt` or `todo.txt`, or you can use
@@ -142,7 +142,7 @@ point newcomers at issues that are good starting points.) Whatever
 you choose, describe the items clearly so that they make sense to
 newcomers.
 
-### Decide on communication strategies.
+### Decide on communication strategies
 
 Make explicit
 decisions about (and publicize where appropriate) how members of the
@@ -154,16 +154,15 @@ private.
 
 ### Working with sensitive data
 It is important to identify whether your project will work with sensitive data - by which we might mean:
-  * research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
-  * commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
-  * data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
+  * Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
+  * Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
+  * Data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
 
 It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).  These laws vary between countries and may affect whether you can share information between collaborators in different countries.
 
 If you determine that your project will include work with sensitive data, it is important to agree with collaborators on how and where the data will be stored, as well as what the mechanisms for sharing the data will be and who is ultimately responsible for ensuring these are followed. 
 
-### Make the license explicit.
-
+### Make the license explicit
 
 > ## What is a licence?
 >
@@ -205,7 +204,7 @@ A useful resource to compare different licenses is available at [tldrlegal](http
 > integrate permissively-licensed software into other projects, see
 > chapter three in [[laurent2004](https://www.oreilly.com/library/view/understanding-open-source/0596005814/)].
 
-### Make the project citable.
+### Make the project citable
 
 A `CITATION` file describes how to cite this
 project as a whole, and where to find (and how to cite) any data

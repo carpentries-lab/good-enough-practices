@@ -18,10 +18,9 @@ directory structure will help you and others keep track of them.
 
 > ## Project organisation problems
 >
-> Discussion – what goes wrong with project organisation?
-> - Where is the code that made this figure?
-> - I am disgusted to even look at this directory
-> - ...
+> Discuss what can go wrong with project organisation:
+> - Struggling to find the code that creates a particular figure
+> - Hating to look at or even think about your project because of how badly organised it is
 >
 {: .challenge}
 
@@ -29,15 +28,15 @@ directory structure will help you and others keep track of them.
 >
 > You look at a directory (or project), you read it, and it tells you what you need to know
 >
-> ... as long as you update it.
+> ... as long as you keep it updated!
 >
 {: .callout}
 
 
 
-### Put each project in its own directory, which is named after the project.
+### Put each project in its own directory, which is named after the project
 
-Like deciding
+Similar to deciding
 when a chunk of code should be made a function, the ultimate goal of
 dividing research into distinct projects is to help you and others
 best understand your work. Some researchers create a separate
@@ -56,7 +55,7 @@ its own.
 Projects do often require their own organizational model.
 The below recommendations on how you can structure data,
 code, analysis outputs and other files, are drawn primarily 
-from [[noble2009](#noble2009), [gentzkow2014](#gentzkow2014)]
+from [[noble2009](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424), [gentzkow2014](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)]
 
 The important concepts are that is useful to organize the project by the types of files and
 that consistent planning and good names help you effectively find and use things later.
@@ -72,8 +71,8 @@ projects.
 
 ### Put raw data and metadata in a `data` directory, and files generated during cleanup and analysis in a `results` directory
 
-where "generated
-files" includes intermediate results, such as cleaned data sets or
+When we refer to "generated
+files", this includes intermediate results, such as cleaned data sets or
 simulated data, as well as final results such as figures and tables.
 
 The `results` directory will *usually* require additional
@@ -86,7 +85,7 @@ grouped together. Similarly, the `data` directory might require
 subdirectories to organize raw data based on time, method of
 collection, or other metadata most relevant to your analysis.
 
-### Put project source code in the `src` directory.
+### Put project source code in the `src` directory
 
 `src` contains all of
 the code written for the project. This includes programs written in
@@ -111,7 +110,7 @@ and analysis functions from the other files in this directory, and
 create and save a numeric result. For a small project with one main
 output, a single controller script should be placed in the main
 `src` directory and distinguished clearly by a name such as
-"runall". The short example in Figure [fig:script] is typical of
+"runall". The short example below is typical of
 scripts of this kind; note how it uses one variable, `TEMP_DIR`, to
 avoid repeating the name of a particular directory four times.
 
@@ -170,7 +169,7 @@ change as the project evolves.
 
 ### Example
 
-The diagram in Figure [fig:project] provides a concrete example of how a
+The diagram below provides a concrete example of how a
 simple project might be organized following these recommendations:
 
 ```

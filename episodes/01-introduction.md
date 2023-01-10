@@ -9,7 +9,7 @@ objectives:
 keypoints:
 - "Computing is essential in science and (almost) all data are digital"
 - "A set of good enough practices can make you more efficient"
-- "Future you will thank past you for adopting good practices."
+- "Future you will thank past you for adopting good practices"
 - "Shared Principles: planning, modular organisation, names, documentation"
 ---
 
@@ -24,7 +24,7 @@ Informally, it teaches how to not lose your stuff, and generally how to be more 
 Many of our recommendations are for the benefit of the collaborator every researcher cares about most:
 their future self (as the joke goes, yourself from 3 months ago doesn't answer email…).
 
-Practically, future you will either
+Practically, future you will either:
   - curse current you (bad), or
   - thank current you (better).
 
@@ -40,10 +40,10 @@ So, which habits and practices can save you time in the future and improve your 
 >
 >> ## Solution
 >>
->> *   You can lose your data.
+>> *   You can lose your data
 >> *   You can re-analyze your data in 1 year’s
->>     time and learn something important.
->> *   And many, many, more examples.
+>>     time and learn something important
+>> *   And many, many, more examples
 >>
 > {: .solution}
 {: .challenge}
@@ -73,14 +73,14 @@ In biology, as in other sciences:
 - You can learn to be "good enough" in scientific computing.
 - This is an ongoing process through your career.
 
-### Principles: planning, modular organisation, names, documentation
+### Principles: planning, modular organization, names, documentation
 
-This lesson has episodes covering data management, software, project organisation, collaboration, keeping track of changes, and manuscripts.
+This lesson has episodes covering data management, software, project organization, collaboration, keeping track of changes, and manuscripts.
 
 Good Enough Practices rely on a shared set of principles that span these areas:
 
 - Planning: plan out how to work, and any plan that you can stick to is better than no plan.
-- Modular organisation: organise your data, code, and projects into coherent modules.
+- Modular organization: organize your data, code, and projects into coherent modules.
 - Names: give good names to your files, folders, and functions, that make them easy to find and to understand.
 - Documentation: explicitly write down everything you and your collaborators need to know in the future.
 

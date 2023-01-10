@@ -107,7 +107,7 @@ Our first alternative will already be familiar to many researchers:
 We realize that in many cases, even this solution is asking too much
 from collaborators who see no reason to move forward from desktop GUI
 tools. To satisfy them, the manuscript can be converted to a desktop
-editor file format (e.g., Microsoft^^ Word `.docx` or LibreOffice
+editor file format (e.g., Microsoft Word `.docx` or LibreOffice
 `.odt`) after major changes, then downloaded and saved in the `doc`
 folder. Unfortunately, this means merging some changes and suggestions
 manually, as existing tools cannot always do this automatically when

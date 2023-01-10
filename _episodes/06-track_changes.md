@@ -4,7 +4,7 @@ teaching: 15
 exercises: 25
 questions:
 - "How do I make changes to a project without losing or breaking things?"
-- "Why does github exist?"
+- "Why does GitHub exist?"
 objectives:
 - "Describe the problems with introducing changes to files"
 - "Explain good practices in tracking changes"
@@ -16,18 +16,18 @@ keypoints:
 ---
 
 ![Figure 1. Versioning Hell](../fig/ew-versions.png)
-*from: Wit and wisdom from Jorge Cham (http://phdcomics.com/)*
+*from: Wit and wisdom from Jorge Cham [PhDComics](https://phdcomics.com/comics/archive.php?comicid=1531)*
 
 > ## Problems with change
 >
-> Which of this issues can you relate to ?
+> Which of this issues can you relate to?
 >
 > * I have fifteen versions of this file and I don’t know which is which
 > * I can’t remake this figure from last year
 > * I modified my code and something apparently unrelated does not work anymore
 > * I have several copies of the same directory because I'm worried about breaking something
 > * Somebody duplicated a record in a shared file with samples
-> * You remember seeing a data file but cannot find it anymore : is it deleted ? Moved away ?
+> * You remember seeing a data file but cannot find it anymore: is it deleted ? Moved away ?
 > * I tried multiple analysis and I don't remember which one I chose to generate my output data
 > * I have to merge changes to a paper from mails with collaborators
 > * I accidently deleted a part of my work
@@ -61,13 +61,13 @@ towards the second, or just jump in to version control.
 
 Whatever system you chose, we recommend that you:
 
-### Back up (almost) everything created by a human being as soon as it is created.
+### Back up (almost) everything created by a human being as soon as it is created
 
 This includes scripts and programs of all kinds, software packages that
 your project depends on, and documentation. A few exceptions to this
 rule are discussed below.
 
-### Keep changes small.
+### Keep changes small
 
 Each change should not be
 so large as to make the change tracking irrelevant. For example, a
@@ -79,7 +79,7 @@ that are too small. As a rule of thumb, a good size for a single
 change is a group of edits that you could imagine wanting to undo in
 one step at some point in the future.
 
-### Share changes frequently.
+### Share changes frequently
 
 Everyone working on
 the project should share and incorporate changes from others on a
@@ -90,7 +90,7 @@ This is particularly important for the manual versioning procedure
 describe below, which does not provide any assistance for merging
 simultaneous, possibly conflicting, changes.
 
-### Create, maintain, and use a checklist for saving and sharing changes to the project.
+### Create, maintain, and use a checklist for saving and sharing changes to the project
 
 The list should include writing log messages that clearly explain
 any changes, the size and content of individual changes, style
@@ -100,6 +100,7 @@ See [[gawande2011](https://books.google.co.uk/books/about/The_Checklist_Manifest
 proven value of checklists.
 
 ### Store each project in a folder that is mirrored off the researcher's working machine
+This may include:
 
 * using a system such as Dropbox, or
 * a remote version control repository such as GitHub.
@@ -110,25 +111,23 @@ moment a laptop is stolen or its hard drive fails.
 > ## How to document a change
 >
 > A good entry that documents changes should contain:
-> * date of the change
-> * author of the change
-> * list of affected files
+> * Date of the change
+> * Author of the change
+> * List of affected files
 > * A short description of the nature of the introduced changes AND/OR motivation behind the change.
 >
 > Examples of the descriptions are:
-> * added flow cytometry data for the control and starvation stressed samples
+> * Added flow cytometry data for the control and starvation stressed samples
 >
-> * updated matplot library to version 3.4.3 and regenerated figures
+> * Updated matplot library to version 3.4.3 and regenerated figures
 >
-> * added pane with protein localization to the Figure 3 and its discussion in the text
+> * Added pane with protein localization to the Figure 3 and its discussion in the text
 >
-> * reverted to the previous version of the abstract text as the manuscript reached word limits
+> * Reverted to the previous version of the abstract text as the manuscript reached word limits
 >
-> * cleaned the strain inventory
-> Recent freezer cleaning and ordering indicated a lot of problem with the strains data. The missing physical samples were removed from the table, the duplicated ids are marked for checking with PCR. The antibiotic resistence were moved from phenotype description to its own column.
+> * Cleaned the strain inventory: Recent freezer cleaning and ordering indicated a lot of problem with the strains data. The missing physical samples were removed from the table, the duplicated ids are marked for checking with PCR. The antibiotic resistence were moved from phenotype description to its own column.
 >
-> * new regulation heatmap
-> As suggested by Will I used the normalization and variance stabilization procedure from Hafemeister et al prior to clustering and heatmap generation
+> * New regulation heatmap: As suggested by Will I used the normalization and variance stabilization procedure from Hafemeister et al prior to clustering and heatmap generation
 >
 > The largest the project (measured either in: collaborators, file numbers, or workflow complexity) the more detailed the change description should be.
 > While your personal project can get away with one liner descrptions, the largest projects should always contain inforamtion about motivation behind the change and
@@ -326,11 +325,11 @@ but these are not yet mature enough for us to recommend.
 
 > ## Some git resources
 >
-> - [Software Carpentry git workshop](https://swcarpentry.github.io/git-novice/).
-> - [Intro to git and GitHub for version control, Coding Club](https://ourcodingclub.github.io/tutorials/git/).
-> - [Git & GitHub Crash Course For Beginners, Traversy on YouTube](https://youtu.be/SWYqp7iY_Tc).
+> - [Software Carpentry git workshop](https://swcarpentry.github.io/git-novice/)
+> - [Intro to git and GitHub for version control, Coding Club](https://ourcodingclub.github.io/tutorials/git/)
+> - [Git & GitHub Crash Course For Beginners, Traversy on YouTube](https://youtu.be/SWYqp7iY_Tc)
 > - [Learn Git Branching, a visual and interactive way to learn Git on the web](https://learngitbranching.js.org/)
-> - [git-game, a command-line game for learning git commands](https://github.com/git-game/git-game).
+> - [git-game, a command-line game for learning git commands](https://github.com/git-game/git-game)
 >
 {: .callout}
 

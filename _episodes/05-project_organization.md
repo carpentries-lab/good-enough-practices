@@ -34,7 +34,7 @@ directory structure will help you and others keep track of them.
 
 
 
-### Put each project in its own directory, which is named after the project
+## Put each project in its own directory, which is named after the project
 
 Similar to deciding
 when a chunk of code should be made a function, the ultimate goal of
@@ -55,13 +55,14 @@ its own.
 Projects do often require their own organizational model.
 The below recommendations on how you can structure data,
 code, analysis outputs and other files, are drawn primarily 
-from [[noble2009](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424), [gentzkow2014](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)]
+from [[noble2009](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424), [gentzkow2014](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)].
 
-The important concepts are that is useful to organize the project by the types of files and
-that consistent planning and good names help you effectively find and use things later.
+The important concepts are that is useful to organize the project in
+modules by the types of files and that consistent planning and good
+names help you effectively find and use things later.
 
 
-### Put text documents associated with the project in the `doc` directory.
+## Put text documents associated with the project in the `doc` directory.
 
 This includes
 files for manuscripts, documentation for source code, and/or an
@@ -69,7 +70,8 @@ electronic lab notebook recording your experiments. Subdirectories
 may be created for these different classes of files in large
 projects.
 
-### Put raw data and metadata in a `data` directory, and files generated during cleanup and analysis in a `results` directory
+
+## Put raw data and metadata in a `data` directory, and files generated during cleanup and analysis in a `results` directory
 
 When we refer to "generated
 files", this includes intermediate results, such as cleaned data sets or
@@ -85,7 +87,8 @@ grouped together. Similarly, the `data` directory might require
 subdirectories to organize raw data based on time, method of
 collection, or other metadata most relevant to your analysis.
 
-### Put project source code in the `src` directory
+
+## Put project source code in the `src` directory
 
 `src` contains all of
 the code written for the project. This includes programs written in
@@ -128,7 +131,8 @@ avoid repeating the name of a particular directory four times.
     rm -rf $(TEMP_DIR)
 ```
 
-### Put compiled programs in the `bin` directory
+
+## Put compiled programs in the `bin` directory
 
 `bin` contains
 executable programs compiled from code in the `src` directory.
@@ -158,7 +162,7 @@ Projects that do not have any will not require `bin`.
 > hair-splitting.
 
 
-### Name all files to reflect their content or function.
+## Name all files to reflect their content or function.
 
 For example, use names
 such as `bird_count_table.csv`, `manuscript.md`, or
@@ -167,7 +171,8 @@ such as `bird_count_table.csv`, `manuscript.md`, or
 (e.g., `fig_3_a.png`), since those numbers will almost certainly
 change as the project evolves.
 
-### Example
+
+## Example
 
 The diagram below provides a concrete example of how a
 simple project might be organized following these recommendations:

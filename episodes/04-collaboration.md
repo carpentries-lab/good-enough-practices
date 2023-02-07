@@ -64,7 +64,7 @@ people to give you credit for your work.
 {: .discussion}
 
 
-### Create an overview of your project
+## Create an overview of your project
 
 Written documentation is essential for collaboration.
 Future you will forget things, and your collaborators will not know them in the first place.
@@ -85,7 +85,7 @@ similar) should contain :
 - Broad overview of folder structure
 
 
-#### Describe how to contribute to the project
+## Describe how to contribute to the project
 
 Because the README is usually the first thing
 users and collaborators on your project will look at, make it
@@ -132,7 +132,7 @@ A `CONTRIBUTING` file like this can be very helpful in reminding you details of 
 
 
 
-### Create a shared "to-do" list
+## Create a shared "to-do" list
 
 This can be a plain text
 file called something like `notes.txt` or `todo.txt`, or you can use
@@ -142,7 +142,8 @@ point newcomers at issues that are good starting points.) Whatever
 you choose, describe the items clearly so that they make sense to
 newcomers.
 
-### Decide on communication strategies
+
+## Decide on communication strategies
 
 Make explicit
 decisions about (and publicize where appropriate) how members of the
@@ -152,7 +153,9 @@ lists, chat channels, voice / video conferencing, documentation, and
 meeting notes, as well as which of these channels will be public or
 private.
 
-### Working with sensitive data
+
+## Working with sensitive data
+
 It is important to identify whether your project will work with sensitive data - by which we might mean:
   * Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
   * Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
@@ -162,7 +165,8 @@ It is important to understand the restrictions which may apply when working with
 
 If you determine that your project will include work with sensitive data, it is important to agree with collaborators on how and where the data will be stored, as well as what the mechanisms for sharing the data will be and who is ultimately responsible for ensuring these are followed. 
 
-### Make the license explicit
+
+## Make the license explicit
 
 > ## What is a licence?
 >
@@ -204,7 +208,8 @@ A useful resource to compare different licenses is available at [tldrlegal](http
 > integrate permissively-licensed software into other projects, see
 > chapter three in [[laurent2004](https://www.oreilly.com/library/view/understanding-open-source/0596005814/)].
 
-### Make the project citable
+
+## Make the project citable
 
 A `CITATION` file describes how to cite this
 project as a whole, and where to find (and how to cite) any data

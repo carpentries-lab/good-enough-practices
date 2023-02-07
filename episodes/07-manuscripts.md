@@ -39,7 +39,7 @@ in writing. If co-authors are learning new tools, ask someone
 familiar with those tools to support them!
 
 
-### Making email-based workflows work
+## Making email-based workflows work
 
 A common practice in academic writing is for the lead author to email
 successive versions of a manuscript to coauthors to collect feedback,
@@ -65,7 +65,7 @@ with date and initials, and a single lead author who co-ordinates.
 > to all other co-authors.
 
 
-### Good practices beyond an email-based workflow
+## Good practices beyond an email-based workflow
 
 Instead of an email-based workflow, we recommend mirroring good
 practices for managing software and data to make writing scalable,
@@ -93,8 +93,7 @@ approaches for managing manuscripts. The goals of both are to:
     submit it to a journal.
 
 
-
-### Single Master Online
+## Single Master Online
 
 Our first alternative will already be familiar to many researchers:
 
@@ -115,7 +114,7 @@ switching from a desktop file format to text and back (although
 [Pandoc](https://pandoc.org/) can go a long way).
 
 
-### Text-based Documents Under Version Control
+## Text-based Documents Under Version Control
 
 The second approach treats papers exactly like software, and has been
 used by researchers in mathematics, astronomy, physics, and related
@@ -148,7 +147,7 @@ e.g. through [Rmarkdown](https://rmarkdown.rstudio.com/).
 > 3. Separate sentences by linebreaks in your plain-text document, to make comparisons and merging easier.
 
 
-### Benefits and drawbacks of each approach
+## Benefits and drawbacks of each approach
 
 | Things to consider                           | Email based workflow | Single master online | Text-based under version control |
 |----------------------------------------------|----------------------|----------------------|----------------------------------|
@@ -178,7 +177,7 @@ taking advantage of automatic file versioning and shared editing.
 > * What skills taught in this lesson would you apply to text-based writing under version control?
 
 
-### Supplementary Materials
+## Supplementary Materials
 
 Supplementary materials often contain much of the work that went into
 the project, such as tables and figures or more elaborate descriptions

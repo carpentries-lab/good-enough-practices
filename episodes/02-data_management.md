@@ -44,12 +44,16 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 > {: .solution}  
 {: .challenge}  
 
+
 ## Data management  
+
 Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
 Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.  
 Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
-### Save the raw data  
+
+## Save the raw data
+
 > ## Backing up your data (2+2 minutes)  
 >  
 > Which of the following do you believe are good ways and bad ways of backing up your data?  
@@ -100,7 +104,9 @@ use incremental backup or specialized storage systems, and people in
 your local IT group or library can often provide advice and
 assistance on options at your university or organization as well.
 
-### Create the data you wish to see in the world  
+
+## Create the data you wish to see in the world
+
 > ## Discussion (2 minutes)  
 > Which file formats do you store your data in? Enter your answers in the collaborative document.  
 {: .challenge}  
@@ -132,7 +138,9 @@ processing using computer programs, which is important when others
 want to reuse your data. Specific examples of non-destructive
 transformations that we recommend at the beginning of analysis:
 
-### Create analysis-friendly data  
+
+## Create analysis-friendly data
+
 > ## Discussion (2 minutes)  
 > Which of the table layouts is analysis friendly? Discuss. Enter your answers in the collaborative document.  
 > ![Figure 2. Tidy data](../fig/wilson-tidy-data.png)  
@@ -156,7 +164,7 @@ variable of measurements, plus a new variable for time point.
 The figure above presents an example of such a transformation.
 
 
-### Record all the steps used to process data
+## Record all the steps used to process data
 
 Data manipulation is as
 integral to your analysis as statistical modeling and inference. If
@@ -186,7 +194,8 @@ chosen as a set of boundary coordinates.
 > As much as possible, always and to help you future self.  
 {: .callout}   
 
-### Anticipate the need to use multiple tables, and use a unique identifier for every record
+
+## Anticipate the need to use multiple tables, and use a unique identifier for every record
 
 Raw data, even if tidy,
 is not necessarily complete. For example, the primary data table
@@ -200,7 +209,9 @@ and "014025" in another. It is generally wise to give each record or
 unit a unique, persistent key and to use the same names and codes
 when variables in two datasets refer to the same thing.
 
-### Submit data to a reputable DOI-issuing repository so that others can access and cite it  
+
+## Submit data to a reputable DOI-issuing repository so that others can access and cite it
+
 > ## Sharing your data with the world (2+2 minutes)  
 >  
 > Which of the following places would be good places to share your data?  
@@ -251,7 +262,7 @@ and write a good README file for the humans
 {: .callout}
 
 
-### Data management plans
+## Data management plans
 
 Many UK universities and funders require researchers to complete a data management plan (DMP). A DMP is a document which outlines information about your research data and how it will be processed. Many funders provide basic templates for writing a DMP, along with guidelines on what information should be included but the main compoments of a DMP are:
 * Information about your data
@@ -279,7 +290,7 @@ If you lab group doesn't have a data management plan, it may be helpful to work 
 More resources on data management plans are available at [DMP online](https://dmponline.dcc.ac.uk).
 
 
-### Summary
+## Summary
 
 Taken in order, the recommendations above will produce intermediate data
 files with increasing levels of cleanliness and task-specificity. An

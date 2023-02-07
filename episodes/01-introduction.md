@@ -49,7 +49,7 @@ So, which habits and practices can save you time in the future and improve your 
 {: .challenge}
 
 
-### Challenges in data-heavy biology
+## Challenges in data-heavy biology
 
 For example, consider biology.
 
@@ -66,14 +66,14 @@ In biology, as in other sciences:
 - There are more steps to understand
     - Where do you even start?
 
-### Good news: everyone has these problems!
+## Good news: everyone has these problems!
 
 - Other people have thought about good practices and created good tools.
 - You don’t have to reinvent practices and tools.
 - You can learn to be "good enough" in scientific computing.
 - This is an ongoing process through your career.
 
-### Principles: planning, modular organization, names, documentation
+## Principles: planning, modular organization, names, documentation
 
 This lesson has episodes covering data management, software, project organization, collaboration, keeping track of changes, and manuscripts.
 

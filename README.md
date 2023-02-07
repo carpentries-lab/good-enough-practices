@@ -1,3 +1,5 @@
+[![The Carpentries Lab Review Status](http://badges.carpentries-lab.org/24_status.svg)](https://github.com/carpentries-lab/reviews/issues/24)
+
 # Good Enough Practices in Scientific Computing
 
 This repository contains a 3 hour carpentries format lesson covering [Good Enough Practices in Scientific Computing (Wilson et al., 2017)](https://doi.org/10.1371/journal.pcbi.1005510): "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
@@ -23,15 +25,15 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 ## Maintainer(s)
 
-We are developing this lesson in 2021, led by a team from [Edinburgh Carpentries](https://edcarp.github.io/).
+We are developing this lesson in 2023, led by a team from [Edinburgh Carpentries](https://edcarp.github.io/).
 This lesson development is being led by the ED-DaSH consortium at The University of Edinburgh, as a collaboration between [BioRDM](https://www.ed.ac.uk/biology/research/facilities/research-data-management) and [Edinburgh Carpentries](https://edcarp.github.io/).
 Ed-DaSH is supported by the "Data driven life science skills development - equipping society for the future" UKRI-MRC grant MR/V039075/1.
 
 Current maintainers of this lesson are
 
 * Edward Wallace @ewallace
-* Tomasz Zielinski @tzielins 
-* Andrew Romanowski @aromanowski 
+* Alison Meynert @ameynert
+
 
 ## Authors
 

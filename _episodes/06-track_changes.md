@@ -61,13 +61,15 @@ towards the second, or just jump in to version control.
 
 Whatever system you chose, we recommend that you:
 
-### Back up (almost) everything created by a human being as soon as it is created
+
+## Back up (almost) everything created by a human being as soon as it is created
 
 This includes scripts and programs of all kinds, software packages that
 your project depends on, and documentation. A few exceptions to this
 rule are discussed below.
 
-### Keep changes small
+
+## Keep changes small
 
 Each change should not be
 so large as to make the change tracking irrelevant. For example, a
@@ -79,7 +81,8 @@ that are too small. As a rule of thumb, a good size for a single
 change is a group of edits that you could imagine wanting to undo in
 one step at some point in the future.
 
-### Share changes frequently
+
+## Share changes frequently
 
 Everyone working on
 the project should share and incorporate changes from others on a
@@ -90,7 +93,8 @@ This is particularly important for the manual versioning procedure
 describe below, which does not provide any assistance for merging
 simultaneous, possibly conflicting, changes.
 
-### Create, maintain, and use a checklist for saving and sharing changes to the project
+
+## Create, maintain, and use a checklist for saving and sharing changes to the project
 
 The list should include writing log messages that clearly explain
 any changes, the size and content of individual changes, style
@@ -99,7 +103,9 @@ half-done work or broken code.
 See [[gawande2011](https://books.google.co.uk/books/about/The_Checklist_Manifesto.html?id=qoZCRAAACAAJ&redir_esc=y)] for more on the
 proven value of checklists.
 
-### Store each project in a folder that is mirrored off the researcher's working machine
+
+## Store each project in a folder that is mirrored off the researcher's working machine
+
 This may include:
 
 * using a system such as Dropbox, or
@@ -107,6 +113,7 @@ This may include:
 
 Synchronize that folder at least daily. It may take a few minutes, but that time is repaid the
 moment a laptop is stolen or its hard drive fails.
+
 
 > ## How to document a change
 >
@@ -134,6 +141,7 @@ moment a laptop is stolen or its hard drive fails.
 > what are the consequences.
 >
 {: .callout}
+
 
 ## Manual Versioning
 
@@ -191,6 +199,7 @@ project, though, they will need to coordinate so that only a single
 person is working on specific files at any time. In particular, they may
 wish to create one change log file per contributor, and to merge those
 files whenever a backup copy is made.
+
 
 ## Version Control Systems
 

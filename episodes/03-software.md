@@ -18,7 +18,8 @@ keypoints:
 - "Be explicit about requirements and dependencies such as input files, arguments and expected behaviour"
 ---
 
-### What your future self may think...
+## What your future self may think...
+
 ![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
 
 The [twitter thread illustrates a real example of research software problems](https://twitter.com/neil_ferguson/status/1241835454707699713),
@@ -32,7 +33,7 @@ Smaller-scale versions of this problem are more common:
 - you publish a paper, and a masters student from the other side of the world emails you to reproduce the results for their project
 
 
-### What is research software?
+## What is research software?
 
 There are many different shapes and sizes of research software:
 
@@ -81,7 +82,7 @@ Programs themselves are modular, and can be written in scripts that run
 a clearly-defined set of functions on defined inputs.
 
 
-### Place a brief explanatory comment at the start of every program
+## Place a brief explanatory comment at the start of every program
 
 Short is fine; always include at least one example of how
 the program is used. Remember, a good example is worth a thousand
@@ -100,6 +101,10 @@ values for parameters like in this example.
         -v         = verbose
         -w size    = image width/height in pixels (typically 480-800)
         -h         = show help message
+
+
+The reader doesn't need to know what all these words mean for a comment to be useful.
+This comment tells the reader what words they need to look up: fuzzing, blobs, and so on.
 
 
 > ## Writing helpful explanatory comments
@@ -130,7 +135,7 @@ values for parameters like in this example.
 
 
 
-### Decompose programs into functions
+## Decompose programs into functions
 
 A function is a reusable section of
 software that can be treated as a black box by the rest of the
@@ -228,7 +233,7 @@ The "make a cup of tea" example above might look like this:
 > {: .solution}
 {: .challenge}
 
-### Be ruthless about eliminating duplication
+## Be ruthless about eliminating duplication
 
 Write and re-use
 functions instead of copying and pasting code, and use data
@@ -249,7 +254,8 @@ that do what you need*** before
 writing new code yourself, but ***test libraries before
 relying on them***.
 
-### Give functions and variables meaningful names
+
+## Give functions and variables meaningful names
 
 Meaningful names for functions and variables document their purpose and make the program generally easy to read. As a rule of thumb,
 the greater the scope of a variable, the more informative its name
@@ -308,7 +314,8 @@ data structures in a program should *not* have one-letter names.
 > means that meaningful longer variable names are no harder to type
 > than terse abbreviations.
 
-### Make dependencies and requirements explicit.
+
+## Make dependencies and requirements explicit.
 
 This is usually done on
 a per-project rather than per-program basis, i.e., by adding a file
@@ -316,13 +323,15 @@ called something like `requirements.txt` to the root directory of
 the project, or by adding a "Getting Started" section to the
 `README` file.
 
-### Do not comment and uncomment sections of code to control a program's behavior
+
+## Do not comment and uncomment sections of code to control a program's behavior
 
 This is error prone and makes it difficult or impossible to
 automate analyses. Instead, put if/else statements in the program to
 control what it does, and use input arguments on the command line to select particular behaviour. For example, including the input argument `--option` and corresponding if/else statements to control running an optional piece of the program. Remember to use descriptive names for input arguments.
 
-### Provide a simple example or test data set
+
+## Provide a simple example or test data set
 
 Users (including
 yourself) can run your program on this set to determine whether it is working and
@@ -332,7 +341,8 @@ supposedly-innocent changes are being made to the program, or when
 it has to run on several different machines, e.g., the developer's
 laptop and the department's cluster. This type of test is called an integration test.
 
-### Code can be managed like data
+
+## Code can be managed like data
 
 Your code is like your data and also needs to be managed, backed up, and shared.
 

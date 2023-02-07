@@ -25,6 +25,18 @@ diverse backgrounds, skills, and expectations must work together.
 In our experience, setting explicit expectations for writing
 is essential, just like other collaborations.
 
+
+> ## Discussion (3 mins)
+>
+> Whether or not you have written a scientific manuscript before, 
+> you probably have experience of group work or writing
+> Discuss on the collaborative document:
+>
+> * What tools have you used before for group writing?
+> * What's gone wrong with group writing you've been involved with in the past?
+{: .challenge}
+
+
 > **The First Rule Is…**
 >
 > The workflow you choose is less important than having all authors
@@ -166,15 +178,13 @@ users can stay within their familiar desktop GUI applications while still
 taking advantage of automatic file versioning and shared editing.
 
 
-> ## Approaching your next manuscript
-> __Discussion__
+> ## Discussion: Approaching your next manuscript (7 mins)
 >
-> Discuss on a collaborative document:
+> In groups, discuss:
 >
-> * What tools have you used before to write manuscripts?
-> * What's gone wrong with collaborative manuscripts you've been involved with in the past?
-> * Which of the above approaches do you feel most comfortable with?
-> * What skills taught in this lesson would you apply to text-based writing under version control?
+> * What's the next manuscript you'll work on, and who with?
+> * Which approaches will you use to collaborate on this next manuscript?
+{: .challenge}
 
 
 ## Supplementary Materials

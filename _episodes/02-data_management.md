@@ -68,7 +68,7 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 > 
 > > ## Solution  
 > > * Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it? Do you have to pay for the service and what happens to your data if you can no longer afford it? 
-> > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
+> > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines for most data sets. If you work with particularly sensitive data (for example data of patients), we suggest still discussing with IT and/or data security officers. 
 > > * USB pen drive: definitely not! Pen-drives are prone to dying (and your data with it). It also raises data security issues and they can be easily lost.  
 > > * External hard-drive: see above.  
 > > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  

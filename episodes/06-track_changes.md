@@ -108,7 +108,7 @@ proven value of checklists.
 
 This may include:
 
-* using a system such as Dropbox, or
+* using a shared system such as a (institutional) cloud or shared drive, or
 * a remote version control repository such as GitHub.
 
 Synchronize that folder at least daily. It may take a few minutes, but that time is repaid the

@@ -236,7 +236,7 @@ when variables in two datasets refer to the same thing.
 Your data is as much a
 product of your research as the papers you write, and just as likely
 to be useful to others (if not more so). Sites such as
-Figshare, Dryad, and Zenodo allow others to find your
+Dryad and Zenodo allow others to find your
 work, use it, and cite it; we discuss licensing in
 Section [sec:collaboration] below. Follow your research community's
 standards for how to provide metadata. Note that there are two types

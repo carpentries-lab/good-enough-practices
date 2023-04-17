@@ -259,7 +259,7 @@ and write a good README file for the humans
 > - UoE DataShare (https://datashare.is.ed.ac.uk/) local open-access repository
 > - UoE DataVault (https://datavault.ed.ac.uk) local long-term retention.
 > - Dataverse (http://thedata.org): A repository for research data that takes care of long-term preservation and good archival practices, while researchers can share, keep control of, and get recognition for their data.
-> - FigShare (http://figshare.com): A repository where users can make all of their research outputs available in a citable, shareable, and discoverable manner.
+> - FigShare (http://figshare.com): A repository where users can make all of their research outputs available in a citable, shareable, and discoverable manner. Note that figshare is commercial.
 > - Zenodo (http://zenodo.org): A repository service that enables researchers, scientists, projects, and institutions to share and showcase multidisciplinary research results (data and publications)
 > - Dryad (http://datadryad.org): A repository that aims to make data archiving as simple and as rewarding as possible through a suite of services not necessarily provided by publishers or institutional websites.
 >

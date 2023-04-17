@@ -120,7 +120,7 @@ select by year or by location.
 
 *Variable names*: Replace inscrutable variable names and artificial
 data codes with self-explaining alternatives, e.g., rename variables
-called `name1` and `name2` to `personal_name` and `family_name`,
+called `name1` and `name2` to `first_name` and `family_name`,
 recode the treatment variable from `1` vs. `2` to `untreated` vs.
 `treated`, and replace artificial codes for missing data, such as
 "-99", with `NA`, a code used in most programming languages to
@@ -139,6 +139,9 @@ processing using computer programs, which is important when others
 want to reuse your data. Specific examples of non-destructive
 transformations that we recommend at the beginning of analysis:
 
+- Create analysis-friendly data
+- Record all the steps used to process data
+- Anticipate the need to use multiple tables, and use a unique identifier for every record
 
 ## Create analysis-friendly data
 

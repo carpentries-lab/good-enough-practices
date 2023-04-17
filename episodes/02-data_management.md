@@ -225,10 +225,10 @@ when variables in two datasets refer to the same thing.
 > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.)  
 >   
 > > ## Solution  
-> > * Personal/lab web-site: this is not the best place to store your data long-term. Can you think of why?  
+> > * Personal/lab web-site: this is not the best place to store your data long-term. These websites are not hosted long term. You can have a link to the repo, though.  
 > > * GitHub: in itself it is not proper for sharing your data as it can be modified. However, a snapshot of a Github repository can be stored in Zenodo and be issued a DOI.   
-> > * General repo (i.e.: Zenodo, Data Dryad, etc.): good option to deposit data that does not fit in a specific repository.  
-> > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.): best option to share your data.  
+> > * General repo (i.e.: Zenodo, Data Dryad, etc.): good option to deposit data that does not fit in a specific repository. Best if the service is non-commerical, has long-termdata archival and issues DOIs, such as Zenodo. 
+> > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.): best option to share your data, if your research community has come up with a sustainable long-term repository.
 > >  
 > {: .solution}  
 {: .challenge}  

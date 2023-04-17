@@ -28,9 +28,12 @@ keypoints:
 - "Finding a repository tailored to your data is key to making it findable and accessible by the broader community"  
 
 ---
+## Data management  
 
-![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
-Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382) 
+Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
+Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.  
+Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
+
 
 > ## Data management problems (2+2 minutes)  
 > In your opinion, what can go wrong when you have poor data management? Write down 2 issues in the collaborative document.  
@@ -45,11 +48,9 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 {: .challenge}  
 
 
-## Data management  
+![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
+Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382) 
 
-Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
-Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.  
-Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
 
 ## Save the raw data

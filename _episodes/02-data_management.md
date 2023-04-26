@@ -14,7 +14,7 @@ objectives:
 - "Identify problems with data management practices"  
 - "Understand what raw data is"  
 - "Understand what backing up data means and why it is important to back up in more than one location"  
-- "Be able to decide on appropiate file names and identifiers"  
+- "Be able to decide on appropriate file names and identifiers"  
 - "Be able to create analysis ready datasets"  
 - "Understand the importance of documenting your process"  
 - "Understand what a DOI is and its usefulness"  
@@ -70,8 +70,8 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
 > > * USB pen drive: definitely not! Pen-drives are prone to dying (and your data with it). It also raises data security issues and they can be easily lost.  
 > > * External hard-drive: see above.  
-> > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
-> > * My workstation's hard-disk: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
+> > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropriately.  
+> > * My workstation's hard-disk: it is good as a temporal storage solution for your active data. However, you should back it up appropriately.  
 > > * Network drive: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
 > {: .solution}  
 {: .challenge}  
@@ -264,7 +264,7 @@ and write a good README file for the humans
 
 ## Data management plans
 
-Many UK universities and funders require researchers to complete a data management plan (DMP). A DMP is a document which outlines information about your research data and how it will be processed. Many funders provide basic templates for writing a DMP, along with guidelines on what information should be included but the main compoments of a DMP are:
+Many UK universities and funders require researchers to complete a data management plan (DMP). A DMP is a document which outlines information about your research data and how it will be processed. Many funders provide basic templates for writing a DMP, along with guidelines on what information should be included but the main components of a DMP are:
 * Information about your data
 * Information about your metadata and data formats
 * Information on how data can be accessed, shared and re-used
@@ -285,7 +285,7 @@ Many UK universities and funders require researchers to complete a data manageme
 
 Writing your first data management plan can be a daunting task but your future self will thank you in the end. 
 It's best to speak to other members of your lab about any existing lab group or grant data management plans. 
-If you lab group doesn't have a data management plan, it may be helpful to work on it together to identify any major considerations.
+If your lab group doesn't have a data management plan, it may be helpful to work on it together to identify any major considerations.
 
 More resources on data management plans are available at [DMP online](https://dmponline.dcc.ac.uk).
 

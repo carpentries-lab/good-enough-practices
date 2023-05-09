@@ -175,6 +175,12 @@ such as `bird_count_table.csv`, `manuscript.md`, or
 (e.g., `fig_3_a.png`), since those numbers will almost certainly
 change as the project evolves.
 
+> File names should be:
+> - Machine readable
+> - Human readable
+> - Descriptive of their contents
+> - Optional: Consistent
+> - Optional: Play well with default ordering
 
 ## Example
 

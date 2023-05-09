@@ -1,6 +1,6 @@
 ---
 title: "Collaboration"
-teaching: 15
+teaching: 12
 exercises: 25
 questions:
 - "What do collaborators need to know to contribute to my project?"
@@ -154,14 +154,7 @@ meeting notes, as well as which of these channels will be public or
 private.
 
 
-## Working with sensitive data
-
-It is important to identify whether your project will work with sensitive data - by which we might mean:
-  * Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
-  * Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
-  * Data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
-
-It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).  These laws vary between countries and may affect whether you can share information between collaborators in different countries.
+## Collaborations with sensitive data
 
 If you determine that your project will include work with sensitive data, it is important to agree with collaborators on how and where the data will be stored, as well as what the mechanisms for sharing the data will be and who is ultimately responsible for ensuring these are followed. 
 

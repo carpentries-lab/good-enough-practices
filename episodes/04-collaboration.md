@@ -10,7 +10,7 @@ objectives:
 - "Facilitate contributions from present and future collaborators"
 - "Learn to treat every project as a collaborative project"
 - "Describe a project in a README file"
-- "Explain how licenses are useful for your project"
+- "Understand what software licenses are and how they might apply to your project"
 keypoints:
 - "Create an overview of your project"
 - "Create a shared “to-do” list"

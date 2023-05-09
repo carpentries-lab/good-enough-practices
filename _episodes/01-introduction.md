@@ -53,7 +53,7 @@ So, which habits and practices can save you time in the future and improve your 
 
 For example, consider biology.
 
-![Figure 1. Biological discovery from organism through data to figures (or conclusions)](../fig/ew-intro.png)
+![This image shows the many different levels of data that biologists might work with. On the highest level, they work with organisms, shown in the image are a wasp, a tree, and a bacteria. On an intermediate level, they may collect raw data from these organisms. Shown in the image are a picture of dividing yeast cells, a western blot, and a floppy disk containing text data. On the final level, they will have visualisations of the raw data. Shown in the image are a picture of dividing cells with fluorescence at the boundary, a bar plot, and a cartoon of gene transcription.](../fig/ew-intro.png)
 
 Biologists study organisms, and have to deal with many kinds of data.
 In biology, as in other sciences:

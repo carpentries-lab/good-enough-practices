@@ -245,7 +245,7 @@ Also look for well-maintained libraries that already do what you're
 trying to do. All programming languages have libraries that you can
 import and use in your code. This is code that people have already
 written and made available for distribution that have a particular
-function. For instances there are libraries for statistics,
+function. For instance, there are libraries for statistics,
 modeling, mapping and many more. Many languages catalog the
 libraries in a centralized source, for instance R has
 CRAN, Python has PyPI, and so on. So

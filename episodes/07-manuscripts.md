@@ -29,7 +29,7 @@ is essential, just like other collaborations.
 > ## Discussion (3 mins)
 >
 > Whether or not you have written a scientific manuscript before, 
-> you probably have experience of group work or writing
+> you probably have experience of group work or writing.
 > Discuss on the collaborative document:
 >
 > * What tools have you used before for group writing?
@@ -46,7 +46,7 @@ is essential, just like other collaborations.
 
 We suggest having a meeting (or online thread) of all authors at the
 beginning of the writing process. Ask everyone how they would prefer to
-write a manuscript. The agree a decision and process, and put the outcome
+write a manuscript. Then agree on a decision and process, and put the outcome
 in writing. If co-authors are learning new tools, ask someone
 familiar with those tools to support them!
 
@@ -111,7 +111,7 @@ Our first alternative will already be familiar to many researchers:
 
 1.  ***Write manuscripts using online tools with rich
     formatting, change tracking, and reference
-    management (6a)***, such as Google Docs or MS OneDrive.
+    management***, such as Google Docs or MS OneDrive.
     With the document online, everyone's changes are in one place, and
     hence don't need to be merged manually.
 
@@ -165,7 +165,7 @@ e.g. through [Rmarkdown](https://rmarkdown.rstudio.com/).
 |----------------------------------------------|----------------------|----------------------|----------------------------------|
 | Previous user experience/comfort             | High                 | Medium               | Low                              |
 | Visible tracking of changes                  | Low                  | Variable             | High                             |
-| Institutional support                        | Low                  | High*                | Low                              |
+| Institutional support                        | Low                  | High                | Low                              |
 | Ease of merging changes and suggestions      | Low                  | Medium               | High                             |
 | Distributed control                          | Low                  | High                 | High                             |
 | Ease of formatting changes for re-submission | Low                  | Low                  | High                             |
@@ -173,7 +173,7 @@ e.g. through [Rmarkdown](https://rmarkdown.rstudio.com/).
 While we feel that text-based version control is a superior method,
 the barriers to entry may be too high for many users.
 The single master online approach is a good compromise.
-If your instution has invested in an environment (Google Docs / MS Office),
+If your institution has invested in an environment (Google Docs / MS Office),
 users can stay within their familiar desktop GUI applications while still
 taking advantage of automatic file versioning and shared editing.
 

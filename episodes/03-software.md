@@ -20,7 +20,7 @@ keypoints:
 
 ## What your future self may think...
 
-![Figure 1. Neil Ferguson's covid code twitter thread](../fig/ew-software-twit.png)
+![A tweet from Neil Ferguson, posted on March 22nd 2020. It reads “I’m conscious that lots of people would like to see and run the pandemic simulation code we are using to model control measures against COVID-19. To explain the background — I wrote the code (thousands of lines on undocumented C) 13 plus years ago to model flu pandemics…”](../fig/ew-software-twit.png)
 
 The [twitter thread illustrates a real example of research software problems](https://twitter.com/neil_ferguson/status/1241835454707699713),
 from [Prof. Neil Ferguson](https://en.wikipedia.org/wiki/Neil_Ferguson_(epidemiologist)).

@@ -53,6 +53,30 @@ bibliography: paper.bib
 
 # Summary
 
+We present a half-day learning module targeted at a broad audience of researchers who want to learn how to be more efficient and effective in their data analysis and computing, whatever their career stage. 
+These practices encompass data management, software and programming, collaborating with colleagues, organizing projects, keeping track of changes, and writing manuscripts.
+Good Enough Practices rely on a shared set of principles that span these areas: planning, modular organization, names, and documentation.
+Planning out how to work is essential, and any plan that you and your collaboratrs can stick to is better than no plan.
+Organizing your data, code, and projects into coherent modules makes them easier to understand and to re-use.
+Giving good names to your files, folders, and functions, makes them easy to find and to understand.
+Explicitly documenting everything that you and your collaborators need to know in the future communicates your plans and organization.
+Good Enough Practices has been delivered to and evaluated by PhD and post-doctoral researchers over several years.
+The lesson is in The Carpentries format and the materials are open-source and hosted on github.
+
+
+# Statement of Need
+
+> explain how the submitted artifacts contribute to computationally enabled teaching and learning, and describing how they might be adopted by others.
+
+# Learning objectives, design, and experience
+
+> describe the learning objectives, content, instructional design, and experience of use in teaching and learning situations.
+
+# How the lesson came to be
+
+The lesson is inspired by and based on the paper, Good Enough Practices in Scientific Computing (Wilson et al., 2017): "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
+
+
 
 
 # Citations

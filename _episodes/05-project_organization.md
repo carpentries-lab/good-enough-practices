@@ -65,7 +65,6 @@ from [[noble2009](https://journals.plos.org/ploscompbiol/article?id=10.1371/jour
 > names help you effectively find and use things later. Your lab or 
 > organization may have a template to use.
 
-
 ## Put text documents associated with the project in the `doc` directory.
 
 This includes

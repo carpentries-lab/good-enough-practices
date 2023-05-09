@@ -50,7 +50,7 @@ Thinking through your work from a collaborator's point of view is helpful, and u
 
 Learning good practices is a long-term process that never stops.
 We [left out many good practices](/_extras/what-we-left-out.md) that, although useful,
-have more niche application.
+have more niche applications.
 We recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
 especially for those gaining more experience with coding.
 There are [many other useful papers and resources that we have selected](/_extras/resources).
@@ -77,7 +77,7 @@ Progress in computational good practices comes from different places in the scie
 - PIs and lab heads can require that lab members share code and data, and make it easy for them to do so.
 - Lab members can organise "data curation days" and training sessions to share good practices.
 - Self-organised groups led by students and postdocs can share ideas and train each other.
-- Global organisations like [The Carpentries](https://carpentries.org) can co-ordinate training and suport training materials.
+- Global organisations like [The Carpentries](https://carpentries.org) can co-ordinate training and support training materials.
 - Professional societies can help to organise training.
 
 It takes time to learn good practices, and time to train others.

@@ -58,7 +58,6 @@ There are [many other useful papers and resources that we have selected](resourc
 One of your best resources is your colleagues - talk to them!
 In our experience, people who have learned good practices themselves are eager to teach them to others.
 
-
 > ## What other resources are available?
 >
 > - Where can you look for more help?

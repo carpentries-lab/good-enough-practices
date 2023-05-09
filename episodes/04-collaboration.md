@@ -153,11 +153,9 @@ lists, chat channels, voice / video conferencing, documentation, and
 meeting notes, as well as which of these channels will be public or
 private.
 
-
 ## Collaborations with sensitive data
 
 If you determine that your project will include work with sensitive data, it is important to agree with collaborators on how and where the data will be stored, as well as what the mechanisms for sharing the data will be and who is ultimately responsible for ensuring these are followed. 
-
 
 ## Make the license explicit
 

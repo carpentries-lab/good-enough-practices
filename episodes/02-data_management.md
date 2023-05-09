@@ -3,50 +3,48 @@ title: "Data Management"
 teaching: 12
 exercises: 20
 questions:
-- "What is data management?"  
-- "How should I back up my data?"  
-- "What data should I back up?"  
-- "How should I name my data?"  
-- "How do I share my data?"  
-- "How do I uniquely and persistently identify my data?"  
+- "What is data management?"
+- "How should I back up my data?"
+- "What data should I back up?"
+- "How should I name my data?"
+- "How do I share my data?"
+- "How do I uniquely and persistently identify my data?"
 
-objectives:  
-- "Identify problems with data management practices"  
-- "Understand what raw data is"  
-- "Understand what backing up data means and why it is important to back up in more than one location"  
-- "Be able to decide on appropiate file names and identifiers"  
-- "Be able to create analysis ready datasets"  
-- "Understand the importance of documenting your process"  
-- "Understand what a DOI is and its usefulness"  
+objectives:
+- "Identify problems with data management practices"
+- "Understand what raw data is"
+- "Understand what backing up data means and why it is important to back up in more than one location"
+- "Be able to decide on appropiate file names and identifiers"
+- "Be able to create analysis ready datasets"
+- "Understand the importance of documenting your process"
+- "Understand what a DOI is and its usefulness"
 
-keypoints:  
-- "Raw data is the data as originally generated -- it should be kept read-only"  
-- "Raw data has to be backed up in more than one location"  
-- "Create the data you wished you have received"  
-- "Keeping track of your actions is a key part of data management"  
-- "The Digital object identifiers (DOIs) is a unique identifier that permanently identifies data and makes it findable"  
-- "Finding a repository tailored to your data is key to making it findable and accessible by the broader community"  
+keypoints:
+- "Raw data is the data as originally generated -- it should be kept read-only"
+- "Raw data has to be backed up in more than one location"
+- "Create the data you wished you have received"
+- "Keeping track of your actions is a key part of data management"
+- "The Digital object identifiers (DOIs) is a unique identifier that permanently identifies data and makes it findable"
+- "Finding a repository tailored to your data is key to making it findable and accessible by the broader community"
 
 ---
-## Data management  
+## Data management
 
-Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
-Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.  
+Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.
+Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.
 Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
-
-> ## Data management problems (5 minutes)  
-> In your opinion, what can go wrong when you have poor data management? Write down 2 issues in the collaborative document.  
->   
-> > ## Solution  
-> > * Data loss  
-> > * Data corruption  
-> > * Confusion: what does this data mean? where does it come from? what is its purpose?   
-> > * Versioning issues: Which version of the analysis script was used for the manuscript?   
-> >   
-> {: .solution}  
-{: .challenge}  
-
+> ## Data management problems (5 minutes)
+> In your opinion, what can go wrong when you have poor data management? Write down 2 issues in the collaborative document.
+> 
+> > ## Solution 
+> > * Data loss
+> > * Data corruption
+> > * Confusion: what does this data mean? where does it come from? what is its purpose?
+> > * Versioning issues: Which version of the analysis script was used for the manuscript?
+> >
+> {: .solution}
+{: .challenge} 
 
 ![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
 Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382) 
@@ -55,28 +53,28 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 
 ## Save the raw data
 
-> ## Backing up your data (5 minutes)  
->  
-> Which of the following do you believe are good ways and bad ways of backing up your data?  
+> ## Backing up your data (5 minutes)
+>
+> Which of the following do you believe are good ways and bad ways of backing up your data?
 > * Commercial cloud service
 > * In-house cloud service (operates similarly to a commercial cloud service but with servers and infrastructure maintained by your organization)
 > * USB pen-drive
-> * External hard-drive  
-> * My laptop  
-> * My workstation's hard-disk  
+> * External hard-drive
+> * My laptop
+> * My workstation's hard-disk
 > * Network drive (organizational shared drive mounted to appear locally on your laptop/workstation)
 > 
-> > ## Solution  
+> > ## Solution
 > > * Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it? Do you have to pay for the service and what happens to your data if you can no longer afford it? 
 > > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines for most data sets. If you work with particularly sensitive data (for example data of patients), we suggest still discussing with IT and/or data security officers. 
-> > * USB pen drive: definitely not! Pen-drives are prone to dying (and your data with it). It also raises data security issues and they can be easily lost.  
-> > * External hard-drive: see above.  
-> > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
-> > * My workstation's hard-disk: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
-> > * Network drive: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
-> {: .solution}  
-{: .challenge}  
-  
+> > * USB pen drive: definitely not! Pen-drives are prone to dying (and your data with it). It also raises data security issues and they can be easily lost.
+> > * External hard-drive: see above.
+> > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.
+> > * My workstation's hard-disk: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.
+> > * Network drive: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.
+> {: .solution}
+{: .challenge}
+
 Where possible, save data as originally generated (i.e. by an
 instrument or from a survey). It is tempting to overwrite raw data
 files with cleaned-up versions, but faithful retention is essential
@@ -108,18 +106,19 @@ assistance on options at your university or organization as well.
 ## Working with sensitive data
 
 It is important to identify whether your project will work with sensitive data - by which we might mean:
-  * Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
-  * Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
-  * Data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
 
-It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).  These laws vary between countries and may affect whether you can share information between collaborators in different countries.
+* Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
+* Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
+* Data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
+
+It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).These laws vary between countries and may affect whether you can share information between collaborators in different countries.
 
 ## Create the data you wish to see in the world
 
-> ## Discussion (2 minutes)  
-> Which file formats do you store your data in? Enter your answers in the collaborative document.  
-{: .challenge}  
-  
+> ## Discussion (2 minutes)
+> Which file formats do you store your data in? Enter your answers in the collaborative document.
+{: .challenge}
+
 *Filenames*: Store especially useful metadata as part of the
 filename itself, while keeping the filename regular enough for easy
 pattern matching. For example, a filename like
@@ -153,11 +152,11 @@ transformations that we recommend at the beginning of analysis:
 
 ## Create analysis-friendly data
 
-> ## Discussion (2 minutes)  
-> Which of the table layouts is analysis friendly? Discuss. Enter your answers in the collaborative document.  
-> ![Figure 2. Tidy data](../fig/wilson-tidy-data.png)  
-{: .challenge}  
-  
+> ## Discussion (2 minutes)
+> Which of the table layouts is analysis friendly? Discuss. Enter your answers in the collaborative document.
+> ![Figure 2. Tidy data](../fig/wilson-tidy-data.png)
+{: .challenge}
+
 Analysis can be much easier
 if you are working with so-called "tidy" data 
 [[wickham2014](https://www.jstatsoft.org/article/view/v059i10)]. Two key
@@ -202,9 +201,9 @@ not the complete *why*. For example, choosing a region of interest
 in an image is inherently interactive, but you can save the region
 chosen as a set of boundary coordinates.
 
-> ## How, when and why do you document?  
-> As much as possible, always and to help you future self.  
-{: .callout}   
+> ## How, when and why do you document?
+> As much as possible, always and to help you future self.
+{: .callout} 
 
 
 ## Anticipate the need to use multiple tables, and use a unique identifier for every record
@@ -224,22 +223,22 @@ when variables in two datasets refer to the same thing.
 
 ## Submit data to a reputable DOI-issuing repository so that others can access and cite it
 
-> ## Sharing your data with the world (5 minutes)  
->  
-> Which of the following places would be good places to share your data?  
-> * Personal/lab web-site  
-> * GitHub  
-> * General repo (i.e.: Zenodo, Data Dryad, etc.)  
-> * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.)  
->   
-> > ## Solution  
-> > * Personal/lab web-site: this is not the best place to store your data long-term. These websites are not hosted long term. You can have a link to the repo, though.  
-> > * GitHub: in itself it is not proper for sharing your data as it can be modified. However, a snapshot of a Github repository can be stored in Zenodo and be issued a DOI.   
+> ## Sharing your data with the world (5 minutes)
+>
+> Which of the following places would be good places to share your data?
+> * Personal/lab web-site
+> * GitHub
+> * General repo (i.e.: Zenodo, Data Dryad, etc.)
+> * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.)
+> 
+> > ## Solution
+> > * Personal/lab web-site: this is not the best place to store your data long-term. These websites are not hosted long term. You can have a link to the repo, though.
+> > * GitHub: in itself it is not proper for sharing your data as it can be modified. However, a snapshot of a Github repository can be stored in Zenodo and be issued a DOI. 
 > > * General repo (i.e.: Zenodo, Data Dryad, etc.): good option to deposit data that does not fit in a specific repository. Best if the service is non-commerical, has long-termdata archival and issues DOIs, such as Zenodo. 
 > > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.): best option to share your data, if your research community has come up with a sustainable long-term repository.
-> >  
-> {: .solution}  
-{: .challenge}  
+> >
+> {: .solution}
+{: .challenge}
 
 Your data is as much a
 product of your research as the papers you write, and just as likely
@@ -255,12 +254,12 @@ includes automatic metadata harvesters, fill out the formal metadata
 and write a good README file for the humans 
 [[wickes2015](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/issues/3#issuecomment-157410442)].
 
-> ## What is a DOI?  
-> - A digital object identifier is a persistent identifier or handle used to identify objects uniquely.  
+> ## What is a DOI?
+> - A digital object identifier is a persistent identifier or handle used to identify objects uniquely.
 > - Data with a persistent DOI can be found even when your lab website dies.
-> - doi-issuing repositories include: zenodo, figshare, dryad.  
->  
-{: .callout}  
+> - doi-issuing repositories include: zenodo, figshare, dryad.
+>
+{: .callout}
 
 > ## Places to share Data, with DOIs
 >
@@ -283,17 +282,17 @@ Many universities and funders require researchers to complete a data management 
 * Information on how data will be stored and managed, including long-term storage and maintenance after your project is complete
 
 
-> ## Discussion (2 minutes)  
->  
+> ## Discussion (2 minutes)
+>
 > Aside from being a requirement, there are many benefits of writing a DMP to researchers. What sort of benefits do you think there are? Enter your answers in the collaborative document. 
->   
-> > ## Solution  
+> 
+> > ## Solution
 > > * Find and understand data easily 
-> > * Allows continuity of work when colleagues leave or join the lab   
+> > * Allows continuity of work when colleagues leave or join the lab 
 > > * It helps you consider issues about your data before they arise and come up with solutions
-> >  
-> {: .solution}  
-{: .challenge}  
+> >
+> {: .solution}
+{: .challenge}
 
 Writing your first data management plan can be a daunting task but your future self will thank you in the end. 
 It's best to speak to other members of your lab about any existing lab group or grant data management plans. 

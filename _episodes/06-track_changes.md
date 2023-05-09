@@ -7,7 +7,7 @@ questions:
 - "Why does GitHub exist?"
 objectives:
 - "Describe the problems with introducing changes to files"
-- "Explain good practices in tracking changes"
+- "Understand good practices in tracking changes"
 - "Discuss what makes a good change description"
 keypoints:
 - "Small, frequent changes are easier to track"

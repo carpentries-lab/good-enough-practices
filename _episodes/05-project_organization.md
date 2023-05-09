@@ -108,7 +108,7 @@ cleaning or statistical analyses. These files can be thought of as
 the "scientific guts" of the project.
 
 The second type of file in `src` is controller or driver scripts
-that that contains all the analysis steps for the entire project
+that contains all the analysis steps for the entire project
 from start to finish, with particular parameters and data
 input/output commands. A controller script for a simple project, for
 example, may read a raw data table, import and apply several cleanup
@@ -169,7 +169,7 @@ Projects that do not have any will not require `bin`.
 
 For example, use names
 such as `bird_count_table.csv`, `manuscript.md`, or
-`sightings_analysis.py`. Do *not* using sequential numbers (e.g.,
+`sightings_analysis.py`. Do *not* use sequential numbers (e.g.,
 `result1.csv`, `result2.csv`) or a location in a final manuscript
 (e.g., `fig_3_a.png`), since those numbers will almost certainly
 change as the project evolves.

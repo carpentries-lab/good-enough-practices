@@ -90,7 +90,7 @@ regular basis. Do not allow individual investigator's versions of
 the project repository to drift apart, as the effort required to
 merge differences goes up faster than the size of the difference.
 This is particularly important for the manual versioning procedure
-describe below, which does not provide any assistance for merging
+described below, which does not provide any assistance for merging
 simultaneous, possibly conflicting, changes.
 
 
@@ -132,12 +132,12 @@ moment a laptop is stolen or its hard drive fails.
 >
 > * Reverted to the previous version of the abstract text as the manuscript reached word limits
 >
-> * Cleaned the strain inventory: Recent freezer cleaning and ordering indicated a lot of problem with the strains data. The missing physical samples were removed from the table, the duplicated ids are marked for checking with PCR. The antibiotic resistence were moved from phenotype description to its own column.
+> * Cleaned the strain inventory: Recent freezer cleaning and ordering indicated a lot of problem with the strains data. The missing physical samples were removed from the table, the duplicated ids are marked for checking with PCR. The antibiotic resistance were moved from phenotype description to its own column.
 >
 > * New regulation heatmap: As suggested by Will I used the normalization and variance stabilization procedure from Hafemeister et al prior to clustering and heatmap generation
 >
-> The largest the project (measured either in: collaborators, file numbers, or workflow complexity) the more detailed the change description should be.
-> While your personal project can get away with one liner descrptions, the largest projects should always contain inforamtion about motivation behind the change and
+> The larger the project (measured either in: collaborators, file numbers, or workflow complexity) the more detailed the change description should be.
+> While your personal project can get away with one liner descriptions, the largest projects should always contain information about motivation behind the change and
 > what are the consequences.
 >
 {: .callout}
@@ -264,12 +264,12 @@ and thereby require less self-discipline for more reliable results.
 
 > ## Changelog in action
 >
-> Have a look at one of the example github repositories and how they track changes*:
+> Have a look at one of the example github repositories and how they track changes:
 > * [data from E.R. Ballou et al. 2020](https://github.com/ewallace/pseudonuclease_evolution_2020/commits/master)
 > * [data from I. Boehm et al. 2020](https://github.com/BioRDM/nmj-pig/commits/main)
 >
 > Give examples of:
-> * what makes them good changelog
+> * what makes their changelogs good
 > * what could be improved
 >
 > Think what would be the most difficult feature to replicate with manual version control?

@@ -147,7 +147,7 @@ newcomers.
 
 Make explicit
 decisions about (and publicize where appropriate) how members of the
-project will communicate with each other and with externals users /
+project will communicate with each other and with external users /
 collaborators. This includes the location and technology for email
 lists, chat channels, voice / video conferencing, documentation, and
 meeting notes, as well as which of these channels will be public or

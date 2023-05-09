@@ -1,7 +1,7 @@
 ---
 title: "Data Management"
 teaching: 12
-exercises: 18
+exercises: 20
 questions:
 - "What is data management?"  
 - "How should I back up my data?"  
@@ -35,7 +35,7 @@ Data management is the process of storing, documenting, organizing, and sharing 
 Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
 
-> ## Data management problems (2+2 minutes)  
+> ## Data management problems (5 minutes)  
 > In your opinion, what can go wrong when you have poor data management? Write down 2 issues in the collaborative document.  
 >   
 > > ## Solution  
@@ -55,16 +55,16 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 
 ## Save the raw data
 
-> ## Backing up your data (2+2 minutes)  
+> ## Backing up your data (5 minutes)  
 >  
 > Which of the following do you believe are good ways and bad ways of backing up your data?  
-> * Commercial cloud service  
-> * In-house cloud service  
-> * USB pen-drive  
+> * Commercial cloud service
+> * In-house cloud service (operates similarly to a commercial cloud service but with servers and infrastructure maintained by your organization)
+> * USB pen-drive
 > * External hard-drive  
 > * My laptop  
 > * My workstation's hard-disk  
-> * Network drive  
+> * Network drive (organizational shared drive mounted to appear locally on your laptop/workstation)
 > 
 > > ## Solution  
 > > * Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it? Do you have to pay for the service and what happens to your data if you can no longer afford it? 
@@ -216,7 +216,7 @@ when variables in two datasets refer to the same thing.
 
 ## Submit data to a reputable DOI-issuing repository so that others can access and cite it
 
-> ## Sharing your data with the world (2+2 minutes)  
+> ## Sharing your data with the world (5 minutes)  
 >  
 > Which of the following places would be good places to share your data?  
 > * Personal/lab web-site  

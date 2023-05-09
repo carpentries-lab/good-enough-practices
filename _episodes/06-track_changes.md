@@ -6,9 +6,9 @@ questions:
 - "How do I make changes to a project without losing or breaking things?"
 - "Why does GitHub exist?"
 objectives:
-- "Describe the problems with introducing changes to files"
+- "List common problems with introducing changes to files without tracking"
 - "Understand good practices in tracking changes"
-- "Discuss what makes a good change description"
+- "Write a good change description"
 keypoints:
 - "Small, frequent changes are easier to track"
 - "Tracking change systematically with checklists is helpful"

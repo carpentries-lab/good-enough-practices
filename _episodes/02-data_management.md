@@ -86,8 +86,6 @@ changing file permissions to read-only or using spreadsheet
 protection features, so it is harder to damage raw data by accident
 or to hand edit it in a moment of weakness.
 
-If you are storing sensitive data, check with your local Data Protection Officer or data management team as to the most appropriate storage location and technique. You may be legally required to meet certain conditions regarding the storage.
-
 Some data will be impractical to manage in this way. For example,
 you should avoid making local copies of large, stable databases. In
 that case, record the exact procedure used to obtain the raw data,
@@ -107,6 +105,14 @@ use incremental backup or specialized storage systems, and people in
 your local IT group or library can often provide advice and
 assistance on options at your university or organization as well.
 
+## Working with sensitive data
+
+It is important to identify whether your project will work with sensitive data - by which we might mean:
+  * Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
+  * Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
+  * Data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
+
+It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).  These laws vary between countries and may affect whether you can share information between collaborators in different countries.
 
 ## Create the data you wish to see in the world
 
@@ -295,7 +301,6 @@ If you lab group doesn't have a data management plan, it may be helpful to work 
 Often research institutions provide support for DMPs, e.g. through library services or a data steward.
 
 More resources on data management plans are available at [DMP online](https://dmponline.dcc.ac.uk).
-
 
 ## Summary
 

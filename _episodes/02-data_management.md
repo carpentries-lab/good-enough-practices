@@ -86,6 +86,8 @@ changing file permissions to read-only or using spreadsheet
 protection features, so it is harder to damage raw data by accident
 or to hand edit it in a moment of weakness.
 
+If you are storing sensitive data, check with your local Data Protection Officer or data management team as to the most appropriate storage location and technique. You may be legally required to meet certain conditions regarding the storage.
+
 Some data will be impractical to manage in this way. For example,
 you should avoid making local copies of large, stable databases. In
 that case, record the exact procedure used to obtain the raw data,

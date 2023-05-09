@@ -37,7 +37,7 @@ We have covered good practices in several areas:
 
 Good Enough Practices rely on a shared set of principles that span these areas:
 
-- Planning: plan out how to work, and any plan that you can stick to is better than no plan.
+- Planning: plan out how to work. Any plan that you can stick to is better than no plan.
 - Modular organization: organize your data, code, and projects into coherent modules.
 - Names: give good names to your files, folders, and functions, that make them easy to find and to understand.
 - Documentation: explicitly write down everything you and your collaborators need to know in the future.

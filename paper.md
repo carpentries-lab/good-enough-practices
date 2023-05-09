@@ -19,11 +19,11 @@ authors:
     orcid: 0000-0001-8778-6779
     affiliation: 1,4
   - name:  Elvina Gountouna - e.gountouna@ed.ac.uk
-    orcid: 
-    affiliation: 5
+    orcid: 0000-0001-7870-2780
+    affiliation: 5, 6
   - name: Matthias Mimault - matthias.mimault@hutton.ac.uk
     orcid: 0000-0003-1516-7332
-    affiliation: 6
+    affiliation: 7
   - name: Alison Meynert - alison.meynert@ed.ac.uk
     orcid: 0000-0001-5839-1751
     affiliation: 5
@@ -31,19 +31,21 @@ authors:
     orcid: 0000-0001-8025-6361
     affiliation: 1
 affiliations:
- - name: School of Biological Sciences, University of Edinburgh
+ - name: School of Biological Sciences, The University of Edinburgh
    index: 1
- - name: Institution 2
+ - name: Utrecht University
    index: 2
- - name: Institution 3
+ - name: Centre for Clinical Brain Sciences, The University of Edinburgh
    index: 3
- - name: Institution 4
+ - name: EPCC, The University of Edinburgh
    index: 4
- - name: MRC Human Genetics Unit, Institute
+ - name: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer, The University of Edinburgh
    index: 5
- - name: James Hutton Institute
+ - name: Usher Institute, The University of Edinburgh
    index: 6
-date: 24 January 2022
+ - name: The James Hutton Institute, Dundee
+   index: 7
+date: 2023-05-09
 bibliography: paper.bib
 
 

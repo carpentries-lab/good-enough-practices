@@ -1,9 +1,9 @@
 ---
-title: "Software"
+title: "Code and Software"
 teaching: 20
 exercises: 20
 questions:
-- "What is research software?"
+- "What is research code and software?"
 - "What can you do to make code usable and reusable?"
 - "What are the characteristics of readable code?"
 objectives:
@@ -33,7 +33,7 @@ Smaller-scale versions of this problem are more common:
 - you publish a paper, and a masters student from the other side of the world emails you to reproduce the results for their project
 
 
-## What is research software?
+## What is research code and software?
 
 There are many different shapes and sizes of research software:
 
@@ -45,10 +45,10 @@ There are many different shapes and sizes of research software:
 There are extended discussions about research software at the [Software Sustainability Institute](https://www.software.ac.uk/about).
 
 
-> ## Software problems
+> ## Potential problems writing code
 > __Discussion__
 >
-> What can go wrong with writing research software?
+> What can go wrong with writing research code?
 >> ## Suggestions
 >> *   I don’t remember what this code does
 >> *   I don't remember why I made this choice
@@ -59,7 +59,7 @@ There are extended discussions about research software at the [Software Sustaina
 > {: .solution}
 {: .challenge}
 
-If you or your group are creating ten thousands lines of software
+If you or your group are creating ten thousands lines of code
 for use by hundreds of people you have never met, you are doing software
 engineering. If you're writing a few dozen lines now and again, and are
 probably going to be its only user, you may not be doing engineering,

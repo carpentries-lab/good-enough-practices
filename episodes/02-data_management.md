@@ -28,9 +28,12 @@ keypoints:
 - "Finding a repository tailored to your data is key to making it findable and accessible by the broader community"  
 
 ---
+## Data management  
 
-![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
-Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382) 
+Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
+Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.  
+Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
+
 
 > ## Data management problems (2+2 minutes)  
 > In your opinion, what can go wrong when you have poor data management? Write down 2 issues in the collaborative document.  
@@ -45,11 +48,9 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 {: .challenge}  
 
 
-## Data management  
+![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
+Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382) 
 
-Data within a project may need to exist in various forms, ranging from what first arrives to what is actually used for the primary analyses.  
-Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.  
-Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
 
 ## Save the raw data
@@ -67,7 +68,7 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > 
 > > ## Solution  
 > > * Commercial cloud service: it depends. Where are the servers located? How secure is it? How reliable is it? Do you have to pay for the service and what happens to your data if you can no longer afford it? 
-> > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines.  
+> > * In-house cloud service: this is a good way to back up your data (usually). You have local support. It is probably compliant with funders and data security guidelines for most data sets. If you work with particularly sensitive data (for example data of patients), we suggest still discussing with IT and/or data security officers. 
 > > * USB pen drive: definitely not! Pen-drives are prone to dying (and your data with it). It also raises data security issues and they can be easily lost.  
 > > * External hard-drive: see above.  
 > > * My laptop: it is good as a temporal storage solution for your active data. However, you should back it up appropiately.  
@@ -119,7 +120,7 @@ select by year or by location.
 
 *Variable names*: Replace inscrutable variable names and artificial
 data codes with self-explaining alternatives, e.g., rename variables
-called `name1` and `name2` to `personal_name` and `family_name`,
+called `name1` and `name2` to `first_name` and `family_name`,
 recode the treatment variable from `1` vs. `2` to `untreated` vs.
 `treated`, and replace artificial codes for missing data, such as
 "-99", with `NA`, a code used in most programming languages to
@@ -138,6 +139,9 @@ processing using computer programs, which is important when others
 want to reuse your data. Specific examples of non-destructive
 transformations that we recommend at the beginning of analysis:
 
+- Create analysis-friendly data
+- Record all the steps used to process data
+- Anticipate the need to use multiple tables, and use a unique identifier for every record
 
 ## Create analysis-friendly data
 
@@ -221,10 +225,10 @@ when variables in two datasets refer to the same thing.
 > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.)  
 >   
 > > ## Solution  
-> > * Personal/lab web-site: this is not the best place to store your data long-term. Can you think of why?  
+> > * Personal/lab web-site: this is not the best place to store your data long-term. These websites are not hosted long term. You can have a link to the repo, though.  
 > > * GitHub: in itself it is not proper for sharing your data as it can be modified. However, a snapshot of a Github repository can be stored in Zenodo and be issued a DOI.   
-> > * General repo (i.e.: Zenodo, Data Dryad, etc.): good option to deposit data that does not fit in a specific repository.  
-> > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.): best option to share your data.  
+> > * General repo (i.e.: Zenodo, Data Dryad, etc.): good option to deposit data that does not fit in a specific repository. Best if the service is non-commerical, has long-termdata archival and issues DOIs, such as Zenodo. 
+> > * Community specific repo (i.e.: ArrayExpress, SRA, EGA, PRIDE, etc.): best option to share your data, if your research community has come up with a sustainable long-term repository.
 > >  
 > {: .solution}  
 {: .challenge}  
@@ -232,7 +236,7 @@ when variables in two datasets refer to the same thing.
 Your data is as much a
 product of your research as the papers you write, and just as likely
 to be useful to others (if not more so). Sites such as
-Figshare, Dryad, and Zenodo allow others to find your
+Dryad and Zenodo allow others to find your
 work, use it, and cite it; we discuss licensing in
 Section [sec:collaboration] below. Follow your research community's
 standards for how to provide metadata. Note that there are two types
@@ -255,7 +259,7 @@ and write a good README file for the humans
 > - UoE DataShare (https://datashare.is.ed.ac.uk/) local open-access repository
 > - UoE DataVault (https://datavault.ed.ac.uk) local long-term retention.
 > - Dataverse (http://thedata.org): A repository for research data that takes care of long-term preservation and good archival practices, while researchers can share, keep control of, and get recognition for their data.
-> - FigShare (http://figshare.com): A repository where users can make all of their research outputs available in a citable, shareable, and discoverable manner.
+> - FigShare (http://figshare.com): A repository where users can make all of their research outputs available in a citable, shareable, and discoverable manner. Note that figshare is commercial.
 > - Zenodo (http://zenodo.org): A repository service that enables researchers, scientists, projects, and institutions to share and showcase multidisciplinary research results (data and publications)
 > - Dryad (http://datadryad.org): A repository that aims to make data archiving as simple and as rewarding as possible through a suite of services not necessarily provided by publishers or institutional websites.
 >
@@ -264,7 +268,7 @@ and write a good README file for the humans
 
 ## Data management plans
 
-Many UK universities and funders require researchers to complete a data management plan (DMP). A DMP is a document which outlines information about your research data and how it will be processed. Many funders provide basic templates for writing a DMP, along with guidelines on what information should be included but the main compoments of a DMP are:
+Many universities and funders require researchers to complete a data management plan (DMP). A DMP is a document which outlines information about your research data and how it will be processed. Many funders provide basic templates for writing a DMP, along with guidelines on what information should be included but the main compoments of a DMP are:
 * Information about your data
 * Information about your metadata and data formats
 * Information on how data can be accessed, shared and re-used
@@ -286,6 +290,7 @@ Many UK universities and funders require researchers to complete a data manageme
 Writing your first data management plan can be a daunting task but your future self will thank you in the end. 
 It's best to speak to other members of your lab about any existing lab group or grant data management plans. 
 If you lab group doesn't have a data management plan, it may be helpful to work on it together to identify any major considerations.
+Often research institutions provide support for DMPs, e.g. through library services or a data steward.
 
 More resources on data management plans are available at [DMP online](https://dmponline.dcc.ac.uk).
 

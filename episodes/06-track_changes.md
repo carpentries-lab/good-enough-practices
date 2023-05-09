@@ -108,7 +108,7 @@ proven value of checklists.
 
 This may include:
 
-* using a system such as Dropbox, or
+* using a shared system such as a (institutional) cloud or shared drive, or
 * a remote version control repository such as GitHub.
 
 Synchronize that folder at least daily. It may take a few minutes, but that time is repaid the
@@ -296,7 +296,7 @@ types. In particular, version control can be more or less rewarding
 depending on file size and format. First, file comparison in version
 control systems is optimized for plain text files, such as source code.
 The ability to see so-called "diffs" is one of the great joys of version
-control. Unfortunately, Microsoft Office files (like the `.docx` files
+control systems. Unfortunately, Microsoft Office files (like the `.docx` files
 used by Word) or other binary files, e.g., PDFs, can be stored in a
 version control system, but it is not possible to pinpoint specific
 changes from one version to the next. Tabular data (such as CSV files)

@@ -17,7 +17,7 @@ These practices, which encompass data management, programming, collaborating wit
 
 > ## Prerequisites
 >
-> There are no specific prerequisites.
+> There are no specific prerequisites. Learners should be participating or intending to participate in scientific research that involves computing. A basic knowledge of a coding language will help with the episode on Code.
 {: .prereq}
 
 {% include links.md %}

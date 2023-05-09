@@ -55,11 +55,15 @@ its own.
 Projects do often require their own organizational model.
 The below recommendations on how you can structure data,
 code, analysis outputs and other files, are drawn primarily 
-from [[noble2009](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424), [gentzkow2014](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)].
+from [[noble2009](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424), [gentzkow2014](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)]. Other structures to consider are:
 
-The important concepts are that is useful to organize the project in
-modules by the types of files and that consistent planning and good
-names help you effectively find and use things later.
+- [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/compendia.html#basic-compendium)
+- [An individual researcher's template](https://github.com/HeidiSeibold/research-project-template)
+
+> The important concepts are that is useful to organize the project in
+> modules by the types of files and that consistent planning and good
+> names help you effectively find and use things later. Your lab or 
+> organization may have a template to use.
 
 
 ## Put text documents associated with the project in the `doc` directory.

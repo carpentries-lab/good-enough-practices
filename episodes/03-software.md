@@ -40,7 +40,7 @@ There are many different shapes and sizes of research software:
 - Any code that runs in order to process your research data.
 - A record of all the steps used to process your data (scripts and workflow such data analysis are software).
 - R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable. So are Excel macros.
-- Standalone programs that do particular research tasks are also research software.
+- Standalone programs or scripts that do particular research tasks are also research software.
 
 There are extended discussions about research software at the [Software Sustainability Institute](https://www.software.ac.uk/about).
 
@@ -82,7 +82,7 @@ Programs themselves are modular, and can be written in scripts that run
 a clearly-defined set of functions on defined inputs.
 
 
-## Place a brief explanatory comment at the start of every program
+## Place a brief explanatory comment at the start of every script or program
 
 Short is fine; always include at least one example of how
 the program is used. Remember, a good example is worth a thousand

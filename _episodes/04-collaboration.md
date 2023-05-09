@@ -217,6 +217,10 @@ a more detailed `CITATION` file, see the one for the
     Morris, B.D. and E.P. White. 2013. "The EcoData Retriever:
     improving access to existing ecological data." PLOS ONE 8:e65848.
     http://doi.org/doi:10.1371/journal.pone.0065848
+    
+## Recommended resources
+
+- [The Turing Way Guide for Collaboration](https://the-turing-way.netlify.app/collaboration/collaboration.html)
 
 > ## Attribution
 > Content of this episode was adopted after Wilson et al.

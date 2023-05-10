@@ -49,15 +49,15 @@ Thinking through your work from a collaborator's point of view is helpful, and u
 ## What we left out, and where to learn more
 
 Learning good practices is a long-term process that never stops.
-We [left out many good practices](/_extras/what-we-left-out.md) that, although useful,
+We [left out many good practices](what-we-left-out/index.html) that, although useful,
 have more niche applications.
+
 We recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
 especially for those gaining more experience with coding.
-There are [many other useful papers and resources that we have selected](/_extras/resources).
+There are [many other useful papers and resources that we have selected](resources/index.html).
 
 One of your best resources is your colleagues - talk to them!
 In our experience, people who have learned good practices themselves are eager to teach them to others.
-
 
 > ## What other resources are available?
 >

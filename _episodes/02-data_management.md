@@ -1,7 +1,7 @@
 ---
 title: "Data Management"
 teaching: 12
-exercises: 18
+exercises: 20
 questions:
 - "What is data management?"
 - "How should I back up my data?"
@@ -34,11 +34,10 @@ Data within a project may need to exist in various forms, ranging from what firs
 Data management is the process of storing, documenting, organizing, and sharing the data created and collected during a project.
 Our recommendations have two main themes. One is to work towards ready-to-analyze data incrementally, documenting both the intermediate data and the process. We also describe the key features of "tidy data", which can be a powerful accelerator for analysis [[wickham2014](https://www.jstatsoft.org/article/view/v059i10), [hart2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)].
 
-
-> ## Data management problems (2+2 minutes)
+> ## Data management problems (5 minutes)
 > In your opinion, what can go wrong when you have poor data management? Write down 2 issues in the collaborative document.
->
-> > ## Solution
+> 
+> > ## Solution 
 > > * Data loss
 > > * Data corruption
 > > * Confusion: what does this data mean? where does it come from? what is its purpose?
@@ -47,7 +46,6 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > {: .solution}
 {: .challenge}
 
-
 ![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
 Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382)
 
@@ -55,11 +53,11 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 
 ## Save the raw data
 
-> ## Backing up your data (2+2 minutes)
+> ## Backing up your data (5 minutes)
 >
 > Which of the following do you believe are good ways and bad ways of backing up your data?
 > * Commercial cloud service
-> * In-house cloud service
+> * In-house cloud service (operates similarly to a commercial cloud service but with servers and infrastructure maintained by your organization)
 > * USB pen-drive
 > * External hard-drive
 > * My laptop
@@ -105,6 +103,15 @@ use incremental backup or specialized storage systems, and people in
 your local IT group or library can often provide advice and
 assistance on options at your university or organization as well.
 
+## Working with sensitive data
+
+It is important to identify whether your project will work with sensitive data - by which we might mean:
+
+* Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
+* Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
+* Data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
+
+It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).These laws vary between countries and may affect whether you can share information between collaborators in different countries.
 
 ## Create the data you wish to see in the world
 
@@ -216,7 +223,7 @@ when variables in two datasets refer to the same thing.
 
 ## Submit data to a reputable DOI-issuing repository so that others can access and cite it
 
-> ## Sharing your data with the world (2+2 minutes)
+> ## Sharing your data with the world (5 minutes)
 >
 > Which of the following places would be good places to share your data?
 > * Personal/lab web-site
@@ -277,7 +284,6 @@ Many funders provide basic templates for writing a DMP, along with guidelines on
 - Information on how data can be accessed, shared and re-used
 - Information on how data will be stored and managed, including long-term storage and maintenance after your project is complete
 
-
 > ## Discussion (2 minutes)
 >
 > Aside from being a requirement, there are many benefits of writing a DMP to researchers. What sort of benefits do you think there are? Enter your answers in the collaborative document.
@@ -296,7 +302,6 @@ If your lab group doesn't have a data management plan, it may be helpful to work
 Often research institutions provide support for DMPs, e.g. through library services or a data steward.
 
 More resources on data management plans are available at [DMP online](https://dmponline.dcc.ac.uk).
-
 
 ## Summary
 

@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 teaching: 5
-exercises: 5
+exercises: 10
 questions:
 - "How can we use computers more effectively in a scientific project?"
 objectives:
@@ -38,6 +38,15 @@ So, which habits and practices can save you time in the future and improve your 
 > * What can go wrong in research computing?
 > * What can go right in research computing?
 >
+> Consider the entire data life cycle of a project, as well as the actual analysis.
+> 
+> 1. Planning and designing
+> 2. Collecting and capturing
+> 3. Organizing and storing
+> 4. Interpreting and analyzing
+> 5. Managing and preserving
+> 6. Publishing and sharing
+>
 >> ## Solution
 >>
 >> *   You can lose your data
@@ -63,7 +72,7 @@ In biology, as in other sciences:
 - There are many tools to process data
     - Too much choice, many bad choices
     - e.g. [Excel changes gene names](https://doi.org/10.1186/s13059-016-1044-7), and [loses COVID test results](https://www.bbc.co.uk/news/technology-54423988)...
-- There are more steps to understand
+- There are many levels at which to study a problem and many steps to understand
     - Where do you even start?
 
 ## Good news: everyone has these problems!

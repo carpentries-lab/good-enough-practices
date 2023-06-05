@@ -5,9 +5,9 @@ exercises: 10
 questions:
 - "How do I write a collaborative paper?"
 objectives:
-- "Discuss writing manuscripts as a computing project"
-- "Present benefits and drawbacks of 3 approaches"
-- "Introduce text-based version control as a good practice for writing manuscripts"
+- "Know how to frame writing manuscripts as a computing project"
+- "Compare the benefits and drawbacks of 3 approaches"
+- "Know where to start with text-based version control as a good practice for writing manuscripts"
 keypoints:
 - "Have all authors agree on a workflow before the writing starts"
 - "Email-based workflows work better with informative filenames and clear co-ordination"

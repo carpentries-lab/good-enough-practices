@@ -46,9 +46,8 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > {: .solution}
 {: .challenge}
 
-![Figure 1. Four stages of data loss](../fig/ew-data-loss.png)
+![A comic strip titled “The four stages of data loss” and subtitled “dealing with accidental deletion of months of hard-earned data” by PhD Comics. It’s based on the common theory of five stages of grief. The first panel is labelled “stage 1: denial” and shows a man sitting behind a computer. A thought bubble above his head reads “I did not just erase all my data. I surely made a back-up somewhere”. The second panel is labelled “stage 2: anger” and shows the man shaking his computer. A speech bubble above his head shows he is shouting “you stupid piece of crap! Where’s my data?!”. The third panel is labelled “stage 3: depression”. It shows the man crying, the broken computer beside him. He thinks “Why? Why me?”. The fourth and final panel is labelled “stage 4: acceptance”. It shows the man coming to terms with what has happened. He says “I’m never going to graduate”.](../fig/ew-data-loss.png)
 Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/archive.php/images/archive.php?comicid=382)
-
 
 
 ## Save the raw data
@@ -154,7 +153,7 @@ transformations that we recommend at the beginning of analysis:
 
 > ## Discussion (2 minutes)
 > Which of the table layouts is analysis friendly? Discuss. Enter your answers in the collaborative document.
-> ![Figure 2. Tidy data](../fig/wilson-tidy-data.png)
+> ![Two tables of data appear side-by-side. The table on the left has columns named site, 1999, and 2000. The table on the right has columns named site, year, and cases.](../fig/wilson-tidy-data.png)
 {: .challenge}
 
 Analysis can be much easier

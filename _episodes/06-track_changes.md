@@ -15,7 +15,7 @@ keypoints:
 - "Version control systems help adhere to good practices"
 ---
 
-![Figure 1. Versioning Hell](../fig/ew-versions.png)
+![A comic strip  titled “final.doc” by PhD Comics. The first panel shows a student saving a document on their computer and naming the file “final.doc”. The second panel shows their professor editing the document on a printed piece of paper. The third panel shows the student making the edits and naming the new document “final_rev2.doc”. The fourth to ninth panels go back and forth between the professor and the student, with increasingly complex file names. By the end the student is exasperated and hitting their head on their computer screen.](../fig/ew-versions.png)
 *from: Wit and wisdom from Jorge Cham [PhDComics](https://phdcomics.com/comics/archive.php?comicid=1531)*
 
 > ## Problems with change

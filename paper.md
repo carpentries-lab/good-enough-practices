@@ -95,6 +95,7 @@ The learning objectives span several episodes:
 - Manuscripts:	How do I write a collaborative paper?
 
 The approach is to emphasise a set of shared principles across the episodes:
+
 - Planning out how to work is essential, and any plan that you and your collaborators can stick to is better than no plan.
 - Organizing your data, code, and projects into coherent modules makes them easier to understand and to re-use.
 - Giving good names to your files, folders, and functions, makes them easy to find and to understand.
@@ -137,7 +138,7 @@ One gratifying piece of feedback was from a PhD program adminstrator who started
 We thank lesson helpers and lesson attendees over many deliveries for sharing their feedback to improve the lesson.
 We thank the Edinburgh Carpentries community, the Ed-DaSH team, and the global Carpentries community, for their support and encouragement.
 We thank reviewers Lex Nederbragt and Heidi Seibold for their helpful comments that improved the lesson.
-This work was supported by UK Research and Innovation (grant number MR/V039075/1).
+This work was supported by UK Research and Innovation via the Ed-DASH project (grant number MR/V039075/1).
 E.W.J.W. is supported by Wellcome grant 208779/Z/17/Z.
 
 

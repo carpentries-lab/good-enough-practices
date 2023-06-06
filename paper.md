@@ -6,28 +6,36 @@ tags:
   - carpentry
   - novice
 authors:
-  - name: Tomasz Zielinski - tomasz.zielinski@ed.ac.uk
+  - name: Tomasz Zielinski
+    email: tomasz.zielinski@ed.ac.uk
     orcid: 0000-0002-0194-5706
     affiliation: 1
-  - name: Andres Romanowski - andrew.romanowski@ed.ac.uk
+  - name: Andres Romanowski
+    email: andrew.romanowski@ed.ac.uk
     orcid: 0000-0003-0737-2408
     affiliation: 1,2
-  - name: Emma Wilson - emma.wilson@ed.ac.uk
+  - name: Emma Wilson
+    email: emma.wilson@ed.ac.uk
     orcid: 0000-0002-8100-7508
     affiliation: 3
-  - name: Felicity Anderson - felicity.anderson@ed.ac.uk 
+  - name: Felicity Anderson
+    email: felicity.anderson@ed.ac.uk
     orcid: 0000-0001-8778-6779
     affiliation: 1,4
-  - name:  Elvina Gountouna - e.gountouna@ed.ac.uk
+  - name:  Elvina Gountouna
+    email: e.gountouna@ed.ac.uk
     orcid: 0000-0001-7870-2780
     affiliation: 5, 6
-  - name: Matthias Mimault - matthias.mimault@hutton.ac.uk
+  - name: Matthias Mimault
+    email: matthias.mimault@hutton.ac.uk
     orcid: 0000-0003-1516-7332
     affiliation: 7
-  - name: Alison Meynert - alison.meynert@ed.ac.uk
+  - name: Alison Meynert
+    email: alison.meynert@ed.ac.uk
     orcid: 0000-0001-5839-1751
     affiliation: 5
-  - name: Edward W.J. Wallace - edward.wallace@ed.ac.uk
+  - name: Edward W.J. Wallace
+    email: edward.wallace@ed.ac.uk
     orcid: 0000-0001-8025-6361
     affiliation: 1
 affiliations:
@@ -79,8 +87,8 @@ Making good practices explicit also helps more advanced researchers to collabora
 The learning objectives span several episodes:
 
 - Introduction: How can we use computers more effectively in a scientific project?
-- Data Management: What is data management? How should I backup my data? How should I share my data? 
-- Code and Software: What is research code and software? What can you do to make code usable and reusable? 
+- Data Management: What is data management? How should I backup my data? How should I share my data?
+- Code and Software: What is research code and software? What can you do to make code usable and reusable?
 - Collaboration: What do collaborators need to know to contribute to my project? How can documentation make my project more efficient?
 - Project Organization	How should I name my files? How does folder organization help me?
 - Keeping Track of Changes	How do I make changes to a project without losing or breaking things? Why does GitHub exist?

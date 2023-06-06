@@ -4,11 +4,8 @@ teaching: 12
 exercises: 20
 questions:
 - "What is data management?"
-- "How should I back up my data?"
-- "What data should I back up?"
-- "How should I name my data?"
-- "How do I share my data?"
-- "How do I uniquely and persistently identify my data?"
+- "What data should I back up, and how?"
+- "How can I share my data effectively?"
 
 objectives:
 - "Identify problems with data management practices"

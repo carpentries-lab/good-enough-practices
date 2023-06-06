@@ -92,8 +92,9 @@ The approach is to emphasise a set of shared principles across the episodes:
 - Giving good names to your files, folders, and functions, makes them easy to find and to understand.
 - Explicitly documenting everything that you and your collaborators need to know in the future communicates your plans and organization.
 
-The instructional design is for an instructor-led half-day workshop arranged in modules with clear objectives.
-Each module contains interactive materials: challenges or discussions, that stimulate peer-to-peer learning.
+The instructional design is for an instructor-led half-day workshop module, arranged in episodes with clear objectives.
+Short format courses can be an effective way to encourage long-term improvement in practices [@jordan2017analysis], and our module development drew on The Carpentries curriculum development handbook [@becker2021carpentries].
+Each episode contains interactive materials in the form of challenges or discussions that stimulate peer-to-peer learning.
 A shared collaborative document is used by instructor and learners, which itself exemplifies good practices.
 Instructor notes give more detailed suggestions.
 The learning materials are hosted online and provide further suggestions and links for self-study.
@@ -105,29 +106,22 @@ We have found that the discussion format, along with asking learners what they s
 For example, this can be the first time that a learner hears about README files.
 Alternatively, it can be the time where one learner says "this is very nice but you don't really need to write a README file do you" and other learners tell persuasive anecdotes arguing that, yes, you do.
 
+We recommend the workshop for first-year PhD students, for researchers who are moving through collecting data towards larger-scale data analysis, and for those who have started to write code and need help organising it.
+We particularly recommend this workshop as a preliminary before learning about version control with git [@carpentries2019git].
+
 
 # How the lesson came to be
 
-The lesson is inspired by and based on the paper, Good Enough Practices in Scientific Computing (Wilson et al., 2017): "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
+The lesson is inspired by and based on the paper, Good Enough Practices in Scientific Computing [@wilson2017good]: "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
+
 After many years teaching computational skills via Data Carpentry, Software Carpentry, and mentoring research students, we came across the same problems repeatedly: learners get stuck on names, concepts, and organization.
-Learners may come to programming lessons with a vague idea that "they should learn Python" (or whatever), but without a clear idea why.
-We noticed a particular gap in the Software Carpentry git lesson (CITE), where learners reported that the lesson told them how to use git but did not explain what it is for.
-We aimed to fill this gap by adapting the Good Enough Practices paper into a workshop, initially as PowerPoint slides.
-Within the UKRI-funded Ed-DaSH project, we turned the material into a Carpentries-style lesson, which required focusing on key emssages and concepts using less text, while adding more interactive material.
-After 3 years of testing and iterative improvements, we find the material to be very effective.
+Learners may come to programming lessons with a vague idea that "they should learn Python" (or whatever), but without a clear idea why they need to.
+We noticed a particular gap in the Software Carpentry git lesson [@carpentries2019git], where learners reported that the lesson told them how to use git but did not explain what it is for.
+We aimed to fill this gap by adapting the Good Enough Practices paper [@wilson2017good] into a workshop, initially as PowerPoint slides.
+Within the UKRI-funded Ed-DaSH project, we turned the material into a Carpentries-style lesson, which required distilling key messages and concepts using less text, while adding more interactive material.
+After 3 years of iterative improvements based on learner and instructor feedback, we find the material to be very effective.
 One gratifying piece of feedback was from a PhD program adminstrator who started writing README files for all of their folders after hosting an online edition of the lesson.
 
-
-# Citations
-
-Citations to entries in paper.bib should be in
-[rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
-format.
-
-For a quick reference, the following citation commands can be used:
-- `@author:2001`  ->  "Author et al. (2001)"
-- `[@author:2001]` -> "(Author et al., 2001)"
-- `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
 
 
 # Acknowledgements

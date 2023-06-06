@@ -74,6 +74,8 @@ Source: PHD Comics. ["Four stages of data loss"](http://phdcomics.com/comics/arc
 > {: .solution}
 {: .challenge}
 
+Backing up your data is essential, otherwise it is a question of when (not if) you lose it.
+
 Where possible, save data as originally generated (i.e. by an
 instrument or from a survey). It is tempting to overwrite raw data
 files with cleaned-up versions, but faithful retention is essential
@@ -104,13 +106,14 @@ assistance on options at your university or organization as well.
 
 ## Working with sensitive data
 
-It is important to identify whether your project will work with sensitive data - by which we might mean:
+Identify whether your project will work with sensitive data - by which we might mean:
 
 * Research data including personal data or identifiers (this might include names and addresses, or potentially identifyable genetic data or health information, or confidential information)
 * Commercially sensitive data or information (this might include intellectual property, or data generated or used within a restrictive commercial research funding agreement)
 * Data which may cause harm or adverse affects if released or made public (for example data relating to rare or endangered species which could cause poaching or fuel illegal trading)
 
-It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).These laws vary between countries and may affect whether you can share information between collaborators in different countries.
+It is important to understand the restrictions which may apply when working with sensitive data, and also ensure that your project complies with any applicable laws relating to storage, use and sharing of sensitive data (for example, laws like the General Data Protection Regulation, known as the GDPR).
+These laws vary between countries and may affect whether you can share information between collaborators in different countries.
 
 ## Create the data you wish to see in the world
 
@@ -239,19 +242,12 @@ when variables in two datasets refer to the same thing.
 > {: .solution}
 {: .challenge}
 
-Your data is as much a
-product of your research as the papers you write, and just as likely
-to be useful to others (if not more so). Sites such as
-Dryad and Zenodo allow others to find your
-work, use it, and cite it; we discuss licensing in
-Section [sec:collaboration] below. Follow your research community's
-standards for how to provide metadata. Note that there are two types
-of metadata: metadata about the dataset as a whole and metadata
-about the content within the dataset. If the audience is humans,
-write the metadata (the README file) for humans. If the audience
-includes automatic metadata harvesters, fill out the formal metadata
-and write a good README file for the humans
-[[wickes2015](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/issues/3#issuecomment-157410442)].
+Your data is as much a product of your research as the papers you write, and just as likely to be useful to others (if not more so).
+Sites such as [Dryad](http://datadryad.org) and [Zenodo](https://zenodo.org) allow others to find your work, use it, and cite it; we discuss licensing in the episode on collaboration [04-collaboration].
+Follow your research community's standards for how to provide metadata.
+Note that there are two types of metadata: metadata about the dataset as a whole and metadata about the content within the dataset. 
+If the audience is humans, write the metadata (the README file) for humans.
+If the audience includes automatic metadata harvesters, fill out the formal metadata and write a good README file for the humans [[wickes2015](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/issues/3#issuecomment-157410442)].
 
 > ## What is a DOI?
 > - A digital object identifier is a persistent identifier or handle used to identify objects uniquely.
@@ -262,12 +258,10 @@ and write a good README file for the humans
 
 > ## Places to share Data, with DOIs
 >
-> - UoE DataShare (https://datashare.is.ed.ac.uk/) local open-access repository
-> - UoE DataVault (https://datavault.ed.ac.uk) local long-term retention.
-> - Dataverse (http://thedata.org): A repository for research data that takes care of long-term preservation and good archival practices, while researchers can share, keep control of, and get recognition for their data.
 > - FigShare (http://figshare.com): A repository where users can make all of their research outputs available in a citable, shareable, and discoverable manner. Note that figshare is commercial.
 > - Zenodo (http://zenodo.org): A repository service that enables researchers, scientists, projects, and institutions to share and showcase multidisciplinary research results (data and publications)
 > - Dryad (http://datadryad.org): A repository that aims to make data archiving as simple and as rewarding as possible through a suite of services not necessarily provided by publishers or institutional websites.
+> - Dataverse (http://thedata.org): A repository for research data that takes care of long-term preservation and good archival practices, while researchers can share, keep control of, and get recognition for their data.
 >
 {: .callout}
 
@@ -302,24 +296,25 @@ Often research institutions provide support for DMPs, e.g. through library servi
 
 More resources on data management plans are available at [DMP online](https://dmponline.dcc.ac.uk).
 
+> ## What's your next step in data management?
+>
+> - Which recommendations above are most helpful for your current project? What could you try this week?
+> - Does your next project have a data management plan? Could you draft one?
+>
+{: .discussion}
+
 ## Summary
 
-Taken in order, the recommendations above will produce intermediate data
-files with increasing levels of cleanliness and task-specificity. An
-alternative approach to data management would be to fold all data
-management tasks into a monolithic procedure for data analysis, so that
-intermediate data products are created "on the fly" and stored only in
-memory, not saved as distinct files.
+Taken in order, the recommendations above will make it easier to keep track of your data and to work with it.
+Saving the raw data along with clear metadata, backed up, is your insurance policy.
+Creating analysis-friendly data, and recording all the steps used to process data, means that you and others can reproduce your analysis.
+Sharing your data via DOI-issuing repository allows others can access and cite it, which they will find easier if your data are analysis-friendly, clearly named, and well-documented.
 
-While the latter approach may be appropriate for projects in which very
-little data cleaning or processing is needed, we recommend the explicit
-creation and retention of intermediate products. Saving intermediate
-files makes it easy to re-run *parts* of a data analysis pipeline, which
-in turn makes it less onerous to revisit and improve specific data
-processing tasks. Breaking a lengthy workflow into pieces makes it
-easier to understand, share, describe, and modify. This is particularly
-true when working with large data sets, where storage and transfer of
-the entire data set is not trivial or inexpensive.
+These recommendations include explicitly creating and retaining of intermediate data files at intermediate steps of the analysis, with increasing levels of cleanliness and task-specificity.
+Saving intermediate files makes it easy to re-run *parts* of a data analysis pipeline, which in turn makes it less onerous to revisit and improve specific data processing tasks.
+Breaking a lengthy analysis workflow into modular parts makes it easier to understand, share, describe, and modify.
+
+Modifying and sharing your data analysis is only possible if you still have the raw data: **back up your data!!!**
 
 
 > ## Attribution

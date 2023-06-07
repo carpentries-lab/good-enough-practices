@@ -65,7 +65,7 @@ We present a half-day learning module targeted at a broad audience of researcher
 The module teaches "good enough practices" that are near-universally useful for researchers who use computers in their work.
 These practices encompass data management, software and programming, collaborating with colleagues, organizing projects, keeping track of changes, and writing manuscripts.
 Good enough practices rely on a shared set of principles that span these areas: planning, modular organization, names, and documentation.
-The lesson is in The Carpentries format and the materials are open-source and hosted on github.
+The lesson is in The Carpentries format and the materials are open-source and hosted on GitHub.
 
 
 # Statement of Need
@@ -108,7 +108,7 @@ A shared collaborative document is used by instructor and learners, which itself
 Instructor notes give more detailed suggestions.
 The learning materials are hosted online and provide further suggestions and links for self-study.
 
-Good enough practices has been delivered to and evaluated by PhD and post-doctoral researchers over several years, both in-person and online via video call.
+Good Enough Practices has been delivered to and evaluated by PhD and post-doctoral researchers over several years, both in-person and online via video call.
 In particular, we have delivered to first-year PhD students in multiple training programs at The University of Edinburgh.
 Feedback on the workshop is overwhelmingly positive, and different groups of learners learn different things from it.
 We have found that the discussion format, along with asking learners what they seek to gain from the lesson, allows instructors to place emphasis according to the level of the learners.
@@ -116,7 +116,7 @@ For example, this can be the first time that a learner hears about README files.
 Alternatively, it can be the time where one learner says "this is very nice but you don't really need to write a README file do you" and other learners tell persuasive anecdotes arguing that, yes, you do.
 
 We recommend the workshop for first-year PhD students, for researchers who are moving through collecting data towards larger-scale data analysis, and for those who have started to write code and need help organising it.
-We particularly recommend this workshop as a preliminary before learning about version control with git [@carpentries2019git].
+We particularly recommend this workshop as a preliminary before learning about version control with Git [@carpentries2019git].
 
 
 # How the lesson came to be
@@ -125,7 +125,7 @@ The lesson is inspired by and based on the paper, Good Enough Practices in Scien
 
 After many years teaching computational skills via Data Carpentry, Software Carpentry, and mentoring research students, we came across the same problems repeatedly: learners get stuck on names, concepts, and organization.
 Learners may come to programming lessons with a vague idea that "they should learn Python" (or whatever), but without a clear idea why they need to.
-We noticed a particular gap in the Software Carpentry git lesson [@carpentries2019git], where learners reported that the lesson told them how to use git but did not explain what it is for.
+We noticed a particular gap in the Software Carpentry Git lesson [@carpentries2019git], where learners reported that the lesson told them how to use Git but did not explain what it is for.
 We aimed to fill this gap by adapting the Good Enough Practices paper [@wilson2017good] into a workshop, initially as PowerPoint slides.
 Within the UKRI-funded Ed-DaSH project, we turned the material into a Carpentries-style lesson, which required distilling key messages and concepts using less text, while adding more interactive material.
 After 3 years of iterative improvements based on learner and instructor feedback, we find the material to be very effective.

@@ -188,7 +188,7 @@ two additional parts:
     >
     > Copying everything like this may seem wasteful, since many files
     > won't have changed, but consider: a terabyte hard drive costs
-    > about \$50 retail, which means that 50 GByte costs less than \$5.
+    > about \$50, which means that 50 GByte costs less than \$5.
     > Provided large data files are kept out of the backed-up area
     > (discussed below), this approach costs less than the time it would
     > take to select files by hand for copying.
@@ -269,10 +269,10 @@ and thereby require less self-discipline for more reliable results.
 > * [data from I. Boehm et al. 2020](https://github.com/BioRDM/nmj-pig/commits/main)
 >
 > Give examples of:
-> * what makes their changelogs good
-> * what could be improved
+> * what makes their changelogs good?
+> * what could be improved?
 >
-> Think what would be the most difficult feature to replicate with manual version control?
+> Also, what would be the most difficult feature to replicate with manual version control?
 >
 >> ## Solution
 >> Some good things:
@@ -285,6 +285,10 @@ and thereby require less self-discipline for more reliable results.
 >> *   The pigs files should probably be recorded in smaller chunks (commits). The raw data and cleaned data could be added separetely unless they all were captured at the same time.
 >> *   Rather than general "Readme update" a more specific descriptin could be provied "Reformated headers and list"
 >> *   Some of the Ballou et al changes could do with more detailed descriptions, for example why the change took place in case of IQ_TREE entries
+>> 
+>> Something difficult to replicate manually:
+>> * The changelog is linked to a complete description of the file changes.
+>> * Click on an entry, for example `Clarify README.md` or `update readme file`, and you'll see the file changes with additions marked with + (in green) and deletions marked with - (in red).
 > {: .solution}
 {: .challenge}
 

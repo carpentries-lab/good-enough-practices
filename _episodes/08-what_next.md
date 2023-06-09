@@ -35,14 +35,14 @@ We have covered good practices in several areas:
 - Keeping track of changes
 - Manuscripts
 
-Good Enough Practices rely on a shared set of principles that span these areas:
+We have explained the shared set of principles behind good practices:
 
-- Planning: plan out how to work. Any plan that you can stick to is better than no plan.
-- Modular organization: organize your data, code, and projects into coherent modules.
-- Names: give good names to your files, folders, and functions, that make them easy to find and to understand.
-- Documentation: explicitly write down everything you and your collaborators need to know in the future.
+- Planning
+- Modular organization
+- Names
+- Documentation
 
-Collectively, this makes your work easier to use for other people, including for your future self. 
+Collectively, these practices make your work easier to use for other people, including for your future self. 
 Thinking through your work from a collaborator's point of view is helpful, and ultimately kinder to your future self.
 
 

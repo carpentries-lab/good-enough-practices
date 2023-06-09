@@ -6,7 +6,7 @@ tags:
   - carpentry
   - novice
 authors:
-  - name: Tomasz Zielinski
+  - name: Tomasz Zieliński
     email: tomasz.zielinski@ed.ac.uk
     orcid: 0000-0002-0194-5706
     affiliation: 1

@@ -74,8 +74,8 @@ The lesson is in The Carpentries format and the materials are open-source and ho
 
 This lesson addresses good practices for data analysis, computing, and collaboration, that are broadly useful for researchers.
 The underlying principles of planning, modular organization, good names, and documentation, are important for both novices and experts who take computational approaches.
-This learning module helps novices to learn these good practices in their own right, empowering novices to learn other computational skills.
-For example, novice programmers can struggle with poor planning, poorly organized files and projects, unclear names for variables, and with describing their code.
+This learning module helps novices to learn these good practices in their own right, empowering them to learn other computational skills.
+For example, novice programmers can struggle with poor planning, poorly organized files and projects, unclear names for variables, documenting and describing their code.
 Teaching good practices separately means that programming lessons can focus on programming concepts and syntax.
 Making good practices explicit also helps more advanced researchers to collaborate with others, and to explicitly teach good practice to novices.
 
@@ -87,7 +87,7 @@ Making good practices explicit also helps more advanced researchers to collabora
 The learning objectives span several episodes:
 
 - Introduction: How can we use computers more effectively in a scientific project?
-- Data Management: What is data management? How should I backup my data? How should I share my data?
+- Data Management: What is data management? How should I back up my data? How should I share my data?
 - Code and Software: What is research code and software? What can you do to make code usable and reusable?
 - Collaboration: What do collaborators need to know to contribute to my project? How can documentation make my project more efficient?
 - Project Organization	How should I name my files? How does folder organization help me?
@@ -96,15 +96,16 @@ The learning objectives span several episodes:
 
 The approach is to emphasise a set of shared principles across the episodes:
 
-- Planning out how to work is essential, and any plan that you and your collaborators can stick to is better than no plan.
+- Planning how to work is essential, and any plan that you and your collaborators can stick to is better than no plan.
 - Organizing your data, code, and projects into coherent modules makes them easier to understand and to re-use.
-- Giving good names to your files, folders, and functions, makes them easy to find and to understand.
+- Giving good names to your files, folders, and functions, makes them easy to find, to understand, and to use.
 - Explicitly documenting everything that you and your collaborators need to know in the future communicates your plans and organization.
 
 The instructional design is for an instructor-led half-day workshop module, arranged in episodes with clear objectives.
 Short format courses can be an effective way to encourage long-term improvement in practices [@jordan2017analysis], and our module development drew on The Carpentries curriculum development handbook [@becker2021carpentries].
 Each episode contains interactive materials in the form of challenges or discussions that stimulate peer-to-peer learning.
 A shared collaborative document is used by instructor and learners, which itself exemplifies good practices.
+A template for the collaborative document is included in the learning materials.
 Instructor notes give more detailed suggestions.
 The learning materials are hosted online and provide further suggestions and links for self-study.
 
@@ -117,6 +118,7 @@ Alternatively, it can be the time where one learner says "this is very nice but 
 
 We recommend the workshop for first-year PhD students, for researchers who are moving through collecting data towards larger-scale data analysis, and for those who have started to write code and need help organising it.
 We particularly recommend this workshop as a preliminary before learning about version control with Git [@carpentries2019git].
+For researchers in biomedical sciences, it is a good preliminary prior to Project Management and Organization for Genomics [@carpentries2023projectorg], which gives practical applications of the principles outlined in this workshop.
 
 
 # How the lesson came to be

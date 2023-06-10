@@ -223,7 +223,7 @@ a more detailed `CITATION` file, see the one for the
 - [The Turing Way Guide for Collaboration](https://the-turing-way.netlify.app/collaboration/collaboration.html)
 
 > ## Attribution
-> Content of this episode was adopted after Wilson et al.
+> This episode was adapted from and includes material from Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
 

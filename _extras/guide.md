@@ -4,7 +4,7 @@ title: "Instructor Notes"
 
 ## Expect varied audiences
 
-We have run alpha versions of this workshop successfully with PhD students in the UK.
+We have run this workshop successfully with PhD students in the UK.
 Later-year computational PhD students say "I wish I had know this when I started my PhD", and teaching these habits is the goal.
 
 Learners will always have a mixture of backgrounds and skills, whatever their career stage.
@@ -12,9 +12,22 @@ Based on their education, past research experience, past jobs, and hobbies, ther
 The goal of the material is that everyone has a chance to reflect on their practice and learn something valuable.
 Informally, if delivering this workshop saves 1 person from losing all their data, then it already made the world a better place.
 
+### Understand the learners by pre-workshop surveys
+
 Pre-lesson (or even pre-episode) surveys are extremely useful to understand the level at which the learners are entering the lesson/episode.
 You could include these in the etherpad to help adjust your discussions to the learners.
 These questions are in the [collaborative document template](#collabtemplate).
+
+### Understand the learners by discussions
+
+The question for attendees "one thing you're hoping to get out of this workshop," in the collaborative document, is useful and diagnostic.
+
+The discussion in the introduction episode is also useful and diagnostic.
+The learners' stories about "What can go wrong in research computing?" and "What can go right in research computing?" tell you about their experience and gaps.
+
+For example, this is usually a place where learners bring up stories of a time they lost their data or a colleague had a disaster.
+Instructors can tell their favourite (short) anecdotes about disasters or victories.
+The real lived experiences of instructors and fellow learners make this memorable, more than pre-prepared example answers.
 
 
 ## What to skip

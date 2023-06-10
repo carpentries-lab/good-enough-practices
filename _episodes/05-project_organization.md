@@ -233,7 +233,7 @@ findings.
 > demonstrate consequences of different naming strategies.
 >
 > For your information, to encode experimental details the following conventions were taken:
-> * phyB/phyA are sample genotypes (which gene is mutated)
+> * phyB/phyA are sample genotypes (that is, which gene is mutated)
 > * sXX is the sample number
 > * LD/SD are different light conditions (long or short day)
 > * on/off are different media (on sucrose, off sucrose)
@@ -288,17 +288,20 @@ findings.
 
 > ## Some helpful organisation tools
 >
-> - Integrated Development Environments (IDEs):
->   - PyCharm, VSCode for python, etc.
->   - RStudio for R, etc.
-> - Notebooks (jupyter, R markdown .Rmd)
->   - Collect data, code, results, thinking in single documents
+> - Integrated Development Environments (IDEs) combine many features to write code and organise projects:
+>   - [PyCharm](https://www.jetbrains.com/pycharm/) for python
+>   - [RStudio for R](https://posit.co/products/open-source/rstudio/)
+>   - [VSCode](https://code.visualstudio.com) for python and other languages, etc.
+> - Notebooks collect data, code, results, thinking in single documents:
+>   - [jupyter](https://jupyter.org)
+>   - [R markdown](https://rmarkdown.rstudio.com)
+>   - [quarto](https://quarto.org), etc.
 > - [Cookie Cutter project templates for reproducible science](https://github.com/mkrapp/cookiecutter-reproducible-science)
 >
 {: .callout}
 
 > ## Attribution
-> Content of this episode was adopted after Wilson et al.
+> This episode was adapted from and includes material from Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 > 
 > Some content was adapted from [FAIR in Biological Practice episode on files and organisation](https://carpentries-incubator.github.io/fair-bio-practice/09-files-organization/index.html). That material gives a slightly different and also useful perspective.

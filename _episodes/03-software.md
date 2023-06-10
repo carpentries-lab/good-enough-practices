@@ -39,7 +39,7 @@ There are many different shapes and sizes of research software:
 
 - Any code that runs in order to process your research data.
 - A record of all the steps used to process your data (scripts and workflow such data analysis are software).
-- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable. So are Excel macros.
+- [R](https://en.wikipedia.org/wiki/R_(programming_language)), [Python](https://www.python.org), [MATLAB](https://www.mathworks.com/products/matlab.html), [unix shell](https://en.wikipedia.org/wiki/Unix_shell), [OpenRefine](https://openrefine.org), [ImageJ](https://imagej.net/software/imagej/), etc. are all scriptable. So are [Microsoft Excel macros](https://support.microsoft.com/en-au/office/quick-start-create-a-macro-741130ca-080d-49f5-9471-1e5fb3d581a8).
 - Standalone programs or scripts that do particular research tasks are also research software.
 
 There are extended discussions about research software at the [Software Sustainability Institute](https://www.software.ac.uk/about).

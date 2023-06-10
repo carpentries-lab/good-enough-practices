@@ -349,8 +349,8 @@ Your code is like your data and also needs to be managed, backed up, and shared.
 Your software is as much a product of your research as your papers,
 and should be as easy for people to credit.
 Submit code to a reputable DOI-issuing repository, just as you do with data.
-DOIs for software are provided by Figshare and Zenodo, for example.
-Zenodo integrates directly with GitHub.
+DOIs for software are provided by [Figshare](https://figshare.com) and [Zenodo](http://zenodo.org), for example.
+Both Figshare and Zenodo integrate directly with GitHub.
 
 > ## Attribution
 > This episode was adapted from and includes material from Wilson et al.

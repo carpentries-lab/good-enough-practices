@@ -90,8 +90,8 @@ The learning objectives span several episodes:
 - Data Management: What is data management? How should I back up my data? How should I share my data?
 - Code and Software: What is research code and software? What can you do to make code usable and reusable?
 - Collaboration: What do collaborators need to know to contribute to my project? How can documentation make my project more efficient?
-- Project Organization	How should I name my files? How does folder organization help me?
-- Keeping Track of Changes	How do I make changes to a project without losing or breaking things? Why does GitHub exist?
+- Project Organization:	How should I name my files? How does folder organization help me?
+- Keeping Track of Changes:	How do I make changes to a project without losing or breaking things? Why does GitHub exist?
 - Manuscripts:	How do I write a collaborative paper?
 
 The approach is to emphasise a set of shared principles across the episodes:
@@ -118,7 +118,7 @@ Alternatively, it can be the time where one learner says "this is very nice but 
 
 We recommend the workshop for first-year PhD students, for researchers who are moving through collecting data towards larger-scale data analysis, and for those who have started to write code and need help organising it.
 We particularly recommend this workshop as a preliminary before learning about version control with Git [@carpentries2019git].
-For researchers in biomedical sciences, it is a good preliminary prior to Project Management and Organization for Genomics [@carpentries2023projectorg], which gives practical applications of the principles outlined in this workshop.
+For researchers in biomedical sciences, it is a good preliminary before Project Management and Organization for Genomics [@carpentries2023projectorg], which gives practical applications of the principles outlined in this workshop.
 
 
 # How the lesson came to be
@@ -126,13 +126,12 @@ For researchers in biomedical sciences, it is a good preliminary prior to Projec
 The lesson is inspired by and based on the paper, Good Enough Practices in Scientific Computing [@wilson2017good]: "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
 
 After many years teaching computational skills via Data Carpentry, Software Carpentry, and mentoring research students, we came across the same problems repeatedly: learners get stuck on names, concepts, and organization.
-Learners may come to programming lessons with a vague idea that "they should learn Python" (or whatever), but without a clear idea why they need to.
+Learners may come to programming lessons with a vague idea that "they should learn Python" (or whatever), but without a clear idea as to why they need to.
 We noticed a particular gap in the Software Carpentry Git lesson [@carpentries2019git], where learners reported that the lesson told them how to use Git but did not explain what it is for.
 We aimed to fill this gap by adapting the Good Enough Practices paper [@wilson2017good] into a workshop, initially as PowerPoint slides.
 Within the UKRI-funded Ed-DaSH project, we turned the material into a Carpentries-style lesson, which required distilling key messages and concepts using less text, while adding more interactive material.
 After 3 years of iterative improvements based on learner and instructor feedback, we find the material to be very effective.
-One gratifying piece of feedback was from a PhD program adminstrator who started writing README files for all of their folders after hosting an online edition of the lesson.
-
+One gratifying piece of feedback was from a PhD program administrator who started writing README files for all of their folders after hosting an online edition of the lesson.
 
 
 # Acknowledgements

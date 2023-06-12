@@ -97,7 +97,7 @@ often have their own data storage solutions, so it is worthwhile to
 consult with your local Information Technology (IT) group or
 library. Alternatively cloud computing resources, like
 Amazon Simple Storage Service (Amazon S3), Google Cloud
-Storage or https://azure.microsoft.com/en-us/services/storage/ are
+Storage or [Azure](https://azure.microsoft.com/en-us/services/storage/) are
 reasonably priced and reliable. For large data sets, where storage
 and transfer can be expensive and time-consuming, you may need to
 use incremental backup or specialized storage systems, and people in

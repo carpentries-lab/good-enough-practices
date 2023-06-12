@@ -209,7 +209,7 @@ chosen as a set of boundary coordinates.
 {: .callout}
 
 
-## Anticipate the need to use multiple tables, and use a unique identifier for every record
+## Use multiple tables as necessary, and use a unique identifier for every record
 
 Raw data, even if tidy,
 is not necessarily complete. For example, the primary data table

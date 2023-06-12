@@ -36,9 +36,10 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > 
 > > ## Solution 
 > > * Data loss
-> > * Data corruption
+> > * Data corruption, making data unusable
+> > * Running out of storage capacity, making it hard to save data
 > > * Confusion: what does this data mean? where does it come from? what is its purpose?
-> > * Versioning issues: Which version of the analysis script was used for the manuscript?
+> > * Versioning issues: Which version of the data made this figure? Which version of the analysis script was used for the manuscript?
 > >
 > {: .solution}
 {: .challenge}

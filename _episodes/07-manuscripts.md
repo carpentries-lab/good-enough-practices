@@ -146,7 +146,7 @@ a convenient platform for making comments and performing review.
 This approach re-uses the version control tools and skills used to
 manage data and software, and is a good starting point for
 fully-reproducible research. However, it requires all contributors to
-understand a much larger set of tools, including markdown or LaTeX,
+understand a much larger set of tools, including [markdown](https://www.markdownguide.org) or LaTeX,
 make, BiBTeX, and Git/GitHub.
 
 It is even possible using this approach to combine manuscripts and data analysis,
@@ -186,6 +186,11 @@ taking advantage of automatic file versioning and shared editing.
 > * Which approaches will you use to collaborate on this next manuscript?
 {: .challenge}
 
+> ## Getting started writing text-based version control
+> [Version Control with Git](https://swcarpentry.github.io/git-novice/) Carpentries lesson introduces text-based version control, that you could use for a collaborative manuscript.
+> 
+> [Manubot](https://manubot.org) is an open-source system for writing scholarly manuscripts via GitHub, with tutorials.
+{: .callout}
 
 ## Supplementary Materials
 

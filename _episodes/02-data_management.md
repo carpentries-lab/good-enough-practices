@@ -4,11 +4,8 @@ teaching: 12
 exercises: 20
 questions:
 - "What is data management?"
-- "How should I back up my data?"
-- "What data should I back up?"
-- "How should I name my data?"
-- "How do I share my data?"
-- "How do I uniquely and persistently identify my data?"
+- "What data should I back up, and how?"
+- "How can I share my data effectively?"
 
 objectives:
 - "Identify problems with data management practices"
@@ -39,9 +36,10 @@ Our recommendations have two main themes. One is to work towards ready-to-analyz
 > 
 > > ## Solution 
 > > * Data loss
-> > * Data corruption
+> > * Data corruption, making data unusable
+> > * Running out of storage capacity, making it hard to save data
 > > * Confusion: what does this data mean? where does it come from? what is its purpose?
-> > * Versioning issues: Which version of the analysis script was used for the manuscript?
+> > * Versioning issues: Which version of the data made this figure? Which version of the analysis script was used for the manuscript?
 > >
 > {: .solution}
 {: .challenge}

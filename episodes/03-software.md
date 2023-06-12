@@ -39,7 +39,7 @@ There are many different shapes and sizes of research software:
 
 - Any code that runs in order to process your research data.
 - A record of all the steps used to process your data (scripts and workflow such data analysis are software).
-- R, python, MATLAB, shell, openrefine, imageJ, etc. are all scriptable. So are Excel macros.
+- [R](https://en.wikipedia.org/wiki/R_(programming_language)), [Python](https://www.python.org), [MATLAB](https://www.mathworks.com/products/matlab.html), [unix shell](https://en.wikipedia.org/wiki/Unix_shell), [OpenRefine](https://openrefine.org), [ImageJ](https://imagej.net/software/imagej/), etc. are all scriptable. So are [Microsoft Excel macros](https://support.microsoft.com/en-au/office/quick-start-create-a-macro-741130ca-080d-49f5-9471-1e5fb3d581a8).
 - Standalone programs or scripts that do particular research tasks are also research software.
 
 There are extended discussions about research software at the [Software Sustainability Institute](https://www.software.ac.uk/about).
@@ -176,7 +176,7 @@ chunks. Putting code into functions also makes it easier to test and
 troubleshoot when things go wrong.
 
 [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode) is a plain language description of code or analysis steps.
-Writing pseudocode can be useful to think through the logic of your analysis, and how to decompose it in to functions.
+Writing pseudocode can be useful to think through the logic of your analysis, and how to decompose it into functions.
 
 The "make a cup of tea" example above might look like this:
 
@@ -199,35 +199,43 @@ The "make a cup of tea" example above might look like this:
             
             return cup
 
-> ## Decompose this pseudocode statement into functions.
+> ## Using pseudocode
+>
+> In this scenario, you're managing fruit production on a set of islands. You have written a pseudocode function
+> that tells you how to count how much fruit of a particular type is available to harvest on a given island. 
 >
 > ~~~
-> coconuts = 0
-> for each tree on my island
->     coconuts = coconuts plus coconuts on tree
->
-> cherries = 0
-> for each tree on my island
->     cherries = cherries plus cherries on tree
->
-> peaches = 0
-> for each tree on Sam's island
->     peaches = peaches plus peaches on tree
+> count_fruit_on_island = function(fruit type, island)
+>     total fruit = 0
+>     for every tree of fruit type on the island
+>         total fruit = total fruit + number of fruit on tree
+>     end for loop
+>     return total fruit
 > ~~~
 > {: .source}
+> 
+> Write the commands to call this function to count how many coconuts there are on Sam's island, how many cherries
+> there are on Sam's island, and how many cherries there are on Charlie's island.
+>
+> Write a pseudocode for loop like the one above that uses this function to count all the cherries on every island.
 >
 >> ## Solution
 >>
 >> ~~~
->> count_fruit_on_island = function(fruit, island)
->>     fruit = 0
->>     for each tree on island
->>         fruit = fruit + fruit of this type on tree
->>     return fruit
+>> sams coconuts = count_fruit_on_island(coconuts, Sam's island)
+>> sams cherries = count_fruit_on_island(cherries, Sam's island)
+>> charlies cherries = count_fruit_on_island(cherries, Charlie's island)
+>> ~~~
+>> {: .source}
 >>
->> count_fruit_on_island(coconuts, my island)
->> count_fruit_on_island(cherries, my island)
->> count_fruit_on_island(peaches, Sam's island)
+>> To count all the cherries on every island:
+>> 
+>> ~~~
+>> total cherries = 0
+>> for every island
+>>     total cherries = total cherries + count_fruit_on_island(cherries, island)
+>> end for loop
+>> print "There are " + total cherries + " cherries on all the islands"
 >> ~~~
 >> {: .source}
 > {: .solution}
@@ -295,7 +303,7 @@ data structures in a program should *not* have one-letter names.
 >> 2.   input - incorrect, too vague
 >> 3.   **numericSequence - correct, short and included information about the type of input**
 >> 4.   S - incorrect, too vague
-> {: .solution}
+>> {: .solution}
 {: .challenge}
 
 > ## Language style guides
@@ -349,11 +357,11 @@ Your code is like your data and also needs to be managed, backed up, and shared.
 Your software is as much a product of your research as your papers,
 and should be as easy for people to credit.
 Submit code to a reputable DOI-issuing repository, just as you do with data.
-DOIs for software are provided by Figshare and Zenodo, for example.
-Zenodo integrates directly with GitHub.
+DOIs for software are provided by [Figshare](https://figshare.com) and [Zenodo](http://zenodo.org), for example.
+Both Figshare and Zenodo integrate directly with GitHub.
 
 > ## Attribution
-> Content of this episode was adopted after Wilson et al.
+> This episode was adapted from and includes material from Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
 

@@ -207,7 +207,9 @@ simple project might be organized following these recommendations:
 
 The root directory contains a `README` file that provides an overview of
 the project as a whole, a `CITATION` file that explains how to reference
-it, and a `LICENSE` file that states the licensing. The `data` directory
+it, and a `LICENSE` file that states the licensing. 
+The `requirements.txt` file lists the software that is required to run the data analysis.
+The `data` directory
 contains a single CSV file with tabular data on bird counts
 (machine-readable metadata could also be included here). The `src`
 directory contains `sightings_analysis.py`, a Python file containing
@@ -223,7 +225,7 @@ various ideas for the project and how these were implemented and the
 other containing a running draft of a manuscript describing the project
 findings.
 
-> ## Naming and sorting (3+2 minutes)
+> ## Naming and sorting (5 minutes)
 > Have a look at the example files from a project, similar
 > to the one from the previous metadata episode.
 >
@@ -231,7 +233,7 @@ findings.
 > demonstrate consequences of different naming strategies.
 >
 > For your information, to encode experimental details the following conventions were taken:
-> * phyB/phyA are sample genotypes
+> * phyB/phyA are sample genotypes (that is, which gene is mutated)
 > * sXX is the sample number
 > * LD/SD are different light conditions (long or short day)
 > * on/off are different media (on sucrose, off sucrose)
@@ -239,24 +241,24 @@ findings.
 > * other details are timepoint and raw or normalized data
 >
 > > ```
-> > 2020-07-14_s12_phyB_on_SD_t04.raw.xlsx  
-> > 2020-07-14_s1_phyA_on_LD_t05.raw.xlsx  
-> > 2020-07-14_s2_phyB_on_SD_t11.raw.xlsx  
-> > 2020-08-12_s03_phyA_on_LD_t03.raw.xlsx  
-> > 2020-08-12_s12_phyB_on_LD_t01.raw.xlsx  
-> > 2020-08-13_s01_phyB_on_SD_t02.raw.xlsx  
-> > 2020-7-12_s2_phyB_on_SD_t01.raw.xlsx  
-> > AUG-13_phyB_on_LD_s1_t11.raw.xlsx  
-> > JUL-31_phyB_on_LD_s1_t03.raw.xlsx  
-> > LD_phyA_off_t04_2020-08-12.norm.xlsx  
-> > LD_phyA_on_t04_2020-07-14.norm.xlsx  
-> > LD_phyB_off_t04_2020-08-12.norm.xlsx  
-> > LD_phyB_on_t04_2020-07-14.norm.xlsx  
-> > SD_phyB_off_t04_2020-08-13.norm.xlsx  
-> > SD_phyB_on_t04_2020-07-12.norm.xlsx  
-> > SD_phya_off_t04_2020-08-13.norm.xlsx  
-> > SD_phya_ons_t04_2020-07-12.norm.xlsx  
-> > ld_phyA_ons_t04_2020-08-12.norm.xlsx  
+> > 2020-07-14_s12_phyB_on_SD_t04.raw.csv  
+> > 2020-07-14_s1_phyA_on_LD_t05.raw.csv  
+> > 2020-07-14_s2_phyB_on_SD_t11.raw.csv  
+> > 2020-08-12_s03_phyA_on_LD_t03.raw.csv  
+> > 2020-08-12_s12_phyB_on_LD_t01.raw.csv  
+> > 2020-08-13_s01_phyB_on_SD_t02.raw.csv  
+> > 2020-7-12_s2_phyB_on_SD_t01.raw.csv  
+> > AUG-13_phyB_on_LD_s1_t11.raw.csv  
+> > JUL-31_phyB_on_LD_s1_t03.raw.csv  
+> > LD_phyA_off_t04_2020-08-12.norm.csv  
+> > LD_phyA_on_t04_2020-07-14.norm.csv  
+> > LD_phyB_off_t04_2020-08-12.norm.csv  
+> > LD_phyB_on_t04_2020-07-14.norm.csv  
+> > SD_phyB_off_t04_2020-08-13.norm.csv  
+> > SD_phyB_on_t04_2020-07-12.norm.csv  
+> > SD_phya_off_t04_2020-08-13.norm.csv  
+> > SD_phya_ons_t04_2020-07-12.norm.csv  
+> > ld_phyA_ons_t04_2020-08-12.norm.csv  
 > > ```
 > {: .source}
 >
@@ -286,17 +288,20 @@ findings.
 
 > ## Some helpful organisation tools
 >
-> - Integrated Development Environments (IDEs):
->   - PyCharm, VSCode for python, etc.
->   - RStudio for R, etc.
-> - Notebooks (jupyter, R markdown .Rmd)
->   - Collect data, code, results, thinking in single documents
+> - Integrated Development Environments (IDEs) combine many features to write code and organise projects:
+>   - [PyCharm](https://www.jetbrains.com/pycharm/) for python
+>   - [RStudio for R](https://posit.co/products/open-source/rstudio/)
+>   - [VSCode](https://code.visualstudio.com) for python and other languages, etc.
+> - Notebooks collect data, code, results, thinking in single documents:
+>   - [jupyter](https://jupyter.org)
+>   - [R markdown](https://rmarkdown.rstudio.com)
+>   - [quarto](https://quarto.org), etc.
 > - [Cookie Cutter project templates for reproducible science](https://github.com/mkrapp/cookiecutter-reproducible-science)
 >
 {: .callout}
 
 > ## Attribution
-> Content of this episode was adopted after Wilson et al.
+> This episode was adapted from and includes material from Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 > 
 > Some content was adapted from [FAIR in Biological Practice episode on files and organisation](https://carpentries-incubator.github.io/fair-bio-practice/09-files-organization/index.html). That material gives a slightly different and also useful perspective.

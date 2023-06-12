@@ -212,7 +212,7 @@ supplementary material: use the format that most easily enables reuse
 
 
 > ## Attribution
-> Content of this episode was adopted after Wilson et al.
+> This episode was adapted from and includes material from Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
 

@@ -150,7 +150,8 @@ transformations that we recommend at the beginning of analysis:
 
 - Create analysis-friendly data
 - Record all the steps used to process data
-- Anticipate the need to use multiple tables, and use a unique identifier for every record
+- Record different data types in individual tables as appropriate (e.g. sample metadata may be kept separately from sequencing experiment metadata)
+- Use unique identifiers for every record in a table, allowing linkages between tables (e.g. sample identifiers are recorded in the sequencing experiment metadata)
 
 ## Create analysis-friendly data
 

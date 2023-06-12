@@ -71,7 +71,7 @@ Future you will forget things, and your collaborators will not know them in the 
 An overview document can collect the most important information about your project, 
 and act as a signpost.
 The overview is usually the first thing people read about your project, so it is often called a "README".
-The README has two jobs, what is inside and how it relates to the outside.
+The README has two jobs: describing the contents of the project, and explaining how to interact with the project.
 
 Create a short file in the
 project's home directory that explains the purpose of the project.
@@ -82,7 +82,7 @@ similar) should contain :
 - A brief description
 - Up-to-date contact information
 - An example or two of how to run the most important tasks
-- Broad overview of folder structure
+- Overview of folder structure
 
 
 ## Describe how to contribute to the project
@@ -101,24 +101,26 @@ contribute to it:
 - Tests that can be run to ensure that software has been installed correctly
 - Guidelines or checklists that your project adheres to.
 
-A `CONTRIBUTING` file like this can be very helpful in reminding you details of your project that may be forgotten over time.
+This information is very helpful and will be forgotten over time unless it's documented inside the project.
+
 
 > ## Comparing README files
 > Here is a README file for a data project and one for a software project.
-> What do you think is good and what can be improved about each one.  
+> What useful and important information is present, and what is missing?
 > [Data Project README](https://github.com/ewallace/pseudonuclease_evolution_2020)  
 > [Software Project README](https://github.com/DualSPHysics/DualSPHysics)
+> 
 >> ## Solution
->> A Data Project README:
+>> This Data Project README:
 >> - Contains a DOI
->> - Describes the purpose of the code and link to a related paper
+>> - Describes the purpose of the code and links to a related paper
 >> - Describes the project structure
 >> - Includes a license  
 >> - DOES NOT contain requirements
 >> - DOES NOT include a working example
 >> - DOES NOT include a explicit list of authors (can be inferred from paper though)
 >> 
->> A Software Project README:
+>> This Software Project README:
 >> - Describes the purpose of the code
 >> - Describes the requirements
 >> - Includes instructions for various type of users
@@ -221,7 +223,7 @@ a more detailed `CITATION` file, see the one for the
 - [The Turing Way Guide for Collaboration](https://the-turing-way.netlify.app/collaboration/collaboration.html)
 
 > ## Attribution
-> Content of this episode was adopted after Wilson et al.
+> This episode was adapted from and includes material from Wilson et al.
 > [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 {: .callout}
 

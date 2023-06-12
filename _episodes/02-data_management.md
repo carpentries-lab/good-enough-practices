@@ -125,7 +125,7 @@ These laws vary between countries and may affect whether you can share informati
 filename itself, while keeping the filename regular enough for easy
 pattern matching. For example, a filename like
 `2016-05-alaska-b.csv` makes it easy for both people and programs to
-select by year or by location.
+select by year or by location. Common file naming conventions are discussed in the [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html) and in the [Project Organization](https://carpentries-incubator.github.io/good-enough-practices/05-project_organization) episode of this lesson.
 
 *Variable names*: Replace inscrutable variable names and artificial
 data codes with self-explaining alternatives, e.g., rename variables

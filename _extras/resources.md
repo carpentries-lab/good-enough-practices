@@ -17,19 +17,20 @@ These lessons are in a similar format and discuss good practices within the FAIR
 
 ## Further Carpentries lessons
 
-We have listed below some Carpentries lessons which may help further your learning:
+Many other Carpentries lessons may help further your learning:
+
 - Data management
-  - Data Carpentries Ecology lessons on ([spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/) and [OpenRefine](https://datacarpentry.org/OpenRefine-ecology-lesson/)
-  - Data Carpentries Social Sciences lessons on ([spreadsheets](https://datacarpentry.org/spreadsheets-socialsci/) and [OpenRefine](https://datacarpentry.org/openrefine-socialsci/)
-  - [Software Carpentries lesson on SQL](http://swcarpentry.github.io/sql-novice-survey)
+  - Data Carpentry Ecology lessons on [spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/) and [OpenRefine](https://datacarpentry.org/OpenRefine-ecology-lesson/)
+  - Data Carpentry Social Sciences lessons on [spreadsheets](https://datacarpentry.org/spreadsheets-socialsci/) and [OpenRefine](https://datacarpentry.org/openrefine-socialsci/)
+  - [Software Carpentry lesson on SQL](http://swcarpentry.github.io/sql-novice-survey)
 - Software and code
-  - Check out the [Software Carpentries](https://software-carpentry.org/lessons/) 
+  - Check out the [Software Carpentry](https://software-carpentry.org/lessons/) on unix, R, or Python. 
 - Project organization
-  - Data Carpentries Genomics lesson on [organization](https://datacarpentry.org/organization-genomics)
+  - Data Carpentry Genomics lesson on [organization](https://datacarpentry.org/organization-genomics)
 - Keeping track of changes
-  - Software Carpentries lesson on [Git](http://swcarpentry.github.io/git-novice)
-  - Library Carpentries lesson on [Git](https://librarycarpentry.org/lc-git/)
-  - Community-developed lessons:
+  - Software Carpentry lesson on [Git](http://swcarpentry.github.io/git-novice)
+  - Library Carpentry lesson on [Git](https://librarycarpentry.org/lc-git/)
+  - Community-developed lessons on Carpentries format:
     -  [Git using RStudio](https://carpentries-incubator.github.io/git-Rstudio-course/)
     -  [Version control with Git](https://carpentries-incubator.github.io/git-novice-branch-pr/)
     -  [Introduction to GitLab](https://carpentries-incubator.github.io/gitlab-novice/)

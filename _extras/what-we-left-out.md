@@ -119,6 +119,9 @@ situation, advocating unit testing with coverage checking and continuous
 integration is more likely to overwhelm newcomers rather than aid them.
 
 
-
+> ## Attribution
+> This section is mostly material from Wilson et al.
+> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
+{: .callout}
 {% include links.md %}
 

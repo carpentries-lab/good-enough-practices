@@ -49,7 +49,7 @@ Thinking through your work from a collaborator's point of view is helpful, and u
 ## What we left out, and where to learn more
 
 Learning good practices is a long-term process that never stops.
-We [left out many good practices](what-we-left-out/index.html) that, although useful,
+We [left out many good practices]({{ page.root }}{% link _extras/what-we-left-out.md %}) that, although useful,
 have more niche applications.
 
 We recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),

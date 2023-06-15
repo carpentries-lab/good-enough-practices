@@ -15,6 +15,25 @@ These lessons are in a similar format and discuss good practices within the FAIR
 - [FAIR in Biological practice, a 2-day comprehensive introduction](https://carpentries-incubator.github.io/fair-bio-practice)
 - [FAIR for Leaders, 1-day lesson aimed at established PIs and institutional leaders who set policy and drive changes](https://carpentries-incubator.github.io/fair-for-leaders/). Note, this lesson is under construction as of December 2022
 
+## Further Carpentries lessons
+
+Many other Carpentries lessons may help further your learning:
+
+- Data management
+  - Data Carpentry Ecology lessons on [spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/) and [OpenRefine](https://datacarpentry.org/OpenRefine-ecology-lesson/)
+  - Data Carpentry Social Sciences lessons on [spreadsheets](https://datacarpentry.org/spreadsheets-socialsci/) and [OpenRefine](https://datacarpentry.org/openrefine-socialsci/)
+  - [Software Carpentry lesson on SQL](http://swcarpentry.github.io/sql-novice-survey)
+- Software and code
+  - Check out the [Software Carpentry](https://software-carpentry.org/lessons/) on unix, R, or Python. 
+- Project organization
+  - Data Carpentry Genomics lesson on [organization](https://datacarpentry.org/organization-genomics)
+- Keeping track of changes
+  - Software Carpentry lesson on [Git](http://swcarpentry.github.io/git-novice)
+  - Library Carpentry lesson on [Git](https://librarycarpentry.org/lc-git/)
+  - Community-developed lessons on Carpentries format:
+    -  [Git using RStudio](https://carpentries-incubator.github.io/git-Rstudio-course/)
+    -  [Version control with Git](https://carpentries-incubator.github.io/git-novice-branch-pr/)
+    -  [Introduction to GitLab](https://carpentries-incubator.github.io/gitlab-novice/)
 
 ## Papers and sites on open and good practices
 

@@ -26,13 +26,14 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 ## Maintainer(s)
 
 We are developing this lesson in 2023, led by a team from [Edinburgh Carpentries](https://edcarp.github.io/).
-This lesson development is being led by the ED-DaSH consortium at The University of Edinburgh, as a collaboration between [BioRDM](https://www.ed.ac.uk/biology/research/facilities/research-data-management) and [Edinburgh Carpentries](https://edcarp.github.io/).
-Ed-DaSH is supported by the "Data driven life science skills development - equipping society for the future" UKRI-MRC grant MR/V039075/1.
+This lesson development was led by the ED-DaSH consortium at The University of Edinburgh, as a collaboration between [BioRDM](https://www.ed.ac.uk/biology/research/facilities/research-data-management) and [Edinburgh Carpentries](https://edcarp.github.io/).
+Ed-DaSH was supported by the "Data driven life science skills development - equipping society for the future" UKRI-MRC grant MR/V039075/1.
 
 Current maintainers of this lesson are
 
 * Edward Wallace @ewallace
 * Alison Meynert @ameynert
+* Emma Wilson @emma-wilson
 
 
 ## Authors

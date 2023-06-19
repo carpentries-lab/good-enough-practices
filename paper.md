@@ -41,7 +41,7 @@ authors:
 affiliations:
  - name: School of Biological Sciences, The University of Edinburgh
    index: 1
- - name: Utrecht University
+ - name: Plant-Environment Signaling Group, Dept. of Biology, Faculty of Science, Utrecht University, Utrecht, 3584 CH, The Netherlands
    index: 2
  - name: Centre for Clinical Brain Sciences, The University of Edinburgh
    index: 3

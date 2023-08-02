@@ -321,7 +321,7 @@ data structures in a program should *not* have one-letter names.
 > key inserts the completed name of the variable. Employing this
 > means that meaningful longer variable names are no harder to type
 > than terse abbreviations.
-
+{: .callout}
 
 ## Make dependencies and requirements explicit.
 

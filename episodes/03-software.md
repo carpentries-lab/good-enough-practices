@@ -78,7 +78,7 @@ this [topic](https://medium.com/hackernoon/how-to-decompose-a-system-into-module
 and this section focuses on practices that best
 balance ease of use with benefit for you and collaborators.
 
-Programs themselves are modular, and can be written in scripts that run 
+Programs themselves are modular, and can be written in scripts that run
 a clearly-defined set of functions on defined inputs.
 
 
@@ -181,28 +181,28 @@ Writing pseudocode can be useful to think through the logic of your analysis, an
 The "make a cup of tea" example above might look like this:
 
         make_cup_of_tea = function(sugar, milk)
-            
+
             if kettle is not full
                 fill kettle
-                
+
             boil kettle
             put teabag in cup
             add water from kettle to cup
             wait 2 minutes
-            
+
             if sugar is true
                 add sugar to cup
             if milk is true
                 add milk to cup
-            
+
             stir with spoon
-            
+
             return cup
 
 > ## Using pseudocode
 >
 > In this scenario, you're managing fruit production on a set of islands. You have written a pseudocode function
-> that tells you how to count how much fruit of a particular type is available to harvest on a given island. 
+> that tells you how to count how much fruit of a particular type is available to harvest on a given island.
 >
 > ~~~
 > count_fruit_on_island = function(fruit type, island)
@@ -213,7 +213,7 @@ The "make a cup of tea" example above might look like this:
 >     return total fruit
 > ~~~
 > {: .source}
-> 
+>
 > Write the commands to call this function to count how many coconuts there are on Sam's island, how many cherries
 > there are on Sam's island, and how many cherries there are on Charlie's island.
 >
@@ -229,7 +229,7 @@ The "make a cup of tea" example above might look like this:
 >> {: .source}
 >>
 >> To count all the cherries on every island:
->> 
+>>
 >> ~~~
 >> total cherries = 0
 >> for every island
@@ -303,7 +303,7 @@ data structures in a program should *not* have one-letter names.
 >> 2.   input - incorrect, too vague
 >> 3.   **numericSequence - correct, short and included information about the type of input**
 >> 4.   S - incorrect, too vague
->> {: .solution}
+> {: .solution}
 {: .challenge}
 
 > ## Language style guides
@@ -366,4 +366,3 @@ Both Figshare and Zenodo integrate directly with GitHub.
 {: .callout}
 
 {% include links.md %}
-

@@ -34,7 +34,7 @@ Current maintainers of this lesson are
 * Edward Wallace @ewallace
 * Alison Meynert @ameynert
 * Emma Wilson @emma-wilson
-
+* Allen Lee @alee
 
 ## Authors
 

@@ -14,7 +14,7 @@ carpentry: 'incubator'
 title: 'Good Enough Practices in Scientific Computing'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created: '2020-08-24'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
@@ -58,7 +58,7 @@ contact: 'Edward.Wallace@ed.ac.uk'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - 01-introduction.md
 - 02-data_management.md
 - 03-software.md
@@ -69,13 +69,13 @@ episodes:
 - 08-what_next.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #

@@ -27,7 +27,7 @@ life_cycle: 'beta'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/fishtree-attempt/good-enough-practices/'
+source: 'https://github.com/carpentries-incubator/good-enough-practices'
 
 # Default branch of your lesson
 branch: 'main'
@@ -83,7 +83,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: https://preview.carpentries.org/good-enough-practices
+url: 'https://carpentries-incubator.github.io/good-enough-practices'
 analytics: carpentries
 lang: en
-workbench-beta: 'true'

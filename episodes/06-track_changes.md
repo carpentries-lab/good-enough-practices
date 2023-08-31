@@ -197,7 +197,7 @@ two additional parts:
   > 
   > Copying everything like this may seem wasteful, since many files
   > won't have changed, but consider: a terabyte hard drive costs
-  > about $50, which means that 50 GByte costs less than $5.
+  > about \\$50, which means that 50 GByte costs less than \\$5.
   > Provided large data files are kept out of the backed-up area
   > (discussed below), this approach costs less than the time it would
   > take to select files by hand for copying.

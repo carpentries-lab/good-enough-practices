@@ -11,7 +11,7 @@ These practices, which encompass data management, programming, collaborating wit
 
 <!-- this is an html comment -->
 
-{% comment %} This is a comment in Liquid {% endcomment %}
+
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 

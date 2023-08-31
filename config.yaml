@@ -8,7 +8,8 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'incubator'
+# lab: The Carpentries Lab
+carpentry: 'lab'
 
 # Overall title for pages.
 title: 'Good Enough Practices in Scientific Computing'
@@ -21,13 +22,13 @@ keywords: 'software, data, lesson, The Carpentries'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'beta'
+life_cycle: 'stable'
 
 # License of the lesson materials (recommended CC-BY 4.0)
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries-incubator/good-enough-practices'
+source: 'https://github.com/carpentries-lab/good-enough-practices'
 
 # Default branch of your lesson
 branch: 'main'
@@ -83,6 +84,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://carpentries-incubator.github.io/good-enough-practices'
+url: 'https://carpentries-lab.github.io/good-enough-practices'
 analytics: carpentries
 lang: en

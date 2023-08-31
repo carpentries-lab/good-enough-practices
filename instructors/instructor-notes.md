@@ -1,5 +1,5 @@
 ---
-title: "Instructor Notes"
+title: Instructor Notes
 ---
 
 ## Expect varied audiences
@@ -29,13 +29,11 @@ For example, this is usually a place where learners bring up stories of a time t
 Instructors can tell their favourite (short) anecdotes about disasters or victories.
 The real lived experiences of instructors and fellow learners make this memorable, more than pre-prepared example answers.
 
-
 ## What to skip
 
 The manuscripts episode is skippable for earlier-career audiences (e.g. 1st-year PhD students) as they are far away from writing a manuscript.
 
 The software-based project organisation template is too detailed for non-programmers so can be gone through very quickly or skipped. However, people who are already programming and finding it hard to organize their code may find it useful to spend more time on.
-
 
 ## Discussions are the opportunity for peer to peer learning
 
@@ -71,15 +69,13 @@ This is especially important for the manuscripts episode, where the group collab
 There is a [collaborative document template](#collabtemplate) to paste into etherpad or whatever collaborative document you use.
 It includes reminders for a beginning-workshop hello, templates for the exercises, and template for evaluation at the end.
 
-
 ## This lesson prepares learners for version control, but does not teach it
 
 This lesson helps to develop the motivation for using version control, and the organisation and attitudes that support productive use of version control software.
 This lesson does not aim to teach version control, but instead aims to prepare users for a first course in git, such as the Carpentries git workshop.
 
-If you have git users in the group, they may want to talk about how git solves all the problems. 
+If you have git users in the group, they may want to talk about how git solves all the problems.
 Be prepared to steer the conversations back to the material and suggest that learners take a git workshop in the future.
-
 
 ## Collect feedback!
 
@@ -87,15 +83,14 @@ If you're teaching in person you can use [the Carpentries' red and green sticky 
 There is also a section for one-up/one-down feedback in the Etherpad template.
 Remember to leave time for evaluation.
 
-Please do file an issue on the github site summarizing the feedback, and feel free to file issues or pull requests suggesting specific edits as well. 
-
+Please do file an issue on the github site summarizing the feedback, and feel free to file issues or pull requests suggesting specific edits as well.
 
 ## Tips
 
 ### If teaching from the website, make sure the font is big enough
 
-`Cmd +` on mac, `ctrl +` on windows. 
+`Cmd +` on mac, `ctrl +` on windows.
 
-[#collabtemplate]: https://github.com/carpentries-incubator/good-enough-practices/blob/gh-pages/_extras/etherpad_template.md
 
-{% include links.md %}
+
+

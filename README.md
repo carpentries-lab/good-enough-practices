@@ -1,11 +1,11 @@
-[![The Carpentries Lab Review Status](http://badges.carpentries-lab.org/24_status.svg)](https://github.com/carpentries-lab/reviews/issues/24)
+[![The Carpentries Lab Review Status](https://badges.carpentries-lab.org/24_status.svg)](https://github.com/carpentries-lab/reviews/issues/24)
 
 # Good Enough Practices in Scientific Computing
 
 This repository contains a 3 hour carpentries format lesson covering [Good Enough Practices in Scientific Computing (Wilson et al., 2017)](https://doi.org/10.1371/journal.pcbi.1005510): "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
 
 The workshop is targeted at a broad audience of researchers who want to learn how to be more efficient and effective in their data analysis and computing, whatever their career stage.
-Examples of our target audience are in [learner profiles](_extras/learner-profiles.md).
+Examples of our target audience are in [learner profiles](learners/learner-profiles.md).
 
 ## Contributing
 
@@ -18,10 +18,9 @@ how to write new episodes.
 
 Please see the current list of [issues](https://github.com/carpentries-incubator/good-enough-practices/issues) for ideas for contributing to this
 repository. For making your contribution, we use the GitHub flow, which is
-nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
+nicely explained in the chapter [Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
 by Scott Chacon.
-Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
-
+Look for the tag ![good\_first\_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
 
 ## Maintainer(s)
 
@@ -31,10 +30,10 @@ Ed-DaSH was supported by the "Data driven life science skills development - equi
 
 Current maintainers of this lesson are
 
-* Edward Wallace @ewallace
-* Alison Meynert @ameynert
-* Emma Wilson @emma-wilson
-* Allen Lee @alee
+- Edward Wallace @ewallace
+- Alison Meynert @ameynert
+- Emma Wilson @emma-wilson
+- Allen Lee @alee
 
 ## Authors
 
@@ -44,7 +43,7 @@ A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
 
 To cite this lesson, please consult with [CITATION](CITATION)
 
-[cdh]: https://cdh.carpentries.org
-[change-default-branch]: https://docs.github.com/en/github/administering-a-repository/changing-the-default-branch
-[community-lessons]: https://carpentries.org/community-lessons
 [lesson-example]: https://carpentries.github.io/lesson-example
+
+
+

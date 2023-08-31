@@ -1,28 +1,34 @@
 ---
-title: "What To Do Next"
+title: What To Do Next
 teaching: 10
 exercises: 0
-questions:
-- "How can you improve practices after this workshop?"
-objectives:
-- "Learn about other resources to improve good practices"
-- "Reflect on good enough practices appropriate for your career stage"
-keypoints:
-- "Learning good practices is a long-term process"
-- "Different people make different contributions to good practice"
 ---
 
-> ## Heads up
->
-> When you lose your data, or stare, disgusted, at a horrible file, think of today.
->
-{: .callout}
+::::::::::::::::::::::::::::::::::::::: objectives
 
+- Learn about other resources to improve good practices
+- Reflect on good enough practices appropriate for your career stage
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- How can you improve practices after this workshop?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Heads up
+
+When you lose your data, or stare, disgusted, at a horrible file, think of today.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Learning good practices is a long-term process
 
 We have outlined a series of good enough practices for scientific computing.
-These practices are pragmatic, broadly accessible, and can be applied by both individuals and groups. 
+These practices are pragmatic, broadly accessible, and can be applied by both individuals and groups.
 Most importantly, these practices make researchers more productive individually by enabling them to get more done in less time and with less pain.
 They also accelerate research as a whole by making work more reproducible.
 
@@ -42,30 +48,30 @@ We have explained the shared set of principles behind good practices:
 - Names
 - Documentation
 
-Collectively, these practices make your work easier to use for other people, including for your future self. 
+Collectively, these practices make your work easier to use for other people, including for your future self.
 Thinking through your work from a collaborator's point of view is helpful, and ultimately kinder to your future self.
-
 
 ## What we left out, and where to learn more
 
 Learning good practices is a long-term process that never stops.
-We [left out many good practices]({{ page.root }}{% link _extras/what-we-left-out.md %}) that, although useful,
+We [left out many good practices](../instructors/what-we-left-out.md) that, although useful,
 have more niche applications.
 
 We recommend the paper [Best Practices in Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745),
 especially for those gaining more experience with coding.
-There are [many other useful papers and resources that we have selected](resources/index.html).
+There are [many other useful papers and resources that we have selected](../instructors/resources.md).
 
 One of your best resources is your colleagues - talk to them!
 In our experience, people who have learned good practices themselves are eager to teach them to others.
 
-> ## What other resources are available?
->
-> - Where can you look for more help?
-> - What resources are available in your research group? Your institution?
->
-{: .discussion}
+::::::::::::::::::::::::::::::::::::::  discussion
 
+## What other resources are available?
+
+- Where can you look for more help?
+- What resources are available in your research group? Your institution?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Different people make different contributions to good practice
 
@@ -86,21 +92,33 @@ This time has to be valued by individuals, funders, institutions, and the scient
 Developing your own good practices is ultimately a personal journey that will impact your career and impact the people around you.
 Maybe today you will learn to write README files, or next year you might start using version control, or in the future you could find yourself teaching students to write data management plans for their projects.
 
+::::::::::::::::::::::::::::::::::::::  discussion
 
-> ## What will you do next?
->
-> - Which good enough practices will you use in your next project?
-> - How can you help your colleagues in using good practices?
-> - What could your longer-term contribution to good practices be?
->
-{: .discussion}
+## What will you do next?
+
+- Which good enough practices will you use in your next project?
+- How can you help your colleagues in using good practices?
+- What could your longer-term contribution to good practices be?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Attribution
+
+Content of this episode was adopted after Wilson et al.
+[Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
 
 
-> ## Attribution
-> Content of this episode was adopted after Wilson et al.
-> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
-{: .callout}
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-{% include links.md %}
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Learning good practices is a long-term process
+- Different people make different contributions to good practice
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 

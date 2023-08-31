@@ -1,5 +1,5 @@
 ---
-layout: reference
+title: 'Glossary'
 ---
 
 ## Glossary
@@ -14,6 +14,8 @@ layout: reference
 - Pseudocode: A plain language description of code or analysis steps.
 - README file: An overview document that collects the most important information about your project, kept at the top level of the project's file structure.
 - Software license: A document that provides legally binding guidelines for the use and distribution of software.
-- Version control system: Stores snapshots of a project’s files in a repository.
+- Version control system: Stores snapshots of a project's files in a repository.
 
-{% include links.md %}
+
+
+

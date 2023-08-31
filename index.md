@@ -1,11 +1,9 @@
 ---
-layout: lesson
-root: .  # Is the only page that doesn't follow the pattern /:path/index.html
-permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
+permalink: index.html
+site: sandpaper::sandpaper_site
 ---
 
-
-This lesson is targeted at a broad audience of researchers who want to learn how to be more efficient and effective in their data analysis and computing, whatever their career stage. Examples of our target audience are found in [learner profiles](learner-profiles/index.html).
+This lesson is targeted at a broad audience of researchers who want to learn how to be more efficient and effective in their data analysis and computing, whatever their career stage. Examples of our target audience are found in [learner profiles](instructors/learner-profiles.md).
 
 The lesson is inspired by and based on the paper, [Good Enough Practices in Scientific Computing (Wilson et al., 2017)](https://doi.org/10.1371/journal.pcbi.1005510): "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
 
@@ -15,9 +13,15 @@ These practices, which encompass data management, programming, collaborating wit
 
 {% comment %} This is a comment in Liquid {% endcomment %}
 
-> ## Prerequisites
->
-> There are no specific prerequisites. Learners should be participating or intending to participate in scientific research that involves computing. A basic knowledge of a coding language will help with the episode on Code.
-{: .prereq}
+::::::::::::::::::::::::::::::::::::::::::  prereq
 
-{% include links.md %}
+## Prerequisites
+
+There are no specific prerequisites. Learners should be participating or intending to participate in scientific research that involves computing. A basic knowledge of a coding language will help with the episode on Code.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+

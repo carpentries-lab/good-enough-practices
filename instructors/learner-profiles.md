@@ -1,5 +1,5 @@
 ---
-title: "Learner Profiles"
+title: Learner Profiles
 ---
 
 These profiles describe the potential indivuduals that we anticipate as learners
@@ -16,7 +16,7 @@ Miriam will be generating a lot of data in her PhD from microscopy and other ass
 She has used mostly "Office"-style applications before, and has done barely any coding.
 Miriam is taking this workshop as part of her PhD training and hasn't thought through what the workshop will do for her.
 
-The course will help Miriam to get a picture of the data analysis and management challenges she will face during the PhD, and of the tools available to help her solve them. 
+The course will help Miriam to get a picture of the data analysis and management challenges she will face during the PhD, and of the tools available to help her solve them.
 It will introduce the concept of scripted data analysis and why that might have benefits over GUI applications.
 
 ## Stuart Simulator
@@ -41,11 +41,12 @@ Gertrude is taking the course, in order to have a better understanding of curren
 
 Linus is the Lab Manager of a large lab that combines computational and experimental techniques and is in charge of making sure the lab is running smoothly. They are responsible for organising lab meetings, staying on top of data handling and making sure students and postdocs follow best practices for data management and computing needs. Their training however is slightly outdated and the volume of data and different software used and ways to stay on top of these has increased over the last 10 years as a Lab Manager in the group. They find that new ways need to be implemented to be able to stay on top of projects ensure students and Postdocs get equipped with the best practices knowledge on how to structure data how to version and archive data.
 
-They take the course to make sure that best practices for data management and project structures are implemented in the group and that this information can form part of the research group and will not be lost through a Postdoc or PhD student leaving. 
-
+They take the course to make sure that best practices for data management and project structures are implemented in the group and that this information can form part of the research group and will not be lost through a Postdoc or PhD student leaving.
 
 ## Udaya the Undergraduate
 
-Udaya is an undergraduate student from Malaysia, who has been enrolled for her entire degree at an English speaking university. She has very clear ambitions and wants to become a scientist in Microbiology combining computational and experimental techniques. For her final year project, she has identified a young and dynamic research group to teach her essential skills that will give her an edge for her PhD application. She is keen to identify as much useful training that will help her be effective at planning and running experiments and simulation, understand how to organize and archive data. 
+Udaya is an undergraduate student from Malaysia, who has been enrolled for her entire degree at an English speaking university. She has very clear ambitions and wants to become a scientist in Microbiology combining computational and experimental techniques. For her final year project, she has identified a young and dynamic research group to teach her essential skills that will give her an edge for her PhD application. She is keen to identify as much useful training that will help her be effective at planning and running experiments and simulation, understand how to organize and archive data.
 
-She is taking the course because her MSc supervisor suggested that it would be a good way to get started and organized for her project work and it will also help her equip her with essential skills for her future career as a Research Scientist.  
+She is taking the course because her MSc supervisor suggested that it would be a good way to get started and organized for her project work and it will also help her equip her with essential skills for her future career as a Research Scientist.
+
+

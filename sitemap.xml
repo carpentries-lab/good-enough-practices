@@ -34,10 +34,16 @@
     <loc>https://carpentries-incubator.github.io/good-enough-practices/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/discuss.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/etherpad_template.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/index.html</loc>
@@ -76,13 +82,25 @@
     <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/discuss.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/etherpad_template.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/learner-profiles.html</loc>
@@ -104,6 +122,12 @@
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor/what-we-left-out.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/good-enough-practices/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/good-enough-practices/learner-profiles.html</loc>

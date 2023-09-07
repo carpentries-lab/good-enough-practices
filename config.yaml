@@ -71,12 +71,21 @@ episodes:
 
 # Information for Learners
 learners:
+- setup.md
+- reference.md
 
 # Information for Instructors
 instructors:
+- instructor-notes.md
+- etherpad_template.md
+- teaching_guide_for_etherpad.md
+- resources.md
+- what-we-left-out.md
 
 # Learner Profiles
 profiles:
+- learner-profiles.md
+
 
 # Customisation ---------------------------------------------
 #

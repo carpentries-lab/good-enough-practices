@@ -1,5 +1,6 @@
 ---
-~
+title: Etherpad template
+subtitle: Template text to paste in to collaborative document
 ---
 
 # Good enough research practices for scientific computing

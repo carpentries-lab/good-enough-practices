@@ -1,10 +1,11 @@
 ---
-~
+title: Etherpad Teaching notes
+subtitle: Teaching notes for collaborative document
 ---
 
 # Teaching notes
 
-Teaching notes for Good Enough Research Practices using [etherpad\_template.md].
+Teaching notes for Good Enough Practices using the [Etherpad template](etherpad_template.md).
 
 ## Setup
 

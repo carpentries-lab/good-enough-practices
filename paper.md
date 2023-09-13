@@ -53,7 +53,7 @@ affiliations:
    index: 6
  - name: The James Hutton Institute, Dundee
    index: 7
-date: 2023-06-05
+date: 2023-09-07
 bibliography: paper.bib
 
 
@@ -65,7 +65,9 @@ We present a half-day learning module targeted at a broad audience of researcher
 The module teaches "good enough practices" that are near-universally useful for researchers who use computers in their work.
 These practices encompass data management, software and programming, collaborating with colleagues, organizing projects, keeping track of changes, and writing manuscripts.
 Good enough practices rely on a shared set of principles that span these areas: planning, modular organization, names, and documentation.
-The lesson is in The Carpentries format and the materials are open-source and hosted on GitHub.
+The lesson is in The Carpentries format and the materials are open-source and hosted on GitHub by The Carpentries Lab.
+The lesson is visible at https://carpentries-lab.github.io/good-enough-practices/.
+
 
 
 # Statement of Need
@@ -139,6 +141,7 @@ One gratifying piece of feedback was from a PhD program administrator who starte
 We thank lesson helpers and lesson attendees over many deliveries for sharing their feedback to improve the lesson.
 We thank the Edinburgh Carpentries community, the Ed-DaSH team, and the global Carpentries community, for their support and encouragement.
 We thank reviewers Lex Nederbragt and Heidi Seibold for their helpful comments that improved the lesson.
+We thank Toby Hodges for extensive help, advice, and support.
 This work was supported by UK Research and Innovation via the Ed-DASH project (grant number MR/V039075/1).
 E.W.J.W. is supported by Wellcome grant 208779/Z/17/Z.
 

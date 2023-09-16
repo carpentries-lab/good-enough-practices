@@ -249,8 +249,6 @@ For your information, to encode experimental details the following conventions w
 - measurement date
 - other details are timepoint and raw or normalized data
 
-:::::::::::::::  solution
-
 ```
 2020-07-14_s12_phyB_on_SD_t04.raw.csv  
 2020-07-14_s1_phyA_on_LD_t05.raw.csv  
@@ -272,8 +270,6 @@ SD_phya_ons_t04_2020-07-12.norm.csv
 ld_phyA_ons_t04_2020-08-12.norm.csv  
 ```
 
-:::::::::::::::::::::::::
-
 - What are the problems with having the date first?
 - How do different date formats behave once sorted?
 - Can you tell the importance of a leading 0 (zeros)?
@@ -282,20 +278,26 @@ ld_phyA_ons_t04_2020-08-12.norm.csv
 - Do you see benefits of keeping consistent lengths of the naming conventions?
 - Do you see what happens when you mix conventions?
 
-> ## Solution
-> 
-> - Using dates up front makes it difficult to quickly find data for
->   particular conditions or genotypes. It also masks the "logical" order of samples
->   or timepoints.
-> - Named months break the "expected" sorting, same as dates without leading 0
-> - Without leading zeros, 's12' appear before s1 and s2
-> - the first (and second) part of the name are easiest to spot
-> - the last file is also from LD conditions, but appears after SD, same with 'phya' genotypes
-> - the last 3 file names are easiest to read as all parts appear on top of each other
->   due to the same 3 letter-length codes ons and off
-> - The lack of consistency makes it very difficult to get data from related samples/conditions.
+::::::::::::::::::::::::: solution
+
+
+
+## Solution
+
+ - Using dates up front makes it difficult to quickly find data for
+   particular conditions or genotypes. It also masks the "logical" order of samples
+   or timepoints.
+ - Named months break the "expected" sorting, same as dates without leading 0
+ - Without leading zeros, 's12' appear before s1 and s2
+ - the first (and second) part of the name are easiest to spot
+ - the last file is also from LD conditions, but appears after SD, same with 'phya' genotypes
+ - the last 3 file names are easiest to read as all parts appear on top of each other
+   due to the same 3 letter-length codes ons and off
+ - The lack of consistency makes it very difficult to get data from related samples/conditions.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 

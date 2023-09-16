@@ -32,7 +32,7 @@ they know *what* to contribute, and make the contribution process clear
 so that they know *how* to contribute. You also want to make it easy for
 people to give you credit for your work.
 
-::::::::::::::::::::::::::::::::::::::  discussion
+::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Collaboration opportunities and challenges
 
@@ -42,7 +42,7 @@ Discussion
 - What goes wrong with collaboration?
 - How can you prepare to collaborate?
 
-:::::::::::::::  solution
+:::::::::::::::::  solution
 
 ## Suggestions
 

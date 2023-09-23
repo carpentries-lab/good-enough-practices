@@ -42,7 +42,7 @@ Discussion
 - What goes wrong with collaboration?
 - How can you prepare to collaborate?
 
-:::::::::::::::  solution
+:::::::::::::::::  spoiler
 
 ## Suggestions
 

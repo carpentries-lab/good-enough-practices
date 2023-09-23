@@ -320,7 +320,7 @@ ld_phyA_ons_t04_2020-08-12.norm.csv
 ## Attribution
 
 This episode was adapted from and includes material from Wilson et al.
-[Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing).
+[Good Enough Practices for Scientific Computing](https://doi.org/10.1371/journal.pcbi.1005510).
 
 Some content was adapted from [FAIR in Biological Practice episode on files and organisation](https://carpentries-incubator.github.io/fair-bio-practice/09-files-organization/index.html). That material gives a slightly different and also useful perspective.
 

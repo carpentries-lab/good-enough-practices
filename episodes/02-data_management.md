@@ -143,7 +143,7 @@ Which file formats do you store your data in? Enter your answers in the collabor
 filename itself, while keeping the filename regular enough for easy
 pattern matching. For example, a filename like
 `2016-05-alaska-b.csv` makes it easy for both people and programs to
-select by year or by location. Common file naming conventions are discussed in the [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html) and in the [Project Organization](https://carpentries-incubator.github.io/good-enough-practices/05-project_organization) episode of this lesson.
+select by year or by location. Common file naming conventions are discussed in the [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html) and in the [Project Organization](05-project_organization.md) episode of this lesson.
 
 *Variable names*: Replace inscrutable variable names and artificial
 data codes with self-explaining alternatives, e.g., rename variables
@@ -276,7 +276,7 @@ Which of the following places would be good places to share your data?
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Your data is as much a product of your research as the papers you write, and just as likely to be useful to others (if not more so).
-Sites such as [Dryad](https://datadryad.org) and [Zenodo](https://zenodo.org) allow others to find your work, use it, and cite it; we discuss licensing in the episode on collaboration [04-collaboration].
+Sites such as [Dryad](https://datadryad.org) and [Zenodo](https://zenodo.org) allow others to find your work, use it, and cite it; we discuss licensing in the episode on [collaboration](04-collaboration.md).
 Follow your research community's standards for how to provide metadata.
 Note that there are two types of metadata: metadata about the dataset as a whole and metadata about the content within the dataset.
 If the audience is humans, write the metadata (the README file) for humans.

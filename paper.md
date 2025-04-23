@@ -13,7 +13,7 @@ authors:
   - name: Andres Romanowski
     email: andrew.romanowski@ed.ac.uk
     orcid: 0000-0003-0737-2408
-    affiliation: 1,2
+    affiliation: "1,2"
   - name: Emma Wilson
     email: emma.wilson@ed.ac.uk
     orcid: 0000-0002-8100-7508
@@ -21,11 +21,11 @@ authors:
   - name: Felicity Anderson
     email: felicity.anderson@ed.ac.uk
     orcid: 0000-0001-8778-6779
-    affiliation: 1,4
+    affiliation: "1,4"
   - name:  Elvina Gountouna
     email: e.gountouna@ed.ac.uk
     orcid: 0000-0001-7870-2780
-    affiliation: 5, 6
+    affiliation: "5, 6"
   - name: Matthias Mimault
     email: matthias.mimault@hutton.ac.uk
     orcid: 0000-0003-1516-7332

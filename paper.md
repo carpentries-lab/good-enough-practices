@@ -53,7 +53,6 @@ affiliations:
    index: 6
  - name: The James Hutton Institute, Dundee
    index: 7
-date: 2023-09-07
 bibliography: paper.bib
 
 

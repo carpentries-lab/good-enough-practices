@@ -142,7 +142,7 @@ We thank the Edinburgh Carpentries community, the Ed-DaSH team, and the global C
 We thank reviewers Lex Nederbragt and Heidi Seibold for their helpful comments that improved the lesson.
 We thank Toby Hodges for extensive help, advice, and support.
 This work was supported by UK Research and Innovation via the Ed-DASH project (grant number MR/V039075/1).
-E.W.J.W. is supported by Wellcome grant 208779/Z/17/Z.
+E.W.J.W. was supported by Wellcome Trust grant 208779/Z/17/Z.
 
 
 # References

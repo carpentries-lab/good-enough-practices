@@ -1,6 +1,6 @@
 [![The Carpentries Lab Review Status](https://badges.carpentries-lab.org/24_status.svg)](https://github.com/carpentries-lab/reviews/issues/24)
 
-# Good Enough Practices in Scientific Computing
+# Good Enough Practices in Scientific Computing: A Learning Module for Researchers
 
 This repository contains a 3 hour carpentries format lesson covering [Good Enough Practices in Scientific Computing (Wilson et al., 2017)](https://doi.org/10.1371/journal.pcbi.1005510): "a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill".
 

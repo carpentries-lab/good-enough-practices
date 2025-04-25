@@ -65,7 +65,7 @@ The module teaches "good enough practices" that are near-universally useful for 
 These practices encompass data management, software and programming, collaborating with colleagues, organizing projects, keeping track of changes, and writing manuscripts.
 Good enough practices rely on a shared set of principles that span these areas: planning, modular organization, names, and documentation.
 The lesson is in The Carpentries format and the materials are open-source and hosted on GitHub by The Carpentries Lab.
-The lesson is visible at https://carpentries-lab.github.io/good-enough-practices/.
+The lesson is visible at <https://carpentries-lab.github.io/good-enough-practices/>.
 
 
 

@@ -1,0 +1,57 @@
+{
+    "creators": [
+        {
+            "name": "Zieliński, Tomasz",
+            "orcid": "0000-0002-0194-5706",
+            "affiliation": "School of Biological Sciences, The University of Edinburgh"
+        },
+        {
+            "name": "Romanowski, Andres",
+            "orcid": "0000-0003-0737-2408",
+            "affiliation": "School of Biological Sciences, The University of Edinburgh"
+        },
+        {
+            "name": "Wilson, Emma",
+            "orcid": "0000-0002-8100-7508",
+            "affiliation": "Centre for Clinical Brain Sciences, The University of Edinburgh"
+        },
+        {
+            "name": "Anderson, Felicity",
+            "orcid": "0000-0001-8778-6779",
+            "affiliation": "School of Biological Sciences, The University of Edinburgh"
+        },
+        {
+            "name": "Gountouna, Elvina",
+            "orcid": "0000-0001-7870-2780",
+            "affiliation": "MRC Human Genetics Unit, MRC Institute of Genetics and Cancer, The University of Edinburgh"
+        },
+        {
+            "name": "Mimault, Matthias",
+            "orcid": "0000-0003-1516-7332",
+            "affiliation": "The James Hutton Institute, Dundee"
+        },
+        {
+            "name": "Meynert, Alison",
+            "orcid": "0000-0001-5839-1751",
+            "affiliation": "MRC Human Genetics Unit, MRC Institute of Genetics and Cancer, The University of Edinburgh"
+        },
+        {
+            "name": "Wallace, Edward W.J.",
+            "orcid": "0000-0001-8025-6361",
+            "affiliation": "School of Biological Sciences, The University of Edinburgh"
+        }
+    ],
+    "description": "A 3 hour carpentries format lesson covering Good Enough Practices in Scientific Computing (Wilson et al., 2017): 'a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill'. The workshop is targeted at a broad audience of researchers who want to learn how to be more efficient and effective in their data analysis and computing, whatever their career stage.",
+    "doi": "https://doi.org/10.5281/zenodo.10783025",
+    "keywords": [
+        "data",
+        "computing",
+        "carpentry",
+        "novice"
+    ],
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "title": "Good Enough Practices in Scientific Computing: A Learning Module for Researchers",
+    "upload_type": "lesson"
+}

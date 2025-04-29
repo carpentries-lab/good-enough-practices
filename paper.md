@@ -65,7 +65,7 @@ The module teaches "good enough practices" that are near-universally useful for 
 These practices encompass data management, software and programming, collaborating with colleagues, organizing projects, keeping track of changes, and writing manuscripts.
 Good enough practices rely on a shared set of principles that span these areas: planning, modular organization, names, and documentation.
 The lesson is in The Carpentries format and the materials are open-source and hosted on GitHub by The Carpentries Lab.
-The lesson is visible at https://carpentries-lab.github.io/good-enough-practices/.
+The lesson is visible at <https://carpentries-lab.github.io/good-enough-practices/>.
 
 
 
@@ -142,7 +142,7 @@ We thank the Edinburgh Carpentries community, the Ed-DaSH team, and the global C
 We thank reviewers Lex Nederbragt and Heidi Seibold for their helpful comments that improved the lesson.
 We thank Toby Hodges for extensive help, advice, and support.
 This work was supported by UK Research and Innovation via the Ed-DASH project (grant number MR/V039075/1).
-E.W.J.W. is supported by Wellcome grant 208779/Z/17/Z.
+E.W.J.W. was supported by Wellcome Trust grant 208779/Z/17/Z.
 
 
 # References

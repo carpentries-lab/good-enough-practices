@@ -103,7 +103,7 @@ The approach is to emphasise a set of shared principles across the episodes:
 - Explicitly documenting everything that you and your collaborators need to know in the future communicates your plans and organization.
 
 The instructional design is for an instructor-led half-day workshop module, arranged in episodes with clear objectives.
-Short format courses can be an effective way to encourage long-term improvement in practices [@jordan2017analysis], and our module development drew on The Carpentries' collaborative lesson development materials [@backhaus2024collablessondev], (although in its previous form as the curriculum development handbook [@becker2021carpentries]).
+Short format courses can be an effective way to encourage long-term improvement in practices [@jordan2017analysis], and our module development drew on The Carpentries' lesson development materials [@backhaus2024collablessondev] (although in its previous form as the curriculum development handbook [@becker2021carpentries]).
 Each episode contains interactive materials in the form of challenges or discussions that stimulate peer-to-peer learning.
 A shared collaborative document is used by instructor and learners, which itself exemplifies good practices.
 A template for the collaborative document is included in the learning materials.
